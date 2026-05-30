@@ -281,8 +281,11 @@ function markOpen(){
       const open = (day>=1&&day<=6&&h>=9&&h<19)||(day===0&&h>=9&&h<16);
       if(open){
         const t = r.querySelector('.time');
-        t.insertAdjacentHTML('afterend','<span class="dot"><i></i>Aberto agora</span>');
-        t.style.display='none';
+        const wrap = document.createElement('div');
+        wrap.style.cssText = 'display:flex;flex-direction:column;align-items:flex-end;gap:.28rem';
+        t.replaceWith(wrap);
+        wrap.appendChild(t);
+        wrap.insertAdjacentHTML('beforeend','<span class="dot"><i></i>Aberto agora</span>');
       } else {
         const top = document.querySelector('.hours-card .top h3');
         if(top) top.textContent='Fechado agora';
