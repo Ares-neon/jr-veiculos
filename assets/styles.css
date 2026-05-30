@@ -335,6 +335,11 @@
     .loc-bar{flex-direction:column;align-items:flex-start}
     .foot-grid{grid-template-columns:1fr;gap:2.2rem}
     .hero-trust{gap:1.5rem}
+    .hero-shape .red,.hero-shape .yellow,.hero-shape .grid-lines{display:none}
+    .hero-proof{display:none}
+    .hero{background:var(--bg)}
+    .hero h1{font-size:clamp(2.8rem,11vw,4.2rem)}
+    .hero p.sub{max-width:100%}
   }
 
   /* ---------- PAGE HERO (Sobre) ---------- */
