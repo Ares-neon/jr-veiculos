@@ -316,7 +316,7 @@
   /* ---------- RESPONSIVE ---------- */
   @media(max-width:980px){
     .hero-inner{grid-template-columns:1fr}
-    .hero-badge{display:none}
+    .hero-proof{display:none}
     .grid{grid-template-columns:repeat(2,1fr)}
     .sobre-grid{grid-template-columns:1fr;gap:2.6rem}
     .mvv{grid-template-columns:1fr}
@@ -324,7 +324,7 @@
     .filter-clear{grid-column:1 / -1;justify-content:center}
   }
   @media(max-width:760px){
-    .nav-links,.nav-phone{display:none}
+    .nav-links,.nav-phone,.nav-cta .btn{display:none}
     .hamburger{display:flex}
     .sec{padding:4.2rem 0}
     .grid{grid-template-columns:1fr}
