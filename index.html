@@ -69,20 +69,43 @@
       </div>
     </div>
     <div class="hero-proof">
-      <div class="proof-live-bar">
-        <span class="plive"><i></i>Aberto agora</span>
-        <span class="psales">🔥 Novos carros toda semana</span>
-      </div>
-      <div class="proof-main">
-        <div class="proof-num"><b id="proofCount">0</b><sup>+</sup></div>
-        <p class="proof-label">clientes satisfeitos</p>
+      <div class="speedo-wrap">
+        <svg viewBox="0 0 220 132" class="speedo-svg">
+          <defs>
+            <linearGradient id="ag" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#F5E000"/>
+              <stop offset="60%" stop-color="#CC1414"/>
+              <stop offset="100%" stop-color="#8B0000"/>
+            </linearGradient>
+          </defs>
+          <!-- ticks gerados por JS -->
+          <g id="sTicks"></g>
+          <!-- trilha cinza -->
+          <path d="M 15 118 A 98 98 0 0 0 205 118" fill="none" stroke="#ecebe6" stroke-width="13" stroke-linecap="round"/>
+          <!-- preenchimento animado -->
+          <path id="sFill" d="M 15 118 A 98 98 0 0 0 205 118" fill="none" stroke="url(#ag)" stroke-width="13" stroke-linecap="round" stroke-dasharray="0 308"/>
+          <!-- agulha -->
+          <g id="sNeedle" style="transform-origin:110px 118px;transform:rotate(-90deg)">
+            <line x1="110" y1="115" x2="110" y2="36" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round"/>
+          </g>
+          <!-- cubo central -->
+          <circle cx="110" cy="118" r="10" fill="#1A1A1A"/>
+          <circle cx="110" cy="118" r="4" fill="#CC1414"/>
+          <!-- contador central -->
+          <text id="sCount" x="110" y="92" text-anchor="middle"
+            font-family="Barlow Condensed,sans-serif" font-weight="900" font-size="28" fill="#1A1A1A">0</text>
+          <text x="110" y="107" text-anchor="middle"
+            font-family="Barlow,sans-serif" font-weight="700" font-size="7.5" fill="#a9a69e" letter-spacing="1.8">CLIENTES</text>
+          <!-- labels min/max -->
+          <text x="9" y="132" font-family="Barlow Condensed,sans-serif" font-weight="700" font-size="10" fill="#c0bdb6">0</text>
+          <text x="211" y="132" text-anchor="end" font-family="Barlow Condensed,sans-serif" font-weight="700" font-size="10" fill="#c0bdb6">500+</text>
+        </svg>
       </div>
       <div class="proof-rating">
-        <div class="stars">★★★★★</div>
+        <span class="stars">★★★★★</span>
         <div><b>4,9 / 5</b><small>Avaliações reais</small></div>
       </div>
-      <div id="proofReviews"></div>
-      <div class="proof-dots" id="proofDots"></div>
+      <p class="proof-since">Desde <b>2017</b> em Santos — SP</p>
     </div>
   </div>
 </section>
@@ -216,9 +239,14 @@
 
 <script src="assets/cars.js"></script>
 <script>
-/* ---------- DESTAQUES DO MÊS ---------- */
+/* ---------- DESTAQUES DO MÊS — rotação mensal automática ---------- */
+const MONTHS_PT = ['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro'];
+const curMonth  = new Date().getMonth();
+const start     = (curMonth * 3) % CARS.length;
+const destaques = [0,1,2].map(i => CARS[(start+i) % CARS.length]);
+
+document.querySelector('#destaques h2').innerHTML = `Os queridinhos<br>de ${MONTHS_PT[curMonth]}`;
 const featured = document.getElementById('featured');
-const destaques = CARS.filter(c=>c.destaque);
 featured.innerHTML = destaques.map((c,i)=>carCardHTML(c,i,{badge:true})).join('');
 
 /* ---------- NAVBAR scroll ---------- */
@@ -266,54 +294,49 @@ function markOpen(){
 observeReveals();
 markOpen();
 
-/* ---------- PROOF CARD ---------- */
-const reviews = [
-  {i:'M', name:'Marcos R.',    text:'"Atendimento honesto, carro impecável. Recomendo demais!"'},
-  {i:'A', name:'Ana Paula S.', text:'"Comprei meu Argo aqui. Processo simples, sem enrolação."'},
-  {i:'R', name:'Rafael T.',    text:'"Carro com procedência garantida, tudo certinho. Nota 10!"'},
-  {i:'C', name:'Carla M.',     text:'"Fui indicada por amiga e não me arrependi. Voltaria de novo."'},
-];
-const revEl  = document.getElementById('proofReviews');
-const dotsEl = document.getElementById('proofDots');
-let rIdx = 0, rTimer;
-
-reviews.forEach((_,i)=>{
-  const d = document.createElement('span');
-  if(i===0) d.classList.add('on');
-  dotsEl.appendChild(d);
-});
-
-function showReview(i){
-  rIdx = (i + reviews.length) % reviews.length;
-  const r = reviews[rIdx];
-  revEl.innerHTML = `<div class="proof-review active">
-    <div class="proof-av">${r.i}</div>
-    <div class="proof-review-text"><b>${r.name}</b><p>${r.text}</p></div>
-  </div>`;
-  dotsEl.querySelectorAll('span').forEach((d,k)=>d.classList.toggle('on',k===rIdx));
-}
-function startReviews(){ rTimer = setInterval(()=>showReview(rIdx+1), 3400); }
-showReview(0);
-startReviews();
-
-/* contador animado */
+/* ---------- VELOCÍMETRO ---------- */
 (function(){
-  const el = document.getElementById('proofCount');
-  const target = 500, dur = 1800;
+  const cx=110, cy=118, R=98, ARC=308, FILL=0.91;
+  const ticksG = document.getElementById('sTicks');
+
+  /* marcas ao redor do arco */
+  for(let i=0;i<=10;i++){
+    const t = i/10;
+    const theta = Math.PI * (1+t);
+    const cos=Math.cos(theta), sin=Math.sin(theta);
+    const big = i%5===0;
+    const r1 = R - (big?16:9), r2 = R+2;
+    const line = document.createElementNS('http://www.w3.org/2000/svg','line');
+    line.setAttribute('x1', cx+r1*cos); line.setAttribute('y1', cy+r1*sin);
+    line.setAttribute('x2', cx+r2*cos); line.setAttribute('y2', cy+r2*sin);
+    line.setAttribute('stroke', i===10?'#CC1414':'#d4d2cd');
+    line.setAttribute('stroke-width', big?'2.5':'1.5');
+    line.setAttribute('stroke-linecap','round');
+    ticksG.appendChild(line);
+  }
+
+  /* animação ao entrar na tela */
+  const sFill   = document.getElementById('sFill');
+  const sNeedle = document.getElementById('sNeedle');
+  const sCount  = document.getElementById('sCount');
   let started = false;
-  const start = ()=>{
+
+  function run(){
     if(started) return; started = true;
-    const t0 = performance.now();
-    const tick = now =>{
-      const p = Math.min((now-t0)/dur, 1);
-      const ease = 1 - Math.pow(1-p, 3);
-      el.textContent = Math.round(ease * target);
-      if(p < 1) requestAnimationFrame(tick);
-    };
-    requestAnimationFrame(tick);
-  };
-  const obs = new IntersectionObserver(es=>{if(es[0].isIntersecting) start();},{threshold:.5});
-  obs.observe(el);
+    const DUR=2200, TARGET=500, ease=p=>1-Math.pow(1-p,3);
+    const t0=performance.now();
+    (function tick(now){
+      const p=Math.min((now-t0)/DUR,1), e=ease(p);
+      const filled=ARC*FILL*e;
+      sFill.setAttribute('stroke-dasharray',`${filled} ${ARC-filled}`);
+      sNeedle.style.transform=`rotate(${-90+180*FILL*e}deg)`;
+      sCount.textContent=Math.round(TARGET*e)+(p===1?'+':'');
+      if(p<1) requestAnimationFrame(tick);
+    })(t0);
+  }
+
+  new IntersectionObserver(es=>{if(es[0].isIntersecting) run();},{threshold:.3})
+    .observe(document.querySelector('.hero-proof'));
 })();
 </script>
 </body>
