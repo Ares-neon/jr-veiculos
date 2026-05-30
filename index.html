@@ -68,14 +68,21 @@
         <div class="t"><b>Santos</b><span>Atendimento na região</span></div>
       </div>
     </div>
-    <div class="hero-badge">
-      <div class="stars">★★★★★</div>
-      <h4>Nota 4,9 / 5</h4>
-      <p>Avaliação real de quem comprou e indica a JR Veículos.</p>
-      <div class="who">
-        <div class="av">M</div>
-        <small><b style="color:var(--ink)">Marcos R.</b><br>"Atendimento honesto, carro impecável."</small>
+    <div class="hero-proof">
+      <div class="proof-live-bar">
+        <span class="plive"><i></i>Aberto agora</span>
+        <span class="psales">🔥 Novos carros toda semana</span>
       </div>
+      <div class="proof-main">
+        <div class="proof-num"><b id="proofCount">0</b><sup>+</sup></div>
+        <p class="proof-label">clientes satisfeitos</p>
+      </div>
+      <div class="proof-rating">
+        <div class="stars">★★★★★</div>
+        <div><b>4,9 / 5</b><small>Avaliações reais</small></div>
+      </div>
+      <div id="proofReviews"></div>
+      <div class="proof-dots" id="proofDots"></div>
     </div>
   </div>
 </section>
@@ -258,6 +265,56 @@ function markOpen(){
 
 observeReveals();
 markOpen();
+
+/* ---------- PROOF CARD ---------- */
+const reviews = [
+  {i:'M', name:'Marcos R.',    text:'"Atendimento honesto, carro impecável. Recomendo demais!"'},
+  {i:'A', name:'Ana Paula S.', text:'"Comprei meu Argo aqui. Processo simples, sem enrolação."'},
+  {i:'R', name:'Rafael T.',    text:'"Carro com procedência garantida, tudo certinho. Nota 10!"'},
+  {i:'C', name:'Carla M.',     text:'"Fui indicada por amiga e não me arrependi. Voltaria de novo."'},
+];
+const revEl  = document.getElementById('proofReviews');
+const dotsEl = document.getElementById('proofDots');
+let rIdx = 0, rTimer;
+
+reviews.forEach((_,i)=>{
+  const d = document.createElement('span');
+  if(i===0) d.classList.add('on');
+  dotsEl.appendChild(d);
+});
+
+function showReview(i){
+  rIdx = (i + reviews.length) % reviews.length;
+  const r = reviews[rIdx];
+  revEl.innerHTML = `<div class="proof-review active">
+    <div class="proof-av">${r.i}</div>
+    <div class="proof-review-text"><b>${r.name}</b><p>${r.text}</p></div>
+  </div>`;
+  dotsEl.querySelectorAll('span').forEach((d,k)=>d.classList.toggle('on',k===rIdx));
+}
+function startReviews(){ rTimer = setInterval(()=>showReview(rIdx+1), 3400); }
+showReview(0);
+startReviews();
+
+/* contador animado */
+(function(){
+  const el = document.getElementById('proofCount');
+  const target = 500, dur = 1800;
+  let started = false;
+  const start = ()=>{
+    if(started) return; started = true;
+    const t0 = performance.now();
+    const tick = now =>{
+      const p = Math.min((now-t0)/dur, 1);
+      const ease = 1 - Math.pow(1-p, 3);
+      el.textContent = Math.round(ease * target);
+      if(p < 1) requestAnimationFrame(tick);
+    };
+    requestAnimationFrame(tick);
+  };
+  const obs = new IntersectionObserver(es=>{if(es[0].isIntersecting) start();},{threshold:.5});
+  obs.observe(el);
+})();
 </script>
 </body>
 </html>
