@@ -307,6 +307,28 @@
   .wa-float svg{width:34px;height:34px;color:#fff}
   @keyframes wapulse{0%,100%{box-shadow:0 12px 28px rgba(37,211,102,.45),0 0 0 0 rgba(37,211,102,.4)}50%{box-shadow:0 12px 28px rgba(37,211,102,.45),0 0 0 14px rgba(37,211,102,0)}}
 
+  /* ---------- DEPOIMENTOS ---------- */
+  .depo-sec{padding-bottom:0}
+  .depo-strip{overflow:hidden;padding:3rem 0 4.5rem;margin-top:2.5rem;position:relative}
+  .depo-strip::before,.depo-strip::after{content:"";position:absolute;top:0;bottom:0;width:120px;z-index:2;pointer-events:none}
+  .depo-strip::before{left:0;background:linear-gradient(90deg,var(--bg),transparent)}
+  .depo-strip::after{right:0;background:linear-gradient(-90deg,var(--bg),transparent)}
+  .depo-track{display:flex;gap:1.4rem;width:max-content;animation:depo-scroll 40s linear infinite}
+  .depo-strip:hover .depo-track{animation-play-state:paused}
+  @keyframes depo-scroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+  .depo-card{
+    width:300px;flex-shrink:0;
+    background:#fff;border:1px solid var(--line);border-radius:16px;
+    padding:1.5rem 1.6rem 1.4rem;
+    box-shadow:0 4px 18px rgba(26,26,26,.07);
+    display:flex;flex-direction:column;gap:.9rem;
+  }
+  .depo-stars{color:var(--yellow);font-size:1.1rem;letter-spacing:.1em;filter:drop-shadow(0 1px 2px rgba(245,224,0,.4))}
+  .depo-card p{font-size:.92rem;color:var(--ink-soft);line-height:1.6;margin:0;flex:1}
+  .depo-author{display:flex;flex-direction:column;padding-top:.7rem;border-top:1px solid var(--line)}
+  .depo-author b{font-size:.95rem;color:var(--ink)}
+  .depo-author span{font-size:.8rem;color:var(--ink-soft);font-weight:500}
+
   /* ---------- COMO FUNCIONA ---------- */
   .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:2.4rem;margin-top:3rem;position:relative}
   .steps::before{content:"";position:absolute;top:2rem;left:8%;right:8%;height:2px;background:linear-gradient(90deg,var(--red),var(--yellow));opacity:.18;pointer-events:none;z-index:0}
