@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Barlow+Condensed:wght@500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/styles.css?v=6">
+<link rel="stylesheet" href="assets/styles.css?v=7">
 </head>
 <body>
 
@@ -68,44 +68,74 @@
         <div class="t"><b>Santos</b><span>Atendimento na região</span></div>
       </div>
     </div>
-    <div class="hero-proof">
-      <div class="speedo-wrap">
-        <svg viewBox="0 0 220 132" class="speedo-svg">
-          <defs>
-            <linearGradient id="ag" x1="0%" y1="0%" x2="100%" y2="0%">
-              <stop offset="0%" stop-color="#F5E000"/>
-              <stop offset="60%" stop-color="#CC1414"/>
-              <stop offset="100%" stop-color="#8B0000"/>
-            </linearGradient>
-          </defs>
-          <!-- ticks gerados por JS -->
-          <g id="sTicks"></g>
-          <!-- trilha cinza -->
-          <path d="M 15 118 A 98 98 0 0 0 205 118" fill="none" stroke="#ecebe6" stroke-width="13" stroke-linecap="round"/>
-          <!-- preenchimento animado -->
-          <path id="sFill" d="M 15 118 A 98 98 0 0 0 205 118" fill="none" stroke="url(#ag)" stroke-width="13" stroke-linecap="round" stroke-dasharray="0 308"/>
-          <!-- agulha -->
-          <g id="sNeedle" style="transform-origin:110px 118px;transform:rotate(-90deg)">
-            <line x1="110" y1="115" x2="110" y2="36" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round"/>
+    <div class="hero-toon" aria-hidden="true">
+      <svg class="toon-svg" viewBox="0 0 320 170" xmlns="http://www.w3.org/2000/svg">
+        <!-- Road -->
+        <rect x="0" y="136" width="320" height="34" fill="#eeecea"/>
+        <line x1="0" y1="135" x2="320" y2="135" stroke="#d8d6cf" stroke-width="1.5"/>
+        <rect x="5"   y="149" width="28" height="4" rx="2" fill="#d8d6cf"/>
+        <rect x="53"  y="149" width="28" height="4" rx="2" fill="#d8d6cf"/>
+        <rect x="101" y="149" width="28" height="4" rx="2" fill="#d8d6cf"/>
+        <rect x="149" y="149" width="28" height="4" rx="2" fill="#d8d6cf"/>
+        <rect x="197" y="149" width="28" height="4" rx="2" fill="#d8d6cf"/>
+        <rect x="245" y="149" width="28" height="4" rx="2" fill="#d8d6cf"/>
+        <!-- Skid marks -->
+        <g class="tskids">
+          <path d="M 155 134 Q 210 132 248 134" stroke="#b8b6ae" stroke-width="3.5" fill="none" stroke-linecap="round" opacity="0.6"/>
+          <path d="M 160 136 Q 214 134 252 136" stroke="#b8b6ae" stroke-width="3.5" fill="none" stroke-linecap="round" opacity="0.6"/>
+        </g>
+        <!-- Car -->
+        <g class="tcar">
+          <ellipse cx="155" cy="140" rx="82" ry="5.5" fill="rgba(0,0,0,0.1)"/>
+          <rect x="72" y="98" width="165" height="38" rx="9" fill="white" stroke="#deddd7" stroke-width="1.5"/>
+          <path d="M 103 98 L 116 70 L 196 70 L 212 98 Z" fill="white" stroke="#deddd7" stroke-width="1.5"/>
+          <path d="M 118 96 L 128 73 L 164 73 L 164 96 Z" fill="#a8d5f5" opacity="0.88"/>
+          <path d="M 167 96 L 167 73 L 194 73 L 208 96 Z" fill="#a8d5f5" opacity="0.88"/>
+          <path d="M 121 92 L 126 78" stroke="white" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+          <path d="M 169 92 L 169 78" stroke="white" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+          <rect x="73" y="102" width="10" height="7" rx="2.5" fill="#ffe566"/>
+          <rect x="73" y="111" width="10" height="4" rx="2" fill="#ffd700" opacity="0.5"/>
+          <rect x="230" y="102" width="9" height="7" rx="2.5" fill="#ff3232"/>
+          <rect x="230" y="111" width="9" height="4" rx="2" fill="#cc0000" opacity="0.5"/>
+          <line x1="164" y1="98" x2="164" y2="134" stroke="#deddd7" stroke-width="1.5"/>
+          <rect x="138" y="115" width="14" height="3.5" rx="1.75" fill="#c8c7be"/>
+          <rect x="186" y="115" width="14" height="3.5" rx="1.75" fill="#c8c7be"/>
+          <rect x="118" y="113" width="28" height="15" rx="3" fill="#CC1414" opacity="0.12"/>
+          <text x="132" y="124" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-weight="900" font-size="11" fill="#CC1414">JR</text>
+          <circle cx="112" cy="136" r="15" fill="#252525"/>
+          <circle cx="112" cy="136" r="9.5" fill="#555"/>
+          <circle cx="112" cy="136" r="4" fill="#888"/>
+          <circle cx="109" cy="132" r="1.8" fill="#aaa"/><circle cx="115" cy="132" r="1.8" fill="#aaa"/>
+          <circle cx="115" cy="140" r="1.8" fill="#aaa"/><circle cx="109" cy="140" r="1.8" fill="#aaa"/>
+          <circle cx="200" cy="136" r="15" fill="#252525"/>
+          <circle cx="200" cy="136" r="9.5" fill="#555"/>
+          <circle cx="200" cy="136" r="4" fill="#888"/>
+          <circle cx="197" cy="132" r="1.8" fill="#aaa"/><circle cx="203" cy="132" r="1.8" fill="#aaa"/>
+          <circle cx="203" cy="140" r="1.8" fill="#aaa"/><circle cx="197" cy="140" r="1.8" fill="#aaa"/>
+        </g>
+        <!-- Person -->
+        <g class="tperson">
+          <ellipse cx="228" cy="140" rx="13" ry="4" fill="rgba(0,0,0,0.09)"/>
+          <rect x="220" y="114" width="7" height="24" rx="2.5" fill="#1a1a2e"/>
+          <rect x="229" y="114" width="7" height="24" rx="2.5" fill="#1a1a2e"/>
+          <ellipse cx="223.5" cy="138.5" rx="6.5" ry="3" fill="#111"/>
+          <ellipse cx="232.5" cy="138.5" rx="6.5" ry="3" fill="#111"/>
+          <rect x="215" y="94" width="26" height="23" rx="4" fill="#2563eb"/>
+          <rect x="205" y="96" width="9" height="17" rx="3.5" fill="#2563eb"/>
+          <circle cx="209.5" cy="114" r="5" fill="#f5c5a3"/>
+          <g class="twave-arm">
+            <rect x="242" y="96" width="9" height="17" rx="3.5" fill="#2563eb"/>
+            <circle cx="246.5" cy="114" r="5" fill="#f5c5a3"/>
           </g>
-          <!-- cubo central -->
-          <circle cx="110" cy="118" r="10" fill="#1A1A1A"/>
-          <circle cx="110" cy="118" r="4" fill="#CC1414"/>
-          <!-- contador central -->
-          <text id="sCount" x="110" y="92" text-anchor="middle"
-            font-family="Barlow Condensed,sans-serif" font-weight="900" font-size="28" fill="#1A1A1A">0</text>
-          <text x="110" y="107" text-anchor="middle"
-            font-family="Barlow,sans-serif" font-weight="700" font-size="7.5" fill="#a9a69e" letter-spacing="1.8">CLIENTES</text>
-          <!-- labels min/max -->
-          <text x="9" y="132" font-family="Barlow Condensed,sans-serif" font-weight="700" font-size="10" fill="#c0bdb6">0</text>
-          <text x="211" y="132" text-anchor="end" font-family="Barlow Condensed,sans-serif" font-weight="700" font-size="10" fill="#c0bdb6">500+</text>
-        </svg>
-      </div>
-      <div class="proof-rating">
-        <span class="stars">★★★★★</span>
-        <div><b>4,9 / 5</b><small>Avaliações reais</small></div>
-      </div>
-      <p class="proof-since">Desde <b>2017</b> em Santos — SP</p>
+          <circle cx="228" cy="83" r="13" fill="#f5c5a3"/>
+          <path d="M 216 80 Q 216 68 228 67 Q 240 68 240 80 Q 236 73 228 73 Q 220 73 216 80 Z" fill="#3d2b1f"/>
+          <circle cx="223" cy="83" r="2" fill="#333"/>
+          <circle cx="233" cy="83" r="2" fill="#333"/>
+          <circle cx="223.7" cy="82.2" r="0.8" fill="white"/>
+          <circle cx="233.7" cy="82.2" r="0.8" fill="white"/>
+          <path d="M 223 89 Q 228 94 233 89" stroke="#a0522d" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+        </g>
+      </svg>
     </div>
   </div>
 </section>
@@ -495,51 +525,6 @@ function markOpen(){
 
 observeReveals();
 markOpen();
-
-/* ---------- VELOCÍMETRO ---------- */
-(function(){
-  const cx=110, cy=118, R=98, ARC=308, FILL=0.91;
-  const ticksG = document.getElementById('sTicks');
-
-  /* marcas ao redor do arco */
-  for(let i=0;i<=10;i++){
-    const t = i/10;
-    const theta = Math.PI * (1+t);
-    const cos=Math.cos(theta), sin=Math.sin(theta);
-    const big = i%5===0;
-    const r1 = R - (big?16:9), r2 = R+2;
-    const line = document.createElementNS('http://www.w3.org/2000/svg','line');
-    line.setAttribute('x1', cx+r1*cos); line.setAttribute('y1', cy+r1*sin);
-    line.setAttribute('x2', cx+r2*cos); line.setAttribute('y2', cy+r2*sin);
-    line.setAttribute('stroke', i===10?'#CC1414':'#d4d2cd');
-    line.setAttribute('stroke-width', big?'2.5':'1.5');
-    line.setAttribute('stroke-linecap','round');
-    ticksG.appendChild(line);
-  }
-
-  /* animação ao entrar na tela */
-  const sFill   = document.getElementById('sFill');
-  const sNeedle = document.getElementById('sNeedle');
-  const sCount  = document.getElementById('sCount');
-  let started = false;
-
-  function run(){
-    if(started) return; started = true;
-    const DUR=2200, TARGET=500, ease=p=>1-Math.pow(1-p,3);
-    const t0=performance.now();
-    (function tick(now){
-      const p=Math.min((now-t0)/DUR,1), e=ease(p);
-      const filled=ARC*FILL*e;
-      sFill.setAttribute('stroke-dasharray',`${filled} ${ARC-filled}`);
-      sNeedle.style.transform=`rotate(${-90+180*FILL*e}deg)`;
-      sCount.textContent=Math.round(TARGET*e)+(p===1?'+':'');
-      if(p<1) requestAnimationFrame(tick);
-    })(t0);
-  }
-
-  new IntersectionObserver(es=>{if(es[0].isIntersecting) run();},{threshold:.3})
-    .observe(document.querySelector('.hero-proof'));
-})();
 
 // FAQ accordion
 document.querySelectorAll('.faq-q').forEach(btn=>{
