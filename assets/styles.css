@@ -337,9 +337,17 @@
     .hero-trust{gap:1.5rem}
     .hero-shape .red,.hero-shape .yellow,.hero-shape .grid-lines{display:none}
     .hero-proof{display:none}
-    .hero{background:var(--bg)}
-    .hero h1{font-size:clamp(2.8rem,11vw,4.2rem)}
-    .hero p.sub{max-width:100%}
+    .hero{background:var(--red);padding-bottom:3rem}
+    .hero::after{content:"";display:block;position:absolute;bottom:0;left:0;right:0;height:6px;background:var(--yellow)}
+    .hero h1{color:#fff;font-size:clamp(2.8rem,11vw,4.4rem)}
+    .hero h1 .hl{color:var(--yellow)}
+    .hero p.sub{max-width:100%;color:rgba(255,255,255,.82)}
+    .hero .eyebrow{color:var(--yellow)}
+    .hero .eyebrow::before{background:#fff}
+    .hero-trust .t b{color:#fff}
+    .hero-trust .t span{color:rgba(255,255,255,.7)}
+    .hero .btn-ghost{color:#fff;border-color:rgba(255,255,255,.45)}
+    .hero .btn-red{background:#fff;color:var(--red);box-shadow:0 10px 22px rgba(0,0,0,.18)}
   }
 
   /* ---------- PAGE HERO (Sobre) ---------- */
