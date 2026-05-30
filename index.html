@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Barlow+Condensed:wght@500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/styles.css?v=8">
+<link rel="stylesheet" href="assets/styles.css?v=9">
 </head>
 <body>
 
@@ -68,9 +68,22 @@
         <div class="t"><b>Santos</b><span>Atendimento na região</span></div>
       </div>
     </div>
-    <div class="hero-toon" aria-hidden="true">
-      <div class="toon-pov">
-        <canvas id="toonCanvas" width="320" height="400"></canvas>
+    <div class="hero-toon">
+      <div class="proof-orb-1"></div>
+      <div class="proof-orb-2"></div>
+      <div class="proof-content">
+        <div class="proof-big">
+          <span class="proof-num" data-target="500">0</span><span class="proof-plus">+</span>
+        </div>
+        <p class="proof-label">clientes atendidos</p>
+        <hr class="proof-hr">
+        <div class="proof-stars">★★★★★</div>
+        <div class="proof-rating-row">
+          <span class="proof-score">4,9</span>
+          <span class="proof-of">/ 5 em avaliações reais</span>
+        </div>
+        <hr class="proof-hr">
+        <p class="proof-since">Desde <strong>2017</strong> · Santos, SP</p>
       </div>
     </div>
   </div>
@@ -462,160 +475,23 @@ function markOpen(){
 observeReveals();
 markOpen();
 
-// ===== CANVAS 3D DRIFT ANIMATION =====
+// ===== PROOF COUNTER =====
 (function(){
-  const cv=document.getElementById('toonCanvas');
-  if(!cv)return;
-  const g=cv.getContext('2d');
-  const W=cv.width,H=cv.height;
-
-  // Bezier drift path: off-screen right+far → park center
-  const P0={x:W*1.55,y:H*0.12};
-  const P1={x:W*0.78,y:H*0.02};
-  const P2={x:W*0.47,y:H*0.70}; // park
-
-  const eOut=t=>1-Math.pow(1-t,3);
-  const eIn =t=>t*t*t;
-  const lerp=(a,b,t)=>a+(b-a)*t;
-
-  function bPos(t){const u=1-t;return{x:u*u*P0.x+2*u*t*P1.x+t*t*P2.x,y:u*u*P0.y+2*u*t*P1.y+t*t*P2.y};}
-  function bDir(t){const u=1-t;return{x:2*u*(P1.x-P0.x)+2*t*(P2.x-P1.x),y:2*u*(P1.y-P0.y)+2*t*(P2.y-P1.y)};}
-
-  function rr(x,y,w,h,r){
-    g.beginPath();g.moveTo(x+r,y);g.lineTo(x+w-r,y);g.arcTo(x+w,y,x+w,y+r,r);
-    g.lineTo(x+w,y+h-r);g.arcTo(x+w,y+h,x+w-r,y+h,r);
-    g.lineTo(x+r,y+h);g.arcTo(x,y+h,x,y+h-r,r);
-    g.lineTo(x,y+r);g.arcTo(x,y,x+r,y,r);g.closePath();
-  }
-
-  const smoke=[];
-  let elapsed=0,lastTs=null;
-
-  function render(ts){
-    const dt=lastTs?ts-lastTs:0;lastTs=ts;
-    elapsed=(elapsed+dt)%9000;
-    const t=elapsed/9000;
-
-    // Car state
-    let cx,cy,ca,phase;
-    if(t<0.22){
-      const pt=eOut(t/0.22),pos=bPos(pt),dir=bDir(pt);
-      const ma=Math.atan2(dir.x,-dir.y);
-      cx=pos.x;cy=pos.y;ca=ma+0.44*(1-pt);phase='drift';
-    }else if(t<0.27){
-      const st=(t-0.22)/0.05;
-      cx=P2.x;cy=P2.y;ca=Math.sin(st*Math.PI*2.5)*0.07*(1-st);phase='settle';
-    }else if(t<0.74){
-      cx=P2.x;cy=P2.y;ca=0;phase='parked';
-    }else if(t<0.81){
-      const bt=(t-0.74)/0.07,v=Math.sin(bt*Math.PI*18)*2.8;
-      cx=P2.x+v;cy=P2.y;ca=v*0.014;phase='burnout';
-    }else if(t<0.95){
-      const et=eIn((t-0.81)/0.14);
-      cx=P2.x;cy=P2.y-et*H*1.7;ca=0;phase='exit';
-    }else{cx=P2.x;cy=-200;ca=0;phase='gone';}
-
-    // Person state
-    let px,py,pa,pw;
-    const door={x:P2.x+20,y:P2.y+4},out={x:P2.x+54,y:P2.y+8};
-    if(t<0.27){px=door.x;py=door.y;pa=0;pw=false;}
-    else if(t<0.37){const pt=eOut((t-0.27)/0.1);px=lerp(door.x,out.x,pt);py=lerp(door.y,out.y,pt);pa=Math.min(pt*2.5,1);pw=pt>.85;}
-    else if(t<0.65){px=out.x;py=out.y;pa=1;pw=true;}
-    else if(t<0.74){const pt=eIn((t-0.65)/0.09);px=lerp(out.x,door.x,pt);py=lerp(out.y,door.y,pt);pa=1-pt;pw=pt<.3;}
-    else{px=door.x;py=door.y;pa=0;pw=false;}
-
-    // --- DRAW ---
-    g.fillStyle='#1a1a1a';g.fillRect(0,0,W,H);
-
-    // Grid
-    g.strokeStyle='rgba(255,255,255,.038)';g.lineWidth=1;
-    for(let i=0;i<W;i+=36){g.beginPath();g.moveTo(i,0);g.lineTo(i,H);g.stroke();}
-    for(let j=0;j<H;j+=36){g.beginPath();g.moveTo(0,j);g.lineTo(W,j);g.stroke();}
-
-    // Center dashes
-    g.strokeStyle='rgba(255,255,255,.07)';g.lineWidth=2;g.setLineDash([20,18]);
-    g.beginPath();g.moveTo(W*.47,0);g.lineTo(W*.47,H);g.stroke();g.setLineDash([]);
-
-    // Drift marks (precomputed bezier curves)
-    if(t>0.04&&t<0.93){
-      const fi=Math.min((t-0.04)/0.18,1);
-      const fo=t>0.81?Math.max(1-(t-0.81)/0.12,0):1;
-      g.globalAlpha=fi*fo*0.62;g.strokeStyle='#060606';g.lineWidth=4.5;g.lineCap='round';
-      g.beginPath();g.moveTo(W*1.42,H*0.09);
-      g.bezierCurveTo(W*.70,H*.03,W*.53,H*.33,W*.40,H*.71);g.stroke();
-      g.beginPath();g.moveTo(W*1.50,H*0.15);
-      g.bezierCurveTo(W*.77,H*.08,W*.59,H*.38,W*.53,H*.71);g.stroke();
-      g.globalAlpha=1;
+  const numEl=document.querySelector('.proof-num');
+  if(!numEl)return;
+  let ran=false;
+  new IntersectionObserver(es=>{
+    if(es[0].isIntersecting&&!ran){
+      ran=true;
+      const target=parseInt(numEl.dataset.target);
+      const dur=2000,t0=performance.now(),ease=p=>1-Math.pow(1-p,3);
+      (function tick(now){
+        const p=Math.min((now-t0)/dur,1);
+        numEl.textContent=Math.round(ease(p)*target);
+        if(p<1)requestAnimationFrame(tick);
+      })(t0);
     }
-
-    // Burnout / exit marks
-    if(phase==='burnout'||phase==='exit'){
-      const et=phase==='exit'?eIn((t-0.81)/0.14):0;
-      const ml=20+et*H*1.55;
-      g.globalAlpha=0.7;g.strokeStyle='#040404';g.lineWidth=5.5;g.lineCap='round';
-      g.beginPath();g.moveTo(P2.x-13,P2.y+8);g.lineTo(P2.x-13,P2.y-ml);g.stroke();
-      g.beginPath();g.moveTo(P2.x+13,P2.y+8);g.lineTo(P2.x+13,P2.y-ml);g.stroke();
-      g.globalAlpha=1;
-    }
-
-    // Smoke particles
-    if(phase==='burnout'&&Math.random()<.45)
-      smoke.push({x:cx+(Math.random()-.5)*20,y:cy+30,vx:(Math.random()-.5)*.9,vy:1.1+Math.random()*.9,s:4,a:.55});
-    for(let i=smoke.length-1;i>=0;i--){
-      const p=smoke[i];p.x+=p.vx;p.y+=p.vy;p.s+=.45;p.a-=.022;
-      if(p.a<=0){smoke.splice(i,1);continue;}
-      g.globalAlpha=p.a;g.fillStyle='#aaa';
-      g.beginPath();g.arc(p.x,p.y,p.s,0,Math.PI*2);g.fill();
-    }
-    g.globalAlpha=1;
-
-    // Person
-    if(pa>0){
-      g.save();g.globalAlpha=pa;g.translate(px,py);
-      g.fillStyle='rgba(0,0,0,.3)';g.beginPath();g.ellipse(0,8,11,4.5,0,0,Math.PI*2);g.fill();
-      g.fillStyle='#2563eb';g.beginPath();g.ellipse(0,0,10,12,0,0,Math.PI*2);g.fill();
-      g.fillStyle='#2563eb';g.beginPath();g.ellipse(-12,4,3.5,7,.3,0,Math.PI*2);g.fill();
-      g.fillStyle='#f5c5a3';g.beginPath();g.arc(-12,12,4,0,Math.PI*2);g.fill();
-      if(pw){
-        const wa=-.5+Math.sin(ts/290)*.65;
-        g.save();g.translate(12,-2);g.rotate(wa);
-        g.fillStyle='#2563eb';g.beginPath();g.ellipse(0,0,3.5,8.5,0,0,Math.PI*2);g.fill();
-        g.fillStyle='#f5c5a3';g.beginPath();g.arc(0,10,4,0,Math.PI*2);g.fill();
-        g.restore();
-      }else{
-        g.fillStyle='#2563eb';g.beginPath();g.ellipse(12,4,3.5,7,-.3,0,Math.PI*2);g.fill();
-        g.fillStyle='#f5c5a3';g.beginPath();g.arc(12,12,4,0,Math.PI*2);g.fill();
-      }
-      g.fillStyle='#f5c5a3';g.beginPath();g.arc(0,-11,9,0,Math.PI*2);g.fill();
-      g.fillStyle='#3d2b1f';g.beginPath();g.arc(0,-13,8,Math.PI,0);g.fill();
-      g.restore();
-    }
-
-    // Car
-    if(phase!=='gone'){
-      const CL=34,CW=18;
-      g.save();g.translate(cx,cy);g.rotate(ca);
-      g.globalAlpha=.22;g.fillStyle='#000';
-      g.save();g.scale(1.08,1.06);rr(-CW,-CL,CW*2,CL*2,9);g.fill();g.restore();g.globalAlpha=1;
-      g.fillStyle='#fff';g.strokeStyle='#ddd';g.lineWidth=1.5;
-      rr(-CW,-CL,CW*2,CL*2,9);g.fill();g.stroke();
-      g.fillStyle='rgba(140,210,255,.9)';rr(-CW+4,-CL+4,(CW-4)*2,15,4);g.fill();
-      g.fillStyle='rgba(140,210,255,.6)';rr(-CW+5,CL-18,(CW-5)*2,12,3);g.fill();
-      g.strokeStyle='rgba(200,200,200,.7)';g.lineWidth=1;
-      g.beginPath();g.moveTo(-CW,2);g.lineTo(CW,2);g.stroke();
-      g.fillStyle='#CC1414';g.font='bold 9px "Barlow Condensed",sans-serif';
-      g.textAlign='center';g.textBaseline='middle';g.fillText('JR',0,9);
-      g.fillStyle='#1e1e1e';g.strokeStyle='#444';g.lineWidth=1;
-      for(const[wx,wy]of[[-CW-3,-CL+8],[CW+3,-CL+8],[-CW-3,CL-8],[CW+3,CL-8]]){
-        rr(wx-4,wy-7,8,14,2);g.fill();g.stroke();
-      }
-      g.restore();
-    }
-
-    if(t<0.02&&smoke.length)smoke.length=0;
-    requestAnimationFrame(render);
-  }
-  requestAnimationFrame(render);
+  },{threshold:.3}).observe(numEl.closest('.hero-toon'));
 })();
 
 // FAQ accordion

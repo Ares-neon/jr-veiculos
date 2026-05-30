@@ -121,19 +121,40 @@
   .hero-trust .t{display:flex;flex-direction:column}
   .hero-trust .t b{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:2.1rem;color:var(--ink);line-height:1}
   .hero-trust .t span{font-size:.82rem;font-weight:600;color:var(--ink-soft);text-transform:uppercase;letter-spacing:.08em}
-  /* ---------- HERO TOON 3D ---------- */
+  /* ---------- HERO PROOF CARD ---------- */
   .hero-toon{
     position:relative;z-index:2;justify-self:end;align-self:center;
-    background:#1a1a1a;border-radius:22px;width:320px;height:236px;
-    overflow:hidden;
-    box-shadow:0 32px 72px rgba(26,26,26,.28);
+    width:300px;border-radius:22px;overflow:hidden;
+    background:#111;padding:2.6rem 2.2rem;
+    box-shadow:0 32px 72px rgba(26,26,26,.3);
     border:1px solid rgba(255,255,255,.07);
   }
-  .toon-pov{
-    transform:perspective(700px) rotateX(52deg);
-    transform-origin:50% 58%;
+  .proof-orb-1{
+    position:absolute;width:240px;height:240px;border-radius:50%;
+    background:rgba(204,20,20,.38);filter:blur(60px);
+    top:-80px;left:-70px;pointer-events:none;
+    animation:orb1 7s ease-in-out infinite;
   }
-  #toonCanvas{display:block;width:100%}
+  .proof-orb-2{
+    position:absolute;width:180px;height:180px;border-radius:50%;
+    background:rgba(245,224,0,.18);filter:blur(50px);
+    bottom:-55px;right:-45px;pointer-events:none;
+    animation:orb2 9s ease-in-out infinite;
+  }
+  @keyframes orb1{0%,100%{transform:translate(0,0)}50%{transform:translate(24px,18px)}}
+  @keyframes orb2{0%,100%{transform:translate(0,0)}50%{transform:translate(-18px,-22px)}}
+  .proof-content{position:relative;z-index:1;text-align:center;color:#fff}
+  .proof-big{display:flex;align-items:flex-start;justify-content:center;gap:.08em;line-height:1;margin-bottom:.3rem}
+  .proof-num{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:5.8rem;color:#fff;line-height:.9}
+  .proof-plus{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:2.8rem;color:var(--red);margin-top:.55rem}
+  .proof-label{font-size:.75rem;color:rgba(255,255,255,.42);text-transform:uppercase;letter-spacing:.15em;font-weight:600;margin:0}
+  .proof-hr{border:none;border-top:1px solid rgba(255,255,255,.1);margin:1.4rem 0}
+  .proof-stars{color:var(--yellow);font-size:1.3rem;letter-spacing:.1em;margin-bottom:.5rem}
+  .proof-rating-row{display:flex;align-items:baseline;justify-content:center;gap:.4rem}
+  .proof-score{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:2.3rem;color:#fff;line-height:1}
+  .proof-of{font-size:.78rem;color:rgba(255,255,255,.42);font-weight:600}
+  .proof-since{font-size:.82rem;color:rgba(255,255,255,.38);font-weight:600;letter-spacing:.04em;margin:0}
+  .proof-since strong{color:rgba(255,255,255,.75)}
 
   /* ---------- SECTION HEAD ---------- */
   .sec{padding:6rem 0}
