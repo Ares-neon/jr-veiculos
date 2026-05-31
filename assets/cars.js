@@ -95,7 +95,7 @@ function carCardHTML(c, i, opts){
   return `
     <a class="card reveal ${delay}" href="carro.html?id=${c.id}" data-brand="${c.brand}" data-year="${c.year}" data-price="${c.price}" data-name="${c.name.toLowerCase()}">
       <div class="card-img">
-        <div class="ph"><span>📷 Foto do veículo</span></div>
+        ${c.fotos && c.fotos.length ? `<img src="${c.fotos[0]}" alt="${c.name}" loading="lazy">` : '<div class="ph"><span>📷 Foto do veículo</span></div>'}
         ${badge}
         <span class="tag">${BRAND_LABEL[c.brand]}</span>
         <span class="year">${c.yearLabel}</span>
