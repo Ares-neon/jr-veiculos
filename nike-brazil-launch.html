@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nike Brasil — Just Do It</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;700;900&display=swap');
+
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --nike-black: #111111;
+    --nike-white: #FFFFFF;
+    --brazil-green: #009C3B;
+    --brazil-yellow: #FFDF00;
+    --brazil-blue: #002776;
+    --gold: #FFB800;
+  }
+
+  html, body {
+    width: 100%; height: 100%;
+    background: #000;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+    cursor: none;
+  }
+
+  /* Custom cursor */
+  .cursor {
+    position: fixed;
+    width: 12px; height: 12px;
+    background: var(--brazil-yellow);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+    transition: transform 0.1s, width 0.2s, height 0.2s;
+    mix-blend-mode: difference;
+  }
+
+  /* ═══════════════════════════════════════
+     INTRO SCREEN
+  ═══════════════════════════════════════ */
+  #intro {
+    position: fixed; inset: 0;
+    background: #000;
+    display: flex; align-items: center; justify-content: center;
+    z-index: 100;
+    animation: introOut 0.8s ease-in-out 3.5s forwards;
+  }
+
+  @keyframes introOut {
+    0%   { opacity: 1; transform: scaleY(1); }
+    50%  { opacity: 1; transform: scaleY(1); }
+    100% { opacity: 0; transform: scaleY(0); pointer-events: none; }
+  }
+
+  .swoosh-intro {
+    width: 200px;
+    animation: swooshPulse 1.2s ease-in-out infinite;
+  }
+
+  @keyframes swooshPulse {
+    0%, 100% { transform: scale(1); opacity: 1; }
+    50%       { transform: scale(1.08); opacity: 0.8; }
+  }
+
+  /* ═══════════════════════════════════════
+     MAIN CONTAINER / SCENE SYSTEM
+  ═══════════════════════════════════════ */
+  #launch {
+    position: fixed; inset: 0;
+    opacity: 0;
+    animation: fadeIn 1s ease 4s forwards;
+  }
+  @keyframes fadeIn { to { opacity: 1; } }
+
+  .scene {
+    position: absolute; inset: 0;
+    opacity: 0;
+    transition: opacity 1s ease;
+    overflow: hidden;
+  }
+  .scene.active { opacity: 1; }
+
+  /* ═══════════════════════════════════════
+     SCENE BACKGROUNDS
+  ═══════════════════════════════════════ */
+  .scene-bg {
+    position: absolute; inset: 0;
+    background-size: cover;
+    background-position: center;
+    will-change: transform;
+  }
+
+  .scene-bg video {
+    width: 100%; height: 100%;
+    object-fit: cover;
+  }
+
+  /* Ken Burns */
+  @keyframes kenBurns {
+    0%   { transform: scale(1) translate(0, 0); }
+    100% { transform: scale(1.08) translate(-1%, -1%); }
+  }
+  @keyframes kenBurns2 {
+    0%   { transform: scale(1.05) translate(0, 0); }
+    100% { transform: scale(1) translate(1%, 1%); }
+  }
+
+  .scene-bg.kb1 { animation: kenBurns 12s ease-in-out infinite alternate; }
+  .scene-bg.kb2 { animation: kenBurns2 10s ease-in-out infinite alternate; }
+
+  /* Dark gradient overlay */
+  .scene::after {
+    content: '';
+    position: absolute; inset: 0;
+    background: linear-gradient(
+      to bottom,
+      rgba(0,0,0,0.25) 0%,
+      rgba(0,0,0,0.1) 40%,
+      rgba(0,0,0,0.6) 100%
+    );
+    pointer-events: none;
+  }
+
+  /* ═══════════════════════════════════════
+     SCENE 1 — HERO / BEACH
+  ═══════════════════════════════════════ */
+  #scene1 .scene-bg {
+    background-image:
+      linear-gradient(135deg, rgba(0,156,59,0.3) 0%, rgba(0,0,0,0.5) 60%),
+      url('https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=1920&q=80');
+  }
+
+  /* ═══════════════════════════════════════
+     SCENE 2 — VIDEO 1 (Athlete / Rio)
+  ═══════════════════════════════════════ */
+  #scene2 .scene-bg {
+    background: #000;
+  }
+
+  /* ═══════════════════════════════════════
+     SCENE 3 — PRODUCT / SNEAKER
+  ═══════════════════════════════════════ */
+  #scene3 .scene-bg {
+    background-image:
+      linear-gradient(135deg, rgba(0,39,118,0.4) 0%, rgba(0,0,0,0.5) 60%),
+      url('https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=1920&q=80');
+  }
+
+  /* ═══════════════════════════════════════
+     SCENE 4 — VIDEO 2 (Product launch)
+  ═══════════════════════════════════════ */
+  #scene4 .scene-bg {
+    background: #000;
+  }
+
+  /* ═══════════════════════════════════════
+     SCENE 5 — FOOTBALL / MARACANÃ
+  ═══════════════════════════════════════ */
+  #scene5 .scene-bg {
+    background-image:
+      linear-gradient(135deg, rgba(255,183,0,0.3) 0%, rgba(0,0,0,0.6) 60%),
+      url('https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=1920&q=80');
+  }
+
+  /* ═══════════════════════════════════════
+     SCENE 6 — FINALE
+  ═══════════════════════════════════════ */
+  #scene6 {
+    background: #000;
+  }
+  #scene6::after { display: none; }
+
+  /* ═══════════════════════════════════════
+     TYPOGRAPHY
+  ═══════════════════════════════════════ */
+  .scene-content {
+    position: absolute; inset: 0;
+    display: flex; flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 8vw 8vh;
+    z-index: 2;
+  }
+
+  .label {
+    font-size: clamp(10px, 1vw, 13px);
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--brazil-yellow);
+    font-weight: 700;
+    margin-bottom: 1rem;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.7s ease 0.3s;
+  }
+
+  .headline {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(60px, 10vw, 160px);
+    line-height: 0.9;
+    color: #fff;
+    text-transform: uppercase;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.5s;
+    text-shadow: 0 4px 30px rgba(0,0,0,0.5);
+  }
+
+  .subline {
+    font-size: clamp(14px, 1.8vw, 22px);
+    font-weight: 300;
+    color: rgba(255,255,255,0.85);
+    margin-top: 1.5rem;
+    max-width: 50ch;
+    line-height: 1.6;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.7s ease 0.8s;
+  }
+
+  .scene.active .label,
+  .scene.active .headline,
+  .scene.active .subline {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Headline split color */
+  .headline .accent { color: var(--brazil-yellow); }
+  .headline .accent-green { color: var(--brazil-green); }
+
+  /* ═══════════════════════════════════════
+     SCENE 6 — FINALE LAYOUT
+  ═══════════════════════════════════════ */
+  #scene6 .finale-wrap {
+    position: absolute; inset: 0;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    gap: 2rem;
+  }
+
+  .finale-swoosh {
+    width: clamp(80px, 15vw, 180px);
+    opacity: 0;
+    transform: scale(0.5);
+    animation: swooshReveal 1s cubic-bezier(0.16, 1, 0.3, 1) 0.5s forwards;
+  }
+
+  #scene6.active .finale-swoosh {
+    animation: swooshReveal 1s cubic-bezier(0.16, 1, 0.3, 1) 0.5s forwards;
+  }
+
+  @keyframes swooshReveal {
+    to { opacity: 1; transform: scale(1); }
+  }
+
+  .jdi-text {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(50px, 12vw, 180px);
+    color: #fff;
+    letter-spacing: 0.05em;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.9s cubic-bezier(0.16, 1, 0.3, 1) 1.2s;
+  }
+
+  #scene6.active .jdi-text {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .finale-br {
+    font-size: clamp(12px, 1.5vw, 18px);
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: var(--brazil-yellow);
+    opacity: 0;
+    transition: opacity 0.8s ease 2s;
+  }
+
+  #scene6.active .finale-br { opacity: 1; }
+
+  .finale-flag {
+    display: flex; gap: 6px; align-items: center;
+    opacity: 0;
+    transition: opacity 0.8s ease 2.4s;
+  }
+  #scene6.active .finale-flag { opacity: 1; }
+
+  .flag-stripe { width: 40px; height: 4px; border-radius: 2px; }
+  .s-green  { background: var(--brazil-green); }
+  .s-yellow { background: var(--brazil-yellow); }
+  .s-blue   { background: var(--brazil-blue); }
+
+  /* ═══════════════════════════════════════
+     NAVIGATION DOTS
+  ═══════════════════════════════════════ */
+  #nav-dots {
+    position: fixed;
+    right: 3vw;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex; flex-direction: column; gap: 12px;
+    z-index: 50;
+    opacity: 0;
+    animation: fadeIn 1s ease 5s forwards;
+  }
+
+  .dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.35);
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+  }
+  .dot.active { background: var(--brazil-yellow); transform: scale(1.4); }
+
+  /* ═══════════════════════════════════════
+     TOP BAR
+  ═══════════════════════════════════════ */
+  #topbar {
+    position: fixed; top: 0; left: 0; right: 0;
+    height: 72px;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 6vw;
+    z-index: 50;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.5), transparent);
+    opacity: 0;
+    animation: fadeIn 1s ease 4.5s forwards;
+  }
+
+  .top-logo { width: 60px; }
+
+  .top-nav {
+    display: flex; gap: 2.5rem;
+    list-style: none;
+  }
+
+  .top-nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: color 0.2s;
+  }
+  .top-nav a:hover { color: var(--brazil-yellow); }
+
+  /* ═══════════════════════════════════════
+     SCENE COUNTER
+  ═══════════════════════════════════════ */
+  #scene-counter {
+    position: fixed;
+    left: 4vw; bottom: 5vh;
+    font-size: 11px;
+    letter-spacing: 0.3em;
+    color: rgba(255,255,255,0.4);
+    z-index: 50;
+    font-weight: 700;
+    opacity: 0;
+    animation: fadeIn 1s ease 5s forwards;
+  }
+
+  #scene-counter .current { color: var(--brazil-yellow); font-size: 18px; }
+
+  /* ═══════════════════════════════════════
+     SCANLINES overlay (cinematic feel)
+  ═══════════════════════════════════════ */
+  #scanlines {
+    position: fixed; inset: 0;
+    background: repeating-linear-gradient(
+      to bottom,
+      transparent,
+      transparent 2px,
+      rgba(0,0,0,0.04) 2px,
+      rgba(0,0,0,0.04) 4px
+    );
+    pointer-events: none;
+    z-index: 200;
+  }
+
+  /* ═══════════════════════════════════════
+     PROGRESS BAR
+  ═══════════════════════════════════════ */
+  #progress-bar {
+    position: fixed; bottom: 0; left: 0; right: 0;
+    height: 3px;
+    background: rgba(255,255,255,0.1);
+    z-index: 50;
+  }
+
+  #progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--brazil-green), var(--brazil-yellow), var(--brazil-blue));
+    width: 0%;
+    transition: width 0.5s ease;
+  }
+
+  /* ═══════════════════════════════════════
+     GENERATED MEDIA SCENES
+  ═══════════════════════════════════════ */
+  .generated-video {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .generated-image {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  /* ═══════════════════════════════════════
+     PARTICLES
+  ═══════════════════════════════════════ */
+  #particles {
+    position: fixed; inset: 0;
+    pointer-events: none;
+    z-index: 10;
+    overflow: hidden;
+  }
+
+  .particle {
+    position: absolute;
+    width: 4px; height: 4px;
+    border-radius: 50%;
+    opacity: 0;
+    animation: particleFloat linear infinite;
+  }
+
+  @keyframes particleFloat {
+    0%   { transform: translateY(110vh) translateX(0); opacity: 0; }
+    10%  { opacity: 0.6; }
+    90%  { opacity: 0.3; }
+    100% { transform: translateY(-10vh) translateX(var(--dx)); opacity: 0; }
+  }
+
+  /* ═══════════════════════════════════════
+     LOADING STATE
+  ═══════════════════════════════════════ */
+  .loading-placeholder {
+    position: absolute; inset: 0;
+    background: #111;
+    display: flex; align-items: center; justify-content: center;
+    flex-direction: column; gap: 1rem;
+    color: rgba(255,255,255,0.4);
+    font-size: 12px;
+    letter-spacing: 0.2em;
+  }
+
+  .loading-spinner {
+    width: 40px; height: 40px;
+    border: 2px solid rgba(255,255,255,0.1);
+    border-top-color: var(--brazil-yellow);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+  }
+
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* ═══════════════════════════════════════
+     ARROWS
+  ═══════════════════════════════════════ */
+  .arrow-hint {
+    position: absolute;
+    bottom: 3vh;
+    right: 8vw;
+    display: flex; align-items: center; gap: 0.5rem;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.5);
+    opacity: 0;
+    transition: opacity 0.5s ease 1.5s;
+    z-index: 5;
+  }
+  .scene.active .arrow-hint { opacity: 1; }
+  #scene6.active .arrow-hint { opacity: 0; }
+
+  .arrow-line {
+    width: 40px; height: 1px;
+    background: rgba(255,255,255,0.4);
+    position: relative;
+  }
+  .arrow-line::after {
+    content: '';
+    position: absolute;
+    right: -4px; top: -3px;
+    width: 7px; height: 7px;
+    border-top: 1px solid rgba(255,255,255,0.6);
+    border-right: 1px solid rgba(255,255,255,0.6);
+    transform: rotate(45deg);
+  }
+</style>
+</head>
+<body>
+
+<!-- Custom cursor -->
+<div class="cursor" id="cursor"></div>
+
+<!-- Scanlines -->
+<div id="scanlines"></div>
+
+<!-- Particles -->
+<div id="particles"></div>
+
+<!-- ═══ INTRO ═══ -->
+<div id="intro">
+  <svg class="swoosh-intro" viewBox="0 0 100 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M97 2C80 18 55 28 22 31 13 32 2 30 2 25c0-4 8-7 20-9L97 2z" fill="white"/>
+  </svg>
+</div>
+
+<!-- ═══ TOP BAR ═══ -->
+<header id="topbar">
+  <svg class="top-logo" viewBox="0 0 100 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M97 2C80 18 55 28 22 31 13 32 2 30 2 25c0-4 8-7 20-9L97 2z" fill="white"/>
+  </svg>
+  <nav>
+    <ul class="top-nav">
+      <li><a href="#">Novo</a></li>
+      <li><a href="#">Calçados</a></li>
+      <li><a href="#">Roupas</a></li>
+      <li><a href="#">Esportes</a></li>
+      <li><a href="#">Sale</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- ═══ MAIN LAUNCH EXPERIENCE ═══ -->
+<main id="launch">
+
+  <!-- SCENE 1 — Hero Beach -->
+  <section class="scene active" id="scene1" data-index="0">
+    <div class="scene-bg kb1" id="scene1-bg"></div>
+    <div class="scene-content">
+      <span class="label">Nike Brasil — Coleção 2026</span>
+      <h1 class="headline">
+        FEITO<br>
+        PARA<br>
+        <span class="accent">VENCER</span>
+      </h1>
+      <p class="subline">Da areia de Copacabana às pistas do mundo. O Brasil corre com Nike.</p>
+      <div class="arrow-hint"><span>próxima cena</span><div class="arrow-line"></div></div>
+    </div>
+  </section>
+
+  <!-- SCENE 2 — Video 1 -->
+  <section class="scene" id="scene2" data-index="1">
+    <div class="scene-bg" id="scene2-bg">
+      <div class="loading-placeholder" id="v1-loading">
+        <div class="loading-spinner"></div>
+        <span>Carregando cena…</span>
+      </div>
+    </div>
+    <div class="scene-content">
+      <span class="label">Cristo. Favela. Glória.</span>
+      <h1 class="headline">
+        O BRASIL<br>
+        <span class="accent-green">NÃO</span><br>
+        PARA
+      </h1>
+      <div class="arrow-hint"><span>próxima cena</span><div class="arrow-line"></div></div>
+    </div>
+  </section>
+
+  <!-- SCENE 3 — Image: Sneaker -->
+  <section class="scene" id="scene3" data-index="2">
+    <div class="scene-bg kb2" id="scene3-bg">
+      <div class="loading-placeholder" id="img2-loading">
+        <div class="loading-spinner"></div>
+        <span>Carregando cena…</span>
+      </div>
+    </div>
+    <div class="scene-content">
+      <span class="label">Air Max — Rio Edition</span>
+      <h1 class="headline">
+        CADA<br>
+        PASSO<br>
+        <span class="accent">CONTA</span>
+      </h1>
+      <p class="subline">Apresentando o Nike Air Max Rio — inspirado no azulejo e nas ruas do Brasil.</p>
+      <div class="arrow-hint"><span>próxima cena</span><div class="arrow-line"></div></div>
+    </div>
+  </section>
+
+  <!-- SCENE 4 — Video 2 -->
+  <section class="scene" id="scene4" data-index="3">
+    <div class="scene-bg" id="scene4-bg">
+      <div class="loading-placeholder" id="v2-loading">
+        <div class="loading-spinner"></div>
+        <span>Carregando cena…</span>
+      </div>
+    </div>
+    <div class="scene-content">
+      <span class="label">Lançamento Exclusivo</span>
+      <h1 class="headline">
+        NOVA<br>
+        <span class="accent">COLEÇÃO</span><br>
+        2026
+      </h1>
+      <div class="arrow-hint"><span>próxima cena</span><div class="arrow-line"></div></div>
+    </div>
+  </section>
+
+  <!-- SCENE 5 — Football Image -->
+  <section class="scene" id="scene5" data-index="4">
+    <div class="scene-bg kb1" id="scene5-bg">
+      <div class="loading-placeholder" id="img3-loading">
+        <div class="loading-spinner"></div>
+        <span>Carregando cena…</span>
+      </div>
+    </div>
+    <div class="scene-content">
+      <span class="label">Maracanã — Estádio do Mundo</span>
+      <h1 class="headline">
+        O JOGO<br>
+        É<br>
+        <span class="accent">NOSSO</span>
+      </h1>
+      <p class="subline">Mais que um esporte. É uma paixão nacional. E a Nike está com você.</p>
+      <div class="arrow-hint"><span>próxima cena</span><div class="arrow-line"></div></div>
+    </div>
+  </section>
+
+  <!-- SCENE 6 — Finale -->
+  <section class="scene" id="scene6" data-index="5">
+    <div class="finale-wrap">
+      <svg class="finale-swoosh" viewBox="0 0 100 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M97 2C80 18 55 28 22 31 13 32 2 30 2 25c0-4 8-7 20-9L97 2z" fill="white"/>
+      </svg>
+      <div class="jdi-text">JUST DO IT</div>
+      <div class="finale-br">Brasil — 2026</div>
+      <div class="finale-flag">
+        <div class="flag-stripe s-green"></div>
+        <div class="flag-stripe s-yellow"></div>
+        <div class="flag-stripe s-blue"></div>
+        <div class="flag-stripe s-yellow"></div>
+        <div class="flag-stripe s-green"></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Navigation dots -->
+<nav id="nav-dots">
+  <div class="dot active" data-scene="0"></div>
+  <div class="dot" data-scene="1"></div>
+  <div class="dot" data-scene="2"></div>
+  <div class="dot" data-scene="3"></div>
+  <div class="dot" data-scene="4"></div>
+  <div class="dot" data-scene="5"></div>
+</nav>
+
+<!-- Scene counter -->
+<div id="scene-counter">
+  <span class="current" id="counter-cur">01</span> / 06
+</div>
+
+<!-- Progress bar -->
+<div id="progress-bar"><div id="progress-fill"></div></div>
+
+<script>
+// ─── Cursor ───────────────────────────────────────────────────────────────────
+const cursor = document.getElementById('cursor');
+document.addEventListener('mousemove', e => {
+  cursor.style.left = e.clientX + 'px';
+  cursor.style.top  = e.clientY + 'px';
+});
+
+// ─── Scene Manager ────────────────────────────────────────────────────────────
+const scenes = Array.from(document.querySelectorAll('.scene'));
+const dots   = Array.from(document.querySelectorAll('.dot'));
+let current  = 0;
+let locked   = false;
+
+function goTo(idx) {
+  if (idx < 0 || idx >= scenes.length || locked) return;
+  locked = true;
+
+  scenes[current].classList.remove('active');
+  dots[current].classList.remove('active');
+
+  current = idx;
+  scenes[current].classList.add('active');
+  dots[current].classList.add('active');
+
+  // Update counter
+  document.getElementById('counter-cur').textContent =
+    String(current + 1).padStart(2, '0');
+
+  // Update progress bar
+  document.getElementById('progress-fill').style.width =
+    ((current / (scenes.length - 1)) * 100) + '%';
+
+  // Auto-play video if present
+  const vid = scenes[current].querySelector('video');
+  if (vid) { vid.currentTime = 0; vid.play().catch(() => {}); }
+
+  setTimeout(() => { locked = false; }, 1100);
+}
+
+// Mouse wheel
+let wheelDebounce = null;
+window.addEventListener('wheel', e => {
+  if (wheelDebounce) return;
+  wheelDebounce = setTimeout(() => { wheelDebounce = null; }, 900);
+  e.deltaY > 0 ? goTo(current + 1) : goTo(current - 1);
+}, { passive: true });
+
+// Touch swipe
+let touchY = 0;
+window.addEventListener('touchstart', e => { touchY = e.touches[0].clientY; });
+window.addEventListener('touchend', e => {
+  const dy = touchY - e.changedTouches[0].clientY;
+  if (Math.abs(dy) > 50) dy > 0 ? goTo(current + 1) : goTo(current - 1);
+});
+
+// Keyboard
+window.addEventListener('keydown', e => {
+  if (['ArrowDown','ArrowRight','Space'].includes(e.code)) { e.preventDefault(); goTo(current + 1); }
+  if (['ArrowUp','ArrowLeft'].includes(e.code))             { e.preventDefault(); goTo(current - 1); }
+});
+
+// Nav dots
+dots.forEach(d => d.addEventListener('click', () => goTo(+d.dataset.scene)));
+
+// ─── Particles ────────────────────────────────────────────────────────────────
+const colors = ['#009C3B','#FFDF00','#002776','#ffffff'];
+const pWrap = document.getElementById('particles');
+for (let i = 0; i < 30; i++) {
+  const p = document.createElement('div');
+  p.className = 'particle';
+  p.style.cssText = `
+    left: ${Math.random() * 100}%;
+    background: ${colors[i % colors.length]};
+    --dx: ${(Math.random() - 0.5) * 60}px;
+    animation-duration: ${8 + Math.random() * 12}s;
+    animation-delay: ${Math.random() * 8}s;
+    width: ${2 + Math.random() * 4}px;
+    height: ${2 + Math.random() * 4}px;
+  `;
+  pWrap.appendChild(p);
+}
+
+// ─── Auto-advance timer ───────────────────────────────────────────────────────
+let autoTimer = null;
+function resetAutoAdvance() {
+  clearTimeout(autoTimer);
+  if (current < scenes.length - 1) {
+    // Longer for video scenes
+    const delay = [8000, 12000, 8000, 12000, 8000, 0][current] || 8000;
+    autoTimer = setTimeout(() => goTo(current + 1), delay);
+  }
+}
+
+// Intercept goTo to reset auto-timer
+const _goTo = goTo;
+window.goTo = function(idx) { _goTo(idx); resetAutoAdvance(); };
+dots.forEach(d => d.addEventListener('click', () => resetAutoAdvance()));
+window.addEventListener('wheel', resetAutoAdvance, { passive: true });
+window.addEventListener('keydown', resetAutoAdvance);
+
+// Start auto-advance after intro
+setTimeout(resetAutoAdvance, 4500);
+
+// ─── Inject generated assets ─────────────────────────────────────────────────
+// These URLs are injected by the asset loader below. Placeholders replaced when ready.
+window.NIKE_ASSETS = {
+  video1_url: 'https://d8j0ntlcm91z4.cloudfront.net/user_3EUfRI8pcQdQTNUxPcheUitpqH1/hf_20260602_230944_e9267c7b-1556-49e2-b3ff-4332c1eefc5b.mp4',
+  video2_url: 'https://d8j0ntlcm91z4.cloudfront.net/user_3EUfRI8pcQdQTNUxPcheUitpqH1/hf_20260602_230954_e45a3955-2215-48e3-aaf3-8581b96e0f7f.mp4',
+  img1_url:   null,   // Scene 1 — beach athlete image (still rendering)
+  img2_url:   null,   // Scene 3 — sneaker image (still rendering)
+  img3_url:   'https://d8j0ntlcm91z4.cloudfront.net/user_3EUfRI8pcQdQTNUxPcheUitpqH1/hf_20260602_230938_cb32d4df-e0f0-4398-907d-6b574f5aa6d2.png',
+};
+
+function applyAssets() {
+  const a = window.NIKE_ASSETS;
+
+  if (a.img1_url) {
+    const bg = document.getElementById('scene1-bg');
+    bg.style.backgroundImage = `linear-gradient(135deg,rgba(0,156,59,0.3) 0%,rgba(0,0,0,0.5) 60%), url('${a.img1_url}')`;
+  }
+
+  if (a.video1_url) {
+    const bg = document.getElementById('scene2-bg');
+    if (!bg.querySelector('video')) {
+      const loader = document.getElementById('v1-loading');
+      if (loader) loader.remove();
+      const vid = document.createElement('video');
+      vid.src = a.video1_url; vid.autoplay = true; vid.loop = true;
+      vid.muted = false; vid.playsInline = true; vid.className = 'generated-video';
+      bg.appendChild(vid);
+    }
+  }
+
+  if (a.img2_url) {
+    const bg = document.getElementById('scene3-bg');
+    if (!bg.querySelector('img')) {
+      const loader = document.getElementById('img2-loading');
+      if (loader) loader.remove();
+      const img = document.createElement('img');
+      img.src = a.img2_url; img.className = 'generated-image'; img.alt = '';
+      bg.insertBefore(img, bg.firstChild);
+    }
+  }
+
+  if (a.video2_url) {
+    const bg = document.getElementById('scene4-bg');
+    if (!bg.querySelector('video')) {
+      const loader = document.getElementById('v2-loading');
+      if (loader) loader.remove();
+      const vid = document.createElement('video');
+      vid.src = a.video2_url; vid.autoplay = true; vid.loop = true;
+      vid.muted = false; vid.playsInline = true; vid.className = 'generated-video';
+      bg.appendChild(vid);
+    }
+  }
+
+  if (a.img3_url) {
+    const bg = document.getElementById('scene5-bg');
+    const loader = document.getElementById('img3-loading');
+    if (loader) loader.remove();
+    const existing = bg.querySelector('img');
+    if (!existing) {
+      const img = document.createElement('img');
+      img.src = a.img3_url; img.className = 'generated-image'; img.alt = '';
+      bg.insertBefore(img, bg.firstChild);
+    }
+  }
+}
+
+window.applyAssets = applyAssets;
+
+// Apply any assets that are already known at page load
+document.addEventListener('DOMContentLoaded', applyAssets);
+</script>
+</body>
+</html>
