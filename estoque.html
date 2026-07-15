@@ -3,11 +3,23 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>JR Veículos — Estoque</title>
+<title>Estoque de seminovos — JR Veículos Santos, SP</title>
+<meta name="description" content="Confira o estoque de carros seminovos da JR Veículos em Santos. Filtre por marca, modelo, ano e preço. Todos revisados e com procedência garantida.">
+<link rel="canonical" href="https://ares-neon.github.io/jr-veiculos/estoque.html">
+<meta name="theme-color" content="#CC1414">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="JR Veículos">
+<meta property="og:title" content="Estoque de seminovos — JR Veículos Santos, SP">
+<meta property="og:description" content="Carros seminovos revisados e com procedência garantida. Filtre por marca, modelo, ano e preço.">
+<meta property="og:url" content="https://ares-neon.github.io/jr-veiculos/estoque.html">
+<meta property="og:image" content="https://ares-neon.github.io/jr-veiculos/assets/jr-logo.png">
+<meta property="og:locale" content="pt_BR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://ares-neon.github.io/jr-veiculos/assets/jr-logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Barlow+Condensed:wght@500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/styles.css?v=11">
+<link rel="stylesheet" href="assets/styles.css?v=12">
 </head>
 <body>
 
@@ -135,6 +147,25 @@
   </div>
 </section>
 
+<!-- ============ ME AVISE ============ -->
+<section class="sec" style="padding-top:0">
+  <div class="wrap">
+    <div class="notify reveal">
+      <div class="notify-text">
+        <h3>Não achou o carro ideal?</h3>
+        <p>Nosso estoque muda toda semana. Diz o que você procura e a gente te avisa assim que entrar.</p>
+      </div>
+      <form class="notify-form" id="notifyForm">
+        <input type="text" id="notifyModel" placeholder="Ex.: Corolla, HR-V, Compass..." aria-label="Modelo desejado" required>
+        <button type="submit" class="btn btn-wa">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 0 1-1.587-5.945C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 0 1 8.413 3.488 11.824 11.824 0 0 1 3.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 0 1-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 0 0 1.51 5.26l-.999 3.648 3.978-1.607z"/></svg>
+          Quero ser avisado
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
 <!-- ============ FOOTER ============ -->
 <footer>
   <div class="wrap">
@@ -179,7 +210,7 @@
   <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 0 1-1.587-5.945C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 0 1 8.413 3.488 11.824 11.824 0 0 1 3.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 0 1-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 0 0 1.51 5.26l-.999 3.648 3.978-1.607zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
 </a>
 
-<script src="assets/cars.js?v=2"></script>
+<script src="assets/cars.js?v=3"></script>
 <script>
 /* ---------- RENDER ---------- */
 const grid=document.getElementById('grid');
@@ -240,6 +271,18 @@ function observeReveals(){document.querySelectorAll('.reveal:not(.in)').forEach(
 
 applyFilters();
 observeReveals();
+
+/* ---------- ME AVISE ---------- */
+const notifyForm=document.getElementById('notifyForm');
+if(notifyForm){
+  notifyForm.addEventListener('submit',e=>{
+    e.preventDefault();
+    const modelo=document.getElementById('notifyModel').value.trim();
+    if(!modelo)return;
+    const msg=encodeURIComponent(`Olá! Quero ser avisado quando entrar um ${modelo} no estoque. Podem me chamar?`);
+    window.open(`https://wa.me/551335136718?text=${msg}`,'_blank','noopener');
+  });
+}
 </script>
 </body>
 </html>
