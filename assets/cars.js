@@ -169,7 +169,7 @@ function financeCalcHTML(opts){
       <span class="calc-result-sub" data-calc-sub></span>
     </div>
     <a class="btn btn-wa calc-cta" data-calc-cta href="#" target="_blank" rel="noopener">${WA_ICON} Quero essa simulação</a>
-    <p class="calc-note">*Valores aproximados para simulação. A taxa e as condições finais dependem de análise de crédito.</p>
+    <p class="calc-note">Simulação meramente ilustrativa — <strong>não constitui proposta de crédito</strong>. A parcela usa taxa média de mercado; os valores, a taxa e o CET finais dependem de análise e aprovação da instituição financeira.</p>
   </div>`;
 }
 
