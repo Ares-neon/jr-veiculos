@@ -399,8 +399,8 @@
   .brands-strip{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:1.5rem 0;overflow:hidden}
   .brands-track{display:flex;gap:3.5rem;align-items:center;width:max-content;animation:marquee 26s linear infinite}
   .brands-strip:hover .brands-track{animation-play-state:paused}
-  .brands-track span{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.15rem;text-transform:uppercase;letter-spacing:.07em;color:var(--ink-soft);opacity:.5;white-space:nowrap;cursor:default;transition:opacity .2s,color .2s}
-  .brands-track span:hover{opacity:1;color:var(--red)}
+  .brands-track span{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.15rem;text-transform:uppercase;letter-spacing:.07em;color:var(--red);opacity:.7;white-space:nowrap;cursor:default;transition:opacity .2s}
+  .brands-track span:hover{opacity:1}
   @keyframes marquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
 
   /* ---------- FINANCIAMENTO ---------- */
