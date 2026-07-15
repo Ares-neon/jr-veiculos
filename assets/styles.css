@@ -502,6 +502,8 @@
   .insta-left p b{color:var(--ink)}
   .btn-insta{background:linear-gradient(45deg,#f09433,#dc2743 50%,#bc1888);color:#fff;box-shadow:0 10px 22px rgba(220,39,67,.3)}
   .btn-insta:hover{transform:translateY(-2px);box-shadow:0 16px 30px rgba(220,39,67,.4)}
+  .insta-embed{max-width:960px;margin:2.6rem auto 0;border-radius:16px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow-sm)}
+  .insta-embed .lightwidget-widget{display:block}
 
   /* ---------- REVEAL ---------- */
   .reveal{opacity:0;transform:translateY(26px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1)}
