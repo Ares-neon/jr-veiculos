@@ -131,7 +131,7 @@ function carCardHTML(c, i, opts){
 
 /* ============ CALCULADORA DE FINANCIAMENTO ============ */
 /* Taxa de juros média mensal usada na simulação (ajuste conforme o mercado). */
-const FIN_TAXA_MES = 0.0199; // 1,99% a.m. (aproximado)
+const FIN_TAXA_MES = 0.019; // 1,90% a.m. — média oficial do Banco Central (aproximado)
 
 /* Markup da calculadora. opts.price = valor pré-preenchido do veículo. */
 function financeCalcHTML(opts){
