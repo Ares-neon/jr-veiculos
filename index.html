@@ -184,7 +184,7 @@
       </div>
     </div>
     <div class="hero-visual fx">
-      <a class="hero-car" href="carro.html?id=20">
+      <a class="hero-car" href="carro.html?id=21">
         <span class="hc-badge">★ Destaque</span>
         <img src="assets/fotos/outlander/outlander-hero.webp" alt="Mitsubishi Outlander 2.2 Diesel" fetchpriority="high">
         <span class="hc-info">
@@ -605,6 +605,15 @@ const destaques = [0,1,2].map(i => CARS[(start+i) % CARS.length]);
 document.querySelector('#destaques h2').innerHTML = `Os queridinhos<br>de ${MONTHS_PT[curMonth]}`;
 const featured = document.getElementById('featured');
 featured.innerHTML = destaques.map((c,i)=>carCardHTML(c,i,{badge:true})).join('');
+
+/* ---------- HERO: link do carro em destaque (resolve pelo nome) ---------- */
+(function(){
+  const hc=document.querySelector('.hero-car');
+  if(hc&&typeof CARS!=='undefined'){
+    const c=CARS.find(c=>/outlander/i.test(c.name));
+    if(c)hc.href='carro.html?id='+c.id;
+  }
+})();
 
 /* ---------- HERO: entrada cinematográfica ---------- */
 (window.PRELOADER_DONE||Promise.resolve()).then(()=>{
