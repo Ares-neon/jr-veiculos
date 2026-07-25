@@ -600,6 +600,13 @@
   }
   .preloader.play .pre-draw{animation:preDraw 3.5s linear .05s forwards}
   @keyframes preDraw{to{stroke-dashoffset:0}}
+  /* faísca na ponta de cada traço enquanto o desenho se forma */
+  .pre-tip{
+    fill:#fff;opacity:0;
+    filter:drop-shadow(0 0 3px #fff) drop-shadow(0 0 7px var(--yellow)) drop-shadow(0 0 14px rgba(245,224,0,.7));
+  }
+  .preloader.play .pre-tip{animation:tipLife 3.55s linear forwards}
+  @keyframes tipLife{0%,1.5%{opacity:0}4%{opacity:1}97%{opacity:1}100%{opacity:0}}
   .preloader.play .pre-svg{animation:preSvgOut .12s linear 3.55s forwards}
   @keyframes preSvgOut{to{opacity:0}}
   .pre-logo{width:100%;height:auto;opacity:0;transform:scale(.98);filter:drop-shadow(0 10px 30px rgba(0,0,0,.5))}
