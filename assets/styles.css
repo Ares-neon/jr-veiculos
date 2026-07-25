@@ -158,9 +158,10 @@
     content:"";position:absolute;inset:0;
     background:linear-gradient(135deg,rgba(255,255,255,.10),rgba(0,0,0,.22));
   }
+  /* faixa amarela paralela, colada na borda do diagonal vermelho */
   .hero-shape .yellow{
-    position:absolute;top:-12%;right:18%;width:26%;height:124%;background:var(--yellow);
-    clip-path:polygon(34% 0,52% 0,30% 100%,12% 100%);opacity:.95;
+    position:absolute;top:-12%;right:-14%;width:78%;height:124%;background:var(--yellow);
+    clip-path:polygon(30.2% 0,35.4% 0,13.4% 100%,8.2% 100%);
     transition:transform .5s cubic-bezier(.2,.7,.3,1);
   }
   .hero-marquee{
@@ -208,6 +209,25 @@
   .hero-trust .t b{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:2.1rem;color:#fff;line-height:1}
   .hero-trust .t span{font-size:.82rem;font-weight:600;color:rgba(255,255,255,.62);text-transform:uppercase;letter-spacing:.08em}
   .hero-visual{position:relative;z-index:2;justify-self:end;align-self:center}
+  /* destaque real no hero: carro recortado sobre o diagonal */
+  .hero-car{position:relative;display:block;width:min(600px,42vw);transition:transform .45s cubic-bezier(.2,.7,.3,1)}
+  .hero-car img{width:100%;height:auto;filter:drop-shadow(0 36px 48px rgba(0,0,0,.6));transition:transform .35s cubic-bezier(.2,.7,.3,1)}
+  .hero-car:hover img{transform:scale(1.02)}
+  .hc-info{
+    display:flex;align-items:center;gap:1rem;justify-content:center;width:max-content;margin:1.2rem auto 0;
+    background:rgba(0,0,0,.38);border:1px solid rgba(255,255,255,.15);backdrop-filter:blur(8px);
+    border-radius:12px;padding:.7rem 1.2rem;transition:border-color .25s ease;
+  }
+  .hero-car:hover .hc-info{border-color:rgba(245,224,0,.5)}
+  .hc-info b{font-family:'Barlow Condensed',sans-serif;font-weight:800;text-transform:uppercase;font-size:1.25rem;color:#fff;white-space:nowrap}
+  .hc-price{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:1.35rem;color:var(--yellow);white-space:nowrap}
+  .hc-cta{font-size:.8rem;font-weight:700;color:rgba(255,255,255,.7);text-transform:uppercase;letter-spacing:.08em;white-space:nowrap;transition:color .2s ease}
+  .hero-car:hover .hc-cta{color:#fff}
+  .hc-badge{
+    position:absolute;top:-4px;left:14px;z-index:2;background:var(--yellow);color:#1A1A1A;
+    font-family:'Barlow Condensed',sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.05em;
+    font-size:.95rem;padding:.34rem .8rem;border-radius:6px;box-shadow:0 8px 20px rgba(0,0,0,.35);
+  }
   .hero-scroll{
     position:absolute;left:50%;transform:translateX(-50%);bottom:22px;z-index:2;
     display:flex;flex-direction:column;align-items:center;gap:.55rem;pointer-events:none;

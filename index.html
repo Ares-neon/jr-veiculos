@@ -25,7 +25,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Barlow+Condensed:wght@500;600;700;800;900&display=swap" rel="stylesheet">
 <link rel="preload" as="image" href="assets/jr-logo.png" fetchpriority="high">
-<link rel="stylesheet" href="assets/styles.css?v=33">
+<link rel="stylesheet" href="assets/styles.css?v=34">
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
@@ -184,24 +184,15 @@
       </div>
     </div>
     <div class="hero-visual fx">
-    <div class="hero-toon">
-      <div class="proof-orb-1"></div>
-      <div class="proof-orb-2"></div>
-      <div class="proof-content">
-        <div class="proof-big">
-          <span class="proof-num" data-target="500">0</span><span class="proof-plus">+</span>
-        </div>
-        <p class="proof-label">clientes atendidos</p>
-        <hr class="proof-hr">
-        <div class="proof-stars">★★★★★</div>
-        <div class="proof-rating-row">
-          <span class="proof-score">4,9</span>
-          <span class="proof-of">/ 5 em avaliações reais</span>
-        </div>
-        <hr class="proof-hr">
-        <p class="proof-since">Desde <strong>2017</strong> · Santos, SP</p>
-      </div>
-    </div>
+      <a class="hero-car" href="carro.html?id=20">
+        <span class="hc-badge">★ Destaque</span>
+        <img src="assets/fotos/outlander/outlander-hero.webp" alt="Mitsubishi Outlander 2.2 Diesel" fetchpriority="high">
+        <span class="hc-info">
+          <b>Outlander 2.2 Diesel</b>
+          <span class="hc-price">R$ 119.900</span>
+          <span class="hc-cta">Ver carro →</span>
+        </span>
+      </a>
     </div>
   </div>
   <div class="hero-scroll fx f5" aria-hidden="true">
@@ -629,7 +620,7 @@ featured.innerHTML = destaques.map((c,i)=>carCardHTML(c,i,{badge:true})).join(''
   if(!hero)return;
   const red=hero.querySelector('.hero-shape .red');
   const yel=hero.querySelector('.hero-shape .yellow');
-  const toon=hero.querySelector('.hero-toon');
+  const toon=hero.querySelector('.hero-car');
   let raf=0;
   hero.addEventListener('mousemove',e=>{
     if(raf)return;
@@ -638,7 +629,7 @@ featured.innerHTML = destaques.map((c,i)=>carCardHTML(c,i,{badge:true})).join(''
     raf=requestAnimationFrame(()=>{
       raf=0;
       if(red)red.style.transform=`translate(${mx*18}px,${my*12}px)`;
-      if(yel)yel.style.transform=`translate(${mx*10}px,${my*7}px)`;
+      if(yel)yel.style.transform=`translate(${mx*18}px,${my*12}px)`;
       if(toon)toon.style.transform=`translate(${mx*-14}px,${my*-10}px)`;
     });
   });
