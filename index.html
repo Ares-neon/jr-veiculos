@@ -23,8 +23,9 @@
 <meta name="twitter:image" content="https://ares-neon.github.io/jr-veiculos/assets/jr-logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Barlow+Condensed:wght@500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/styles.css?v=14">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Barlow+Condensed:ital,wght@0,500;0,600;0,700;0,800;0,900;1,900&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/jr-logo.png" fetchpriority="high">
+<link rel="stylesheet" href="assets/styles.css?v=15">
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
@@ -62,8 +63,54 @@
 </head>
 <body>
 
+<!-- ============ INTRO PRELOADER ============ -->
+<div class="preloader" id="preloader" aria-hidden="true">
+  <div class="pre-half l"></div>
+  <div class="pre-half r"></div>
+  <span class="pre-seam"></span>
+  <div class="pre-center">
+    <div class="pre-stack">
+      <svg class="pre-svg" viewBox="0 0 340 170" aria-hidden="true">
+        <text x="170" y="128" text-anchor="middle" class="pre-draw">JR</text>
+      </svg>
+      <img class="pre-logo" src="assets/jr-logo.png" alt="JR Veículos">
+    </div>
+    <div class="pre-bar"><i></i></div>
+  </div>
+</div>
+<noscript><style>.preloader{display:none}.hero .line-in{transform:none!important}.hero .fx{opacity:1!important}</style></noscript>
+<script>
+(function(){
+  var pre=document.getElementById('preloader');
+  var done;window.PRELOADER_DONE=new Promise(function(r){done=r});
+  var seen=false;
+  try{seen=!!sessionStorage.getItem('jrIntro')}catch(e){}
+  var force=/[?&]intro/.test(location.search);
+  var skip=!force&&(seen||matchMedia('(prefers-reduced-motion: reduce)').matches);
+  if(skip){pre.remove();done();return;}
+  try{sessionStorage.setItem('jrIntro','1')}catch(e){}
+  document.documentElement.classList.add('pre-lock');
+  var started=false;
+  function start(){
+    if(started)return;started=true;
+    pre.classList.add('play');
+    setTimeout(function(){
+      pre.classList.add('split');
+      document.documentElement.classList.remove('pre-lock');
+      done();
+      setTimeout(function(){pre.remove()},1000);
+    },2350);
+  }
+  /* espera a fonte do desenho (com teto de 600ms) para evitar FOUT no traço */
+  if(document.fonts&&document.fonts.load){
+    document.fonts.load("italic 900 150px 'Barlow Condensed'").then(start,start);
+    setTimeout(start,600);
+  }else{start();}
+})();
+</script>
+
 <!-- ============ NAVBAR ============ -->
-<header class="nav" id="nav">
+<header class="nav on-hero" id="nav">
   <div class="wrap nav-inner">
     <a href="index.html" class="brand"><img src="assets/jr-logo.png" alt="JR Veículos"></a>
     <nav>
@@ -101,23 +148,32 @@
     <div class="yellow"></div>
     <div class="red"></div>
   </div>
+  <div class="hero-marquee" aria-hidden="true">
+    <span>Seminovos&nbsp;•&nbsp;Procedência garantida&nbsp;•&nbsp;Santos — SP&nbsp;•&nbsp;</span>
+    <span>Seminovos&nbsp;•&nbsp;Procedência garantida&nbsp;•&nbsp;Santos — SP&nbsp;•&nbsp;</span>
+  </div>
   <div class="hero-inner">
     <div class="hero-copy">
-      <span class="eyebrow">Revenda de seminovos</span>
-      <h1>Seu próximo<br>carro está <span class="hl">aqui.</span></h1>
-      <p class="sub">Qualidade, confiança e os melhores preços da região.</p>
-      <div class="hero-actions">
+      <span class="eyebrow fx f1">Revenda de seminovos</span>
+      <h1>
+        <span class="line"><span class="line-in">Seu próximo</span></span>
+        <span class="line"><span class="line-in">carro está</span></span>
+        <span class="line"><span class="line-in"><span class="hl">aqui.</span></span></span>
+      </h1>
+      <p class="sub fx f2">Qualidade, confiança e os melhores preços da região.</p>
+      <div class="hero-actions fx f3">
         <a href="estoque.html" class="btn btn-red">Ver Estoque
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
         </a>
         <a href="#horarios" class="btn btn-ghost">Falar com a equipe</a>
       </div>
-      <div class="hero-trust">
+      <div class="hero-trust fx f4">
         <div class="t"><b>2017</b><span>No mercado desde</span></div>
         <div class="t"><b>100%</b><span>Procedência garantida</span></div>
         <div class="t"><b>Santos</b><span>Atendimento na região</span></div>
       </div>
     </div>
+    <div class="hero-visual fx">
     <div class="hero-toon">
       <div class="proof-orb-1"></div>
       <div class="proof-orb-2"></div>
@@ -136,6 +192,11 @@
         <p class="proof-since">Desde <strong>2017</strong> · Santos, SP</p>
       </div>
     </div>
+    </div>
+  </div>
+  <div class="hero-scroll fx f5" aria-hidden="true">
+    <span class="hs-line"></span>
+    <span class="hs-txt">Role para explorar</span>
   </div>
 </section>
 
@@ -544,9 +605,45 @@ document.querySelector('#destaques h2').innerHTML = `Os queridinhos<br>de ${MONT
 const featured = document.getElementById('featured');
 featured.innerHTML = destaques.map((c,i)=>carCardHTML(c,i,{badge:true})).join('');
 
+/* ---------- HERO: entrada cinematográfica ---------- */
+(window.PRELOADER_DONE||Promise.resolve()).then(()=>{
+  const h=document.getElementById('hero');
+  if(h)h.classList.add('live');
+});
+
+/* ---------- HERO: parallax do mouse ---------- */
+(function(){
+  if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  if(!matchMedia('(pointer:fine)').matches)return;
+  const hero=document.getElementById('hero');
+  if(!hero)return;
+  const red=hero.querySelector('.hero-shape .red');
+  const yel=hero.querySelector('.hero-shape .yellow');
+  const toon=hero.querySelector('.hero-toon');
+  let raf=0;
+  hero.addEventListener('mousemove',e=>{
+    if(raf)return;
+    const r=hero.getBoundingClientRect();
+    const mx=(e.clientX-r.left)/r.width-.5, my=(e.clientY-r.top)/r.height-.5;
+    raf=requestAnimationFrame(()=>{
+      raf=0;
+      if(red)red.style.transform=`translate(${mx*18}px,${my*12}px)`;
+      if(yel)yel.style.transform=`translate(${mx*10}px,${my*7}px)`;
+      if(toon)toon.style.transform=`translate(${mx*-14}px,${my*-10}px)`;
+    });
+  });
+  hero.addEventListener('mouseleave',()=>{
+    if(red)red.style.transform='';
+    if(yel)yel.style.transform='';
+    if(toon)toon.style.transform='';
+  });
+})();
+
 /* ---------- NAVBAR scroll ---------- */
 const nav = document.getElementById('nav');
-addEventListener('scroll', ()=> nav.classList.toggle('scrolled', scrollY>10));
+const syncNav = ()=> nav.classList.toggle('scrolled', scrollY>10);
+addEventListener('scroll', syncNav);
+syncNav();
 
 /* ---------- HAMBURGER ---------- */
 const ham = document.getElementById('hamburger');
@@ -600,13 +697,15 @@ markOpen();
   new IntersectionObserver(es=>{
     if(es[0].isIntersecting&&!ran){
       ran=true;
-      const target=parseInt(numEl.dataset.target);
-      const dur=2000,t0=performance.now(),ease=p=>1-Math.pow(1-p,3);
-      (function tick(now){
-        const p=Math.min((now-t0)/dur,1);
-        numEl.textContent=Math.round(ease(p)*target);
-        if(p<1)requestAnimationFrame(tick);
-      })(t0);
+      (window.PRELOADER_DONE||Promise.resolve()).then(()=>{
+        const target=parseInt(numEl.dataset.target);
+        const dur=2000,t0=performance.now(),ease=p=>1-Math.pow(1-p,3);
+        (function tick(now){
+          const p=Math.min((now-t0)/dur,1);
+          numEl.textContent=Math.round(ease(p)*target);
+          if(p<1)requestAnimationFrame(tick);
+        })(t0);
+      });
     }
   },{threshold:.3}).observe(numEl.closest('.hero-toon'));
 })();
