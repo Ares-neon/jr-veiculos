@@ -62,6 +62,9 @@ if(_outIdx>=0){
     'assets/fotos/outlander/outlander-11.jpg'
   ];
   CARS[_outIdx].descricao = `O Mitsubishi Outlander 2.2 Diesel AWD 2015/2016 é um SUV completo e sofisticado, com motor 2.2 turbo diesel de alto rendimento e tração 4×4 inteligente. Conta com 7 lugares, bancos em couro, teto solar, multimídia com tela touch, ar-condicionado automático dual-zone, rodas de liga leve aro 18 e luzes DRL. Câmbio automático e apenas 114.467 km rodados. Revisado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP.`;
+  /* Foto recortada (sem fundo) para a vitrine do hero.
+     Todo carro com heroFoto entra no rodízio da home — com vários, alterna por semana. */
+  CARS[_outIdx].heroFoto = 'assets/fotos/outlander/outlander-hero.webp';
 }
 
 function artigo(body){ return /picape|minivan|perua/i.test(body) ? 'uma' : 'um'; }
