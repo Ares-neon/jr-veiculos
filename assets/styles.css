@@ -565,17 +565,23 @@
   .pre-lock,.pre-lock body{overflow:hidden}
   .preloader{position:fixed;inset:0;z-index:300;display:grid;place-items:center;touch-action:none}
   .preloader.split{pointer-events:none}
-  .pre-half{position:absolute;top:0;bottom:0;width:50.5%;background:#111;transition:transform .85s cubic-bezier(.77,0,.18,1)}
+  .pre-half{position:absolute;top:0;bottom:0;width:50%;background:#111;transition:transform .85s cubic-bezier(.77,0,.18,1)}
   .pre-half.l{left:0}
   .pre-half.r{right:0}
-  .pre-seam{position:absolute;left:50%;top:0;bottom:0;width:2px;margin-left:-1px;background:var(--yellow);transform:scaleY(0);transform-origin:top;box-shadow:0 0 18px rgba(245,224,0,.55)}
-  .preloader.play .pre-seam{animation:preSeam .45s cubic-bezier(.2,.7,.2,1) 1.9s forwards}
+  /* filete amarelo na borda interna de cada metade: nasce no centro e viaja com as portas na abertura */
+  .pre-half::after{
+    content:"";position:absolute;top:0;bottom:0;width:2px;background:var(--yellow);
+    box-shadow:0 0 18px rgba(245,224,0,.55);
+    transform:scaleY(0);transform-origin:top;
+  }
+  .pre-half.l::after{right:0}
+  .pre-half.r::after{left:0}
+  .preloader.play .pre-half::after{animation:preSeam .45s cubic-bezier(.2,.7,.2,1) 1.9s forwards}
   @keyframes preSeam{to{transform:scaleY(1)}}
   .pre-center{position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;gap:1.5rem;transition:opacity .4s ease,transform .4s ease}
   .preloader.split .pre-center{opacity:0;transform:scale(.9)}
   .preloader.split .pre-half.l{transform:translateX(-102%)}
   .preloader.split .pre-half.r{transform:translateX(102%)}
-  .preloader.split .pre-seam{opacity:0;transition:opacity .25s ease}
   .pre-stack{display:grid;place-items:center;width:min(300px,62vw)}
   .pre-stack>*{grid-area:1/1}
   .pre-svg{width:100%;height:auto;overflow:visible}
