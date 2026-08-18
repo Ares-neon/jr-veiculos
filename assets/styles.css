@@ -806,3 +806,21 @@
   .nf h1{font-size:clamp(1.8rem,4.5vw,2.8rem);margin:.6rem 0 .9rem;color:var(--ink)}
   .nf p{color:var(--ink-soft);font-size:1.08rem;max-width:46ch;margin:0 auto 2rem}
   .nf-links{display:flex;gap:.9rem;flex-wrap:wrap;justify-content:center}
+
+  /* ---------- PROMESSA DE TEMPO DE RESPOSTA ---------- */
+  .reply-time{
+    display:flex;align-items:center;justify-content:center;gap:.5rem;
+    font-size:.84rem;font-weight:600;color:var(--ink-soft);
+    margin-top:.9rem;text-align:center;
+  }
+  .reply-time i{
+    width:8px;height:8px;border-radius:50%;background:var(--wa);flex-shrink:0;
+    animation:rtPulse 2.2s ease-out infinite;
+  }
+  @keyframes rtPulse{
+    0%{box-shadow:0 0 0 0 rgba(37,211,102,.55)}
+    70%{box-shadow:0 0 0 9px rgba(37,211,102,0)}
+    100%{box-shadow:0 0 0 0 rgba(37,211,102,0)}
+  }
+  .notify .reply-time{color:rgba(255,255,255,.62);justify-content:flex-start}
+  @media(prefers-reduced-motion:reduce){.reply-time i{animation:none}}
