@@ -10,14 +10,14 @@
 <meta property="og:site_name" content="JR Veículos">
 <meta property="og:title" content="Veículo — JR Veículos Santos, SP">
 <meta property="og:description" content="Seminovo revisado e com procedência garantida. Veja fotos e simule seu financiamento.">
-<meta property="og:image" content="https://ares-neon.github.io/jr-veiculos/assets/jr-logo.png">
+<meta property="og:image" content="https://ares-neon.github.io/jr-veiculos/assets/og-cover.jpg">
 <meta property="og:locale" content="pt_BR">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://ares-neon.github.io/jr-veiculos/assets/jr-logo.png">
+<meta name="twitter:image" content="https://ares-neon.github.io/jr-veiculos/assets/og-cover.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Barlow+Condensed:wght@500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/styles.css?v=39">
+<link rel="stylesheet" href="assets/styles.css?v=40">
 </head>
 <body>
 
@@ -80,6 +80,7 @@
           <li><a href="sobre.html">Sobre nós</a></li>
           <li><a href="index.html#horarios">Horários</a></li>
           <li><a href="index.html#localizacao">Localização</a></li>
+          <li><a href="privacidade.html">Privacidade</a></li>
         </ul>
       </div>
       <div>
@@ -236,6 +237,58 @@ if(!car){
   /* ---------- CALCULADORA (pré-preenchida) ---------- */
   const carFinanceCalc = document.getElementById('carFinanceCalc');
   if(carFinanceCalc){ carFinanceCalc.innerHTML = financeCalcHTML({price:car.price}); initFinanceCalc(carFinanceCalc); }
+
+  /* ---------- SCHEMA DE VEÍCULO (resultado rico no Google) ---------- */
+  (function(){
+    const base = 'https://ares-neon.github.io/jr-veiculos/';
+    const km = parseInt(String(car.km).replace(/\D/g,''),10) || 0;
+    const ano = parseInt(String(car.yearLabel).slice(-4),10) || car.year;
+    const fotos = (car.fotos && car.fotos.length ? car.fotos : []).map(p => base + p);
+    const dados = {
+      "@context":"https://schema.org",
+      "@type":"Vehicle",
+      "name": car.name + ' ' + car.yearLabel,
+      "brand": { "@type":"Brand", "name": BRAND_LABEL[car.brand] },
+      "model": car.name.replace(BRAND_LABEL[car.brand] + ' ',''),
+      "vehicleModelDate": String(ano),
+      "bodyType": car.body,
+      "mileageFromOdometer": { "@type":"QuantitativeValue", "value": km, "unitCode":"KMT" },
+      "itemCondition": "https://schema.org/UsedCondition",
+      "description": buildDescricao(car),
+      "url": base + 'carro.html?id=' + car.id,
+      "offers": {
+        "@type":"Offer",
+        "price": car.price,
+        "priceCurrency":"BRL",
+        "availability":"https://schema.org/InStock",
+        "itemCondition":"https://schema.org/UsedCondition",
+        "url": base + 'carro.html?id=' + car.id,
+        "seller": {
+          "@type":"AutoDealer",
+          "name":"JR Veiculos",
+          "telephone":"+551335136718",
+          "address":{
+            "@type":"PostalAddress",
+            "streetAddress":"Av. Washington Luis, 238 - Loja 5",
+            "addressLocality":"Santos",
+            "addressRegion":"SP",
+            "addressCountry":"BR"
+          }
+        }
+      }
+    };
+    if(/aut|cvt|dualogic/i.test(car.name)) dados.vehicleTransmission = 'Automatico';
+    if(fotos.length) dados.image = fotos;
+    const tag = document.createElement('script');
+    tag.type = 'application/ld+json';
+    tag.textContent = JSON.stringify(dados);
+    document.head.appendChild(tag);
+
+    /* descricao especifica deste veiculo */
+    const md = document.querySelector('meta[name="description"]');
+    if(md) md.content = car.name + ' ' + car.yearLabel + ', ' + car.km + ' km, ' + car.body +
+      '. R$ ' + fmtBRL(car.price) + ' na JR Veiculos, Santos - SP. Revisado e com procedencia garantida.';
+  })();
 }
 
 /* ---------- NAV ---------- */
@@ -247,5 +300,6 @@ mob.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{ham.classLi
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}}),{threshold:.1});
 document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 </script>
+<script src="assets/analytics.js?v=1"></script>
 </body>
 </html>

@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Arquivos de trabalho — não devem aparecer na busca
+Disallow: /chats/
+Disallow: /project/
+
+Sitemap: https://ares-neon.github.io/jr-veiculos/sitemap.xml
