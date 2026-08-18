@@ -824,3 +824,44 @@
   }
   .notify .reply-time{color:rgba(255,255,255,.62);justify-content:flex-start}
   @media(prefers-reduced-motion:reduce){.reply-time i{animation:none}}
+
+  /* ---------- CASOS REAIS ---------- */
+  .cases{background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .case-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:3rem;align-items:start}
+  .case-card{
+    background:var(--bg);border:1px solid var(--line);border-radius:16px;
+    padding:1.8rem 1.7rem;display:flex;flex-direction:column;gap:1.1rem;
+    border-top:4px solid var(--red);
+    transition:transform .22s ease,box-shadow .22s ease;
+  }
+  .case-card:hover{transform:translateY(-5px);box-shadow:var(--shadow-md)}
+  .case-tag{
+    align-self:flex-start;font-family:'Barlow',sans-serif;font-weight:700;
+    text-transform:uppercase;letter-spacing:.12em;font-size:.68rem;color:var(--red);
+    background:rgba(204,20,20,.09);border:1px solid rgba(204,20,20,.18);
+    padding:.34rem .7rem;border-radius:6px;
+  }
+  .case-step b{
+    display:block;font-family:'Barlow',sans-serif;font-weight:700;font-size:.72rem;
+    text-transform:uppercase;letter-spacing:.11em;color:var(--ink);margin-bottom:.3rem;
+  }
+  .case-step p{font-size:.93rem;color:var(--ink-soft);line-height:1.6;margin:0}
+  .case-result{
+    background:var(--dark-bg);border-radius:12px;padding:1.1rem 1.2rem;text-align:center;
+  }
+  .case-num{
+    display:block;font-family:'Barlow Condensed',sans-serif;font-weight:900;
+    font-size:2.5rem;line-height:1;color:var(--yellow);
+  }
+  .case-lab{
+    display:block;margin-top:.25rem;font-size:.78rem;font-weight:600;
+    color:rgba(255,255,255,.62);text-transform:uppercase;letter-spacing:.06em;
+  }
+  .case-card blockquote{
+    margin:0;padding-left:1rem;border-left:3px solid var(--yellow);
+    font-size:.9rem;font-style:italic;color:var(--ink-soft);line-height:1.6;
+  }
+  .case-author{display:flex;flex-direction:column;padding-top:.9rem;border-top:1px solid var(--line);margin-top:auto}
+  .case-author b{font-size:.95rem;color:var(--ink)}
+  .case-author span{font-size:.78rem;color:var(--ink-soft);font-weight:500}
+  @media(max-width:980px){.case-grid{grid-template-columns:1fr;max-width:560px;margin-left:auto;margin-right:auto}}
