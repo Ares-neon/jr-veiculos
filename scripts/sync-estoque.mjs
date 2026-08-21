@@ -106,6 +106,15 @@ async function buscarEstoque() {
 
 /* ---------------- tradução ---------------- */
 
+/* O campo de texto do preço é livre no painel, e às vezes chega sujo
+   (já veio "True" num veículo). Nesses casos ignoramos e mostramos o valor. */
+const LIXO_PRECO = /^(true|false|null|undefined|nan|0|-|\.)$/i;
+function rotuloPreco(txt) {
+  const t = String(txt || '').trim();
+  if (!t || LIXO_PRECO.test(t)) return '';
+  return t;
+}
+
 function traduzir(v) {
   const marca = marcaLabel(v.manufacturer?.name);
   const modelo     = titulo(v.model?.name);
@@ -137,7 +146,7 @@ function traduzir(v) {
     kmNum: Number(v.km || 0),
     showKm: v.show_km_site !== false,
     price: Number(v.price || 0),
-    priceLabel: (v.text_price_site || '').trim(),   // ex.: "CONSULTE"
+    priceLabel: rotuloPreco(v.text_price_site),      // ex.: "CONSULTE"
     showPrice: v.show_price_site !== false,
     body: carroceria(v.bodywork?.name),
     transmission: titulo(v.transmission?.name),
