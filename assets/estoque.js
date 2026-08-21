@@ -1404,7 +1404,7 @@ window.CARS_SYNC = [
   "kmNum": 56620,
   "showKm": true,
   "price": 379900,
-  "priceLabel": "True",
+  "priceLabel": "",
   "showPrice": true,
   "body": "Coupe",
   "transmission": "Automático",
