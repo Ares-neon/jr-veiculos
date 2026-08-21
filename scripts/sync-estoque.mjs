@@ -19,7 +19,7 @@ const RAIZ     = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const BASE_API = 'https://api-site.lojaconectada.com.br/v2';
 const LOJA_ID  = process.env.LC_LOJA_ID || '261';
 const TOKEN    = process.env.LC_TOKEN;
-const SITE     = 'https://ares-neon.github.io/jr-veiculos/';
+const SITE     = 'https://jrveiculossantos.com.br/';
 
 /* Campos que NUNCA vão para o site público.
    A API devolve placa e chassi — dado sensível do veículo e do proprietário.
