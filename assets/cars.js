@@ -1,45 +1,9 @@
 /* ============ DADOS DOS VEÍCULOS (compartilhado) ============ */
 /* Para marcar um carro como destaque na home, mude destaque:true */
-const CARS_FALLBACK = [
-  {name:"Caoa Chery Tiggo 5X TXS",        brand:"caoachery",  year:2022, yearLabel:"2021/2022", km:"76.231",  price:97900,  body:"SUV",    destaque:false},
+/* Reserva vazia de propósito: se a sincronização falhar, é melhor o site
+   mostrar "nenhum veículo" do que anunciar carros que já foram vendidos. */
+const CARS_FALLBACK = [];
 
-  {name:"Chevrolet Camaro 50th",          brand:"chevrolet",  year:2017, yearLabel:"2016/2017", km:"56.620",  price:379900, body:"Cupê",   destaque:true},
-  {name:"Chevrolet Tracker 1.2T Premier", brand:"chevrolet",  year:2021, yearLabel:"2020/2021", km:"89.890",  price:99900,  body:"SUV",    destaque:false},
-  {name:"Chevrolet Onix Plus 1.0 Turbo LTZ", brand:"chevrolet", year:2025, yearLabel:"2024/2025", km:"43.307", price:91900, body:"Sedan", destaque:false},
-  {name:"Chevrolet Onix 1.0 MT LT",       brand:"chevrolet",  year:2019, yearLabel:"2019",      km:"115.903", price:58900,  body:"Hatch",  destaque:false},
-  {name:"Chevrolet Onix Joy",             brand:"chevrolet",  year:2020, yearLabel:"2020",      km:"90.472",  price:59900,  body:"Hatch",  destaque:false},
-  {name:"Chevrolet Onix 1.0 MT LT2",      brand:"chevrolet",  year:2025, yearLabel:"2024/2025", km:"45.623",  price:73900,  body:"Hatch",  destaque:false},
-  {name:"Chevrolet Onix 1.0 MT LT2",      brand:"chevrolet",  year:2025, yearLabel:"2024/2025", km:"45.623",  price:73900,  body:"Hatch",  destaque:false},
-  {name:"Chevrolet Spin 1.8 LT Advantage",brand:"chevrolet",  year:2015, yearLabel:"2014/2015", km:"169.449", price:55900,  body:"Minivan",destaque:false},
-
-  {name:"Fiat Mobi Like",                 brand:"fiat",       year:2023, yearLabel:"2022/2023", km:"58.710",  price:58900,  body:"Hatch",  destaque:false},
-  {name:"Fiat Bravo Essence Dualogic",    brand:"fiat",       year:2013, yearLabel:"2012/2013", km:"92.427",  price:38900,  body:"Hatch",  destaque:false},
-  {name:"Fiat Argo Drive 1.0",            brand:"fiat",       year:2025, yearLabel:"2024/2025", km:"45.588",  price:75900,  body:"Hatch",  destaque:false},
-  {name:"Fiat Strada Freedom 1.3 CS",     brand:"fiat",       year:2021, yearLabel:"2021",      km:"66.231",  price:76900,  body:"Picape", destaque:false},
-
-  {name:"Ford F-250 XLT L",               brand:"ford",       year:2000, yearLabel:"1999/2000", km:"120.334", price:219900, body:"Picape", destaque:false},
-  {name:"Ford Ka SE 1.0",                 brand:"ford",       year:2019, yearLabel:"2019",      km:"80.030",  price:51900,  body:"Hatch",  destaque:false},
-  {name:"Ford EcoSport FSL 1.5",          brand:"ford",       year:2020, yearLabel:"2019/2020", km:"39.667",  price:75900,  body:"SUV",    destaque:false},
-
-  {name:"Hyundai Tucson Turbo GLS",       brand:"hyundai",    year:2022, yearLabel:"2021/2022", km:"50.900",  price:132900, body:"SUV",    destaque:false},
-  {name:"Hyundai Creta 1.0 Turbo N Line", brand:"hyundai",    year:2024, yearLabel:"2023/2024", km:"37.966",  price:144900, body:"SUV",    destaque:true},
-  {name:"Hyundai HB20S 1.0 Comfort",      brand:"hyundai",    year:2025, yearLabel:"2024/2025", km:"39.667",  price:80900,  body:"Sedan",  destaque:false},
-
-  {name:"Honda CR-V LX Flex",             brand:"honda",      year:2014, yearLabel:"2014",      km:"125.711", price:83900,  body:"SUV",    destaque:false},
-
-  {name:"Jeep Compass Série S",           brand:"jeep",       year:2023, yearLabel:"2023",      km:"30.690",  price:159900, body:"SUV",    destaque:true},
-
-  {name:"Mitsubishi Outlander 2.2 Diesel",brand:"mitsubishi", year:2016, yearLabel:"2015/2016", km:"114.467", price:119900, body:"SUV",    destaque:false},
-  {name:"Mitsubishi ASX 2.0 CVT",         brand:"mitsubishi", year:2014, yearLabel:"2013/2014", km:"81.781",  price:71900,  body:"SUV",    destaque:false},
-
-  {name:"Renault Sandero 1.0 16V Aut.",   brand:"renault",    year:2013, yearLabel:"2012/2013", km:"122.334", price:35900,  body:"Hatch",  destaque:false},
-
-  {name:"Volkswagen Saveiro Robust CD",   brand:"volkswagen", year:2021, yearLabel:"2020/2021", km:"85.363",  price:66900,  body:"Picape", destaque:false},
-  {name:"Volkswagen Saveiro Robust CD",   brand:"volkswagen", year:2022, yearLabel:"2021/2022", km:"70.798",  price:66900,  body:"Picape", destaque:false},
-  {name:"Volkswagen Gol 1.6 MSI",         brand:"volkswagen", year:2021, yearLabel:"2020/2021", km:"59.105",  price:59900,  body:"Hatch",  destaque:false},
-  {name:"Volkswagen SpaceFox Sport",      brand:"volkswagen", year:2011, yearLabel:"2010/2011", km:"113.886", price:44900,  body:"Minivan",destaque:false},
-  {name:"Volkswagen T-Cross 1.0 TSI",     brand:"volkswagen", year:2025, yearLabel:"2024/2025", km:"44.313",  price:120900, body:"SUV",    destaque:false}
-];
 /* ============ DE ONDE VÊM OS VEÍCULOS ============
    Se assets/estoque.js estiver carregado (gerado pela sincronização com o
    integrador), ele manda. Caso contrário usamos a lista de reserva acima,

@@ -27,7 +27,7 @@ jobs:
       - name: Buscar estoque na API do integrador
         env:
           LC_TOKEN: ${{ secrets.LC_TOKEN }}
-          LC_LOJA_ID: ${{ vars.LC_LOJA_ID || '261' }}
+          LC_LOJA_ID: '261'
         run: node scripts/sync-estoque.mjs
 
       - name: Publicar se houve mudança

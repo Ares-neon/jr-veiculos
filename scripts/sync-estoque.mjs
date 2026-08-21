@@ -53,6 +53,15 @@ function titulo(txt) {
 
 const fmtKm = n => Number(n || 0).toLocaleString('pt-BR');
 
+/* A API grava as marcas sem acento e em caixa alta. */
+const MARCAS = {
+  'CITROEN': 'Citroën', 'CAOA CHERY': 'Caoa Chery', 'CHERY': 'Chery',
+  'JAC': 'JAC', 'BMW': 'BMW', 'GM': 'GM', 'VW': 'VW', 'KIA': 'Kia',
+  'LAND ROVER': 'Land Rover', 'MERCEDES-BENZ': 'Mercedes-Benz',
+  'RAM': 'RAM', 'JEEP': 'Jeep', 'BYD': 'BYD', 'GWM': 'GWM',
+};
+const marcaLabel = nome => MARCAS[String(nome || '').toUpperCase().trim()] || titulo(nome);
+
 /** A API mistura "SUV" e "UTILITÁRIO ESPORTIVO" para a mesma coisa. */
 const CARROCERIA = {
   'HATCHBACK': 'Hatch',
@@ -98,10 +107,10 @@ async function buscarEstoque() {
 /* ---------------- tradução ---------------- */
 
 function traduzir(v) {
-  const marcaLabel = titulo(v.manufacturer?.name);
+  const marca = marcaLabel(v.manufacturer?.name);
   const modelo     = titulo(v.model?.name);
   const versao     = titulo(v.version?.name);
-  const nome       = [marcaLabel, modelo, versao].filter(Boolean).join(' ').replace(/\s+/g, ' ');
+  const nome       = [marca, modelo, versao].filter(Boolean).join(' ').replace(/\s+/g, ' ');
 
   const anoFab = v.make_year || v.model_year;
   const anoMod = v.model_year || v.make_year;
@@ -121,7 +130,7 @@ function traduzir(v) {
     id: v.ad_id,
     name: nome,
     brand: slug(v.manufacturer?.name),
-    brandLabel: marcaLabel,
+    brandLabel: marca,
     year: anoMod,
     yearLabel: anoFab === anoMod ? String(anoMod) : `${anoFab}/${anoMod}`,
     km: fmtKm(v.km),
