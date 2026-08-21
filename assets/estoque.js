@@ -1,7 +1,7 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-08-21T14:37:52.529Z
+   Atualizado em: 2026-08-21T14:42:47.058Z
    Veículos: 34
    ============================================================ */
 window.CARS_SYNC = [
@@ -421,9 +421,9 @@ window.CARS_SYNC = [
  },
  {
   "id": 440746,
-  "name": "Citroen C3 1.0 Firefly Live Pack",
+  "name": "Citroën C3 1.0 Firefly Live Pack",
   "brand": "citroen",
-  "brandLabel": "Citroen",
+  "brandLabel": "Citroën",
   "year": 2025,
   "yearLabel": "2024/2025",
   "km": "1.115",
@@ -458,7 +458,7 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440746-citroen-c3-20260812103556355549.webp",
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440746-citroen-c3-20260812103556715228.webp"
   ],
-  "descricao": "O Citroen C3 1.0 Firefly Live Pack 2025 é um Hatch manual na cor branca, com motor flex e 1.115 km rodados. Vem com ar condicionado, direção hidráulica, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+  "descricao": "O Citroën C3 1.0 Firefly Live Pack 2025 é um Hatch manual na cor branca, com motor flex e 1.115 km rodados. Vem com ar condicionado, direção hidráulica, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
   "id": 440345,
