@@ -1,7 +1,7 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-08-21T19:35:50.640Z
+   Atualizado em: 2026-08-21T20:38:56.187Z
    Veículos: 34
    ============================================================ */
 window.CARS_SYNC = [
@@ -1075,8 +1075,8 @@ window.CARS_SYNC = [
   "destaque": false,
   "aceitaTroca": true,
   "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/426150-fiat-bravo-20260430114805415836.webp",
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/426150-fiat-bravo-20260430114729182890.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/426150-fiat-bravo-20260430114805415836.webp",
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/426150-fiat-bravo-20260430114728985638.webp",
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/426150-fiat-bravo-20260430114728774568.webp",
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/426150-fiat-bravo-20260430114728886249.webp",
@@ -1153,8 +1153,8 @@ window.CARS_SYNC = [
   "destaque": false,
   "aceitaTroca": true,
   "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/417080-volkswagen-gol-20260306163703128032.webp",
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/417080-volkswagen-gol-20260306163703203214.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/417080-volkswagen-gol-20260306163703128032.webp",
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/417080-volkswagen-gol-20260306163703486838.webp",
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/417080-volkswagen-gol-20260306163703220714.webp",
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/417080-volkswagen-gol-20260306163704131063.webp",
