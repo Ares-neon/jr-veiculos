@@ -1,6 +1,6 @@
 /* ============ DADOS DOS VEÍCULOS (compartilhado) ============ */
 /* Para marcar um carro como destaque na home, mude destaque:true */
-const CARS = [
+const CARS_FALLBACK = [
   {name:"Caoa Chery Tiggo 5X TXS",        brand:"caoachery",  year:2022, yearLabel:"2021/2022", km:"76.231",  price:97900,  body:"SUV",    destaque:false},
 
   {name:"Chevrolet Camaro 50th",          brand:"chevrolet",  year:2017, yearLabel:"2016/2017", km:"56.620",  price:379900, body:"Cupê",   destaque:true},
@@ -40,31 +40,31 @@ const CARS = [
   {name:"Volkswagen SpaceFox Sport",      brand:"volkswagen", year:2011, yearLabel:"2010/2011", km:"113.886", price:44900,  body:"Minivan",destaque:false},
   {name:"Volkswagen T-Cross 1.0 TSI",     brand:"volkswagen", year:2025, yearLabel:"2024/2025", km:"44.313",  price:120900, body:"SUV",    destaque:false}
 ];
-/* Atribui um ID estável e prepara campos de fotos/descrição.
-   Para adicionar fotos de um carro, preencha c.fotos (ver abaixo).
-   Para uma descrição própria, preencha c.descricao. */
-CARS.forEach((c,i)=>{ c.id=i; if(!c.fotos) c.fotos=[]; });
+/* ============ DE ONDE VÊM OS VEÍCULOS ============
+   Se assets/estoque.js estiver carregado (gerado pela sincronização com o
+   integrador), ele manda. Caso contrário usamos a lista de reserva acima,
+   para o site nunca ficar vazio se a sincronização falhar. */
+const SINCRONIZADO = typeof window !== 'undefined'
+  && Array.isArray(window.CARS_SYNC) && window.CARS_SYNC.length > 0;
 
-/* Outlander 2.2 Diesel */
-const _outIdx = CARS.findIndex(c=>c.name==="Mitsubishi Outlander 2.2 Diesel" && c.year===2016);
-if(_outIdx>=0){
-  CARS[_outIdx].fotos = [
-    'assets/fotos/outlander/outlander-1.jpg',
-    'assets/fotos/outlander/outlander-2.jpg',
-    'assets/fotos/outlander/outlander-3.jpg',
-    'assets/fotos/outlander/outlander-4.jpg',
-    'assets/fotos/outlander/outlander-5.jpg',
-    'assets/fotos/outlander/outlander-6.jpg',
-    'assets/fotos/outlander/outlander-7.jpg',
-    'assets/fotos/outlander/outlander-8.jpg',
-    'assets/fotos/outlander/outlander-9.jpg',
-    'assets/fotos/outlander/outlander-10.jpg',
-    'assets/fotos/outlander/outlander-11.jpg'
-  ];
-  CARS[_outIdx].descricao = `O Mitsubishi Outlander 2.2 Diesel AWD 2015/2016 é um SUV completo e sofisticado, com motor 2.2 turbo diesel de alto rendimento e tração 4×4 inteligente. Conta com 7 lugares, bancos em couro, teto solar, multimídia com tela touch, ar-condicionado automático dual-zone, rodas de liga leve aro 18 e luzes DRL. Câmbio automático e apenas 114.467 km rodados. Revisado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP.`;
-  /* Foto recortada (sem fundo) para a vitrine do hero.
-     Todo carro com heroFoto entra no rodízio da home — com vários, alterna por semana. */
-  CARS[_outIdx].heroFoto = 'assets/fotos/outlander/outlander-hero.webp';
+const CARS = SINCRONIZADO ? window.CARS_SYNC : CARS_FALLBACK;
+if (!SINCRONIZADO) CARS.forEach((c, i) => { c.id = i; if (!c.fotos) c.fotos = []; });
+
+/* Rótulo das marcas: nomes conhecidos como base, e o que vier da
+   sincronização tem preferência (cobre marcas novas no estoque). */
+const BRAND_LABEL = {
+  caoachery:"Caoa Chery", chevrolet:"Chevrolet", citroen:"Citroën", fiat:"Fiat",
+  ford:"Ford", honda:"Honda", hyundai:"Hyundai", jac:"JAC", jeep:"Jeep",
+  mitsubishi:"Mitsubishi", nissan:"Nissan", renault:"Renault",
+  toyota:"Toyota", volkswagen:"Volkswagen"
+};
+CARS.forEach(c => { if (c.brandLabel) BRAND_LABEL[c.brand] = c.brandLabel; });
+
+/* Preço como deve aparecer na tela (respeita "CONSULTE" e preço oculto). */
+function precoTexto(c) {
+  if (c.showPrice === false) return 'Consulte';
+  if (c.priceLabel) return c.priceLabel;
+  return 'R$ ' + fmtBRL(c.price);
 }
 
 function artigo(body){ return /picape|minivan|perua/i.test(body) ? 'uma' : 'um'; }
@@ -76,11 +76,6 @@ function buildDescricao(c){
     `Agende seu test drive ou fale agora com a equipe da JR Veículos, em Santos.`;
 }
 
-const BRAND_LABEL = {
-  caoachery:"Caoa Chery", chevrolet:"Chevrolet", fiat:"Fiat", ford:"Ford",
-  honda:"Honda", hyundai:"Hyundai", jeep:"Jeep", mitsubishi:"Mitsubishi",
-  renault:"Renault", volkswagen:"Volkswagen"
-};
 const fmtBRL = n => n.toLocaleString('pt-BR');
 
 const ICON_KM = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 12l4-2"/><path d="M12 7v1M7 12h1M17 12h-1"/></svg>';
@@ -92,7 +87,8 @@ const WA_PHONE = '551335136718';
 
 /* Link de WhatsApp com mensagem sobre um carro específico. */
 function waCarLink(c){
-  const msg = encodeURIComponent(`Olá! Tenho interesse no ${c.name} ${c.yearLabel} (R$ ${fmtBRL(c.price)}). Ainda está disponível?`);
+  const preco = (c.showPrice===false||c.priceLabel) ? '' : ` (R$ ${fmtBRL(c.price)})`;
+  const msg = encodeURIComponent(`Olá! Tenho interesse no ${c.name} ${c.yearLabel}${preco}. Ainda está disponível?`);
   return `https://wa.me/${WA_PHONE}?text=${msg}`;
 }
 
@@ -122,7 +118,7 @@ function carCardHTML(c, i, opts){
           <span class="s">${ICON_BODY}${c.body}</span>
         </div>
         <div class="card-foot">
-          <div class="price"><small>À vista a partir de</small><b>R$ ${fmtBRL(c.price)}</b></div>
+          <div class="price"><small>${c.showPrice===false||c.priceLabel?'Valor':'À vista a partir de'}</small><b>${precoTexto(c)}</b></div>
           <div class="card-actions">
             <a class="card-wa" href="${waCarLink(c)}" target="_blank" rel="noopener" aria-label="Falar no WhatsApp sobre ${c.name}">${WA_ICON}<span>Interesse</span></a>
             <a class="card-go" href="${href}" aria-label="Ver detalhes de ${c.name}">${ARROW}</a>

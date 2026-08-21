@@ -1,0 +1,43 @@
+name: Sincronizar estoque
+
+# Roda de hora em hora e também pode ser disparado à mão pela aba Actions.
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+
+# Permite que o robô grave o arquivo atualizado no repositório.
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-estoque
+  cancel-in-progress: false
+
+jobs:
+  sincronizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Buscar estoque na API do integrador
+        env:
+          LC_TOKEN: ${{ secrets.LC_TOKEN }}
+          LC_LOJA_ID: ${{ vars.LC_LOJA_ID || '261' }}
+        run: node scripts/sync-estoque.mjs
+
+      - name: Publicar se houve mudança
+        run: |
+          if [[ -z "$(git status --porcelain assets/estoque.js sitemap.xml)" ]]; then
+            echo "Nenhuma mudança no estoque."
+            exit 0
+          fi
+          git config user.name  "Sincronizador de estoque"
+          git config user.email "actions@github.com"
+          git add assets/estoque.js sitemap.xml
+          git commit -m "Estoque atualizado automaticamente"
+          git push
