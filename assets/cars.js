@@ -82,7 +82,7 @@ function carCardHTML(c, i, opts){
           <span class="s">${ICON_BODY}${c.body}</span>
         </div>
         <div class="card-foot">
-          <div class="price"><small>${c.showPrice===false||c.priceLabel?'Valor':'À vista a partir de'}</small><b>${precoTexto(c)}</b></div>
+          <div class="price"><small>${c.showPrice===false||c.priceLabel?'Valor':'A partir de'}</small><b>${precoTexto(c)}</b></div>
           <div class="card-actions">
             <a class="card-wa" href="${waCarLink(c)}" target="_blank" rel="noopener" aria-label="Falar no WhatsApp sobre ${c.name}">${WA_ICON}<span>Interesse</span></a>
             <a class="card-go" href="${href}" aria-label="Ver detalhes de ${c.name}">${ARROW}</a>

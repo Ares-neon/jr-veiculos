@@ -347,9 +347,9 @@
   .card-specs .s{display:flex;align-items:center;gap:.35rem}
   .card-specs svg{width:15px;height:15px;color:var(--red);opacity:.8}
   .card-foot{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-top:auto;padding-top:1rem;border-top:1px solid var(--line)}
-  .price{display:flex;flex-direction:column}
-  .price small{font-size:.72rem;color:var(--ink-soft);text-transform:uppercase;letter-spacing:.08em;font-weight:600}
-  .price b{font-family:'Barlow Condensed';font-weight:800;font-size:1.85rem;color:var(--red);line-height:1}
+  .price{display:flex;flex-direction:column;min-width:0;flex:0 1 auto}
+  .price small{font-size:.7rem;color:var(--ink-soft);text-transform:uppercase;letter-spacing:.07em;font-weight:600;white-space:nowrap}
+  .price b{font-family:'Barlow Condensed';font-weight:800;font-size:1.62rem;color:var(--red);line-height:1.05;white-space:nowrap}
   .card-actions{display:flex;align-items:center;gap:.5rem;flex-shrink:0}
   .card-wa{
     display:inline-flex;align-items:center;gap:.4rem;height:46px;padding:0 .9rem;border-radius:11px;
@@ -366,7 +366,7 @@
   .card-go svg{width:20px;height:20px;color:var(--ink);transition:transform .18s ease}
   .card:hover .card-go{background:var(--red);border-color:var(--red)}
   .card:hover .card-go svg{color:#fff;transform:translateX(2px)}
-  @media(max-width:420px){.card-wa span{display:none}.card-wa{padding:0 .8rem}}
+  @media(max-width:1240px){.card-wa span{display:none}.card-wa{padding:0 .85rem}}
 
   /* ---------- SOBRE ---------- */
   .sobre{background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
