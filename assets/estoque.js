@@ -1,10 +1,127 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-08-28T11:20:18.808Z
+   Atualizado em: 2026-08-28T22:16:39.181Z
    Veículos: 34
    ============================================================ */
 window.CARS_SYNC = [
+ {
+  "id": 422821,
+  "name": "Jeep Compass 1.3 T270 Turbo S",
+  "brand": "jeep",
+  "brandLabel": "Jeep",
+  "year": 2023,
+  "yearLabel": "2023",
+  "km": "30.690",
+  "kmNum": 30690,
+  "showKm": true,
+  "price": 151900,
+  "priceLabel": "CONSULTE",
+  "showPrice": true,
+  "body": "SUV",
+  "transmission": "Automático",
+  "fuel": "Flex",
+  "color": "Cinza",
+  "doors": 4,
+  "optionals": [
+   "Abertura Interna Do Porta-Malas",
+   "Abertura Porta Malas Por Controle Remoto",
+   "Air Bag",
+   "Air Bag De Cortina",
+   "Air Bag Do Motorista",
+   "Air Bag Duplo",
+   "Air Bag Lateral",
+   "Air Bag Passageiro",
+   "Alarme",
+   "Alerta De Colisão",
+   "Android Auto",
+   "Apple Carplay",
+   "Ar Condicionado",
+   "Ar Condicionado Digital",
+   "Ar Condicionado Dual Zone",
+   "Ar Digital",
+   "Ar Quente",
+   "Assist. De Estacionamento (park Assist)",
+   "Assist. De Partida Em Rampa",
+   "Banco Com Regulagem De Altura",
+   "Banco Tras. Com Encosto Bipartido",
+   "Banco Traseiro Retrátil",
+   "Bancos De Couro",
+   "Bancos Elétricos",
+   "Bancos Esportivos",
+   "Bluetooth",
+   "Câmbio No Volante (borboleta)",
+   "Câmera De Ré",
+   "Capota Marítima",
+   "Cartão SD",
+   "CD E MP3 Player",
+   "Computador De Bordo",
+   "Console Central",
+   "Controle Automático De Velocidade",
+   "Controle De Estabilidade",
+   "Controle De Som No Volante",
+   "Controle De Tração",
+   "Desembaçador Traseiro",
+   "Direção Elétrica",
+   "Direção Hidráulica",
+   "Distribuição Eletrônica De Frenagem",
+   "Encosto De Cabeça Traseiro",
+   "Entrada USB",
+   "Faróis Com Regulagem Interna",
+   "Farol De Neblina",
+   "Farol Xenônio",
+   "Fechamento Automático Dos Vidros",
+   "Freio ABS",
+   "GPS",
+   "Kit Multimídia",
+   "Limpador Traseiro",
+   "Para-Choques Na Cor Do Veículo",
+   "Partida Por Controle Remoto",
+   "Piloto Automático",
+   "Porta Copos",
+   "Porta Copos Traseiro No Console",
+   "Protetor De Cárter",
+   "Rádio E MP3",
+   "Rádio USB",
+   "Retrovisor Fotocrômico",
+   "Retrovisor Retrátil",
+   "Retrovisores Elétricos",
+   "Rodas De Liga Leve",
+   "Sensor De Chuva",
+   "Sensor De Estacionamento",
+   "Sensor De Farol",
+   "Sensor De Luz",
+   "Sensor Dianteiro De Estacionamento",
+   "Sistema Isofix",
+   "Sistema Keyless",
+   "Som Original",
+   "Start-Stop",
+   "Teto Solar",
+   "Teto Solar Panorâmico",
+   "Tração ASR",
+   "Trava Elétrica Central",
+   "Travas Elétricas",
+   "Trio Elétrico",
+   "Vidros Elétricos",
+   "Vidros Elétricos Traseiros",
+   "Volante Com Multi Funções"
+  ],
+  "destaque": false,
+  "aceitaTroca": true,
+  "fotos": [
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/422821-jeep-compass-20260416115342018924.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/422821-jeep-compass-20260416115342146039.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/422821-jeep-compass-20260416115342428131.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/422821-jeep-compass-20260416115342529969.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/422821-jeep-compass-20260416115342713545.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/422821-jeep-compass-20260416115342866480.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/422821-jeep-compass-20260416115343131124.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/422821-jeep-compass-20260416115343285263.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/422821-jeep-compass-20260416115343394785.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/422821-jeep-compass-20260416115343558358.webp"
+  ],
+  "descricao": "O Jeep Compass 1.3 T270 Turbo S 2023 é um SUV automático na cor cinza, com motor flex e 30.690 km rodados. Vem com abertura interna do porta-malas, abertura porta malas por controle remoto, air bag, air bag de cortina, air bag do motorista, air bag duplo e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+ },
  {
   "id": 442321,
   "name": "Nissan Kicks 1.6 16V Advance",
@@ -52,7 +169,7 @@ window.CARS_SYNC = [
  },
  {
   "id": 441873,
-  "name": "Renault Sandero 1.6 16V SCE Expression Easy-R",
+  "name": "Renault Sandero 1.6 Expression 8V",
   "brand": "renault",
   "brandLabel": "Renault",
   "year": 2016,
@@ -91,7 +208,7 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/441873-renault-sandero-20260818165836443720.webp",
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/441873-renault-sandero-20260818165836972854.webp"
   ],
-  "descricao": "O Renault Sandero 1.6 16V SCE Expression Easy-R 2016 é um Hatch manual na cor branca, com motor flex e 131.477 km rodados. Vem com ar condicionado, direção hidráulica, kit multimídia, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+  "descricao": "O Renault Sandero 1.6 Expression 8V 2016 é um Hatch manual na cor branca, com motor flex e 131.477 km rodados. Vem com ar condicionado, direção hidráulica, kit multimídia, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
   "id": 441690,
@@ -179,7 +296,7 @@ window.CARS_SYNC = [
  },
  {
   "id": 441186,
-  "name": "Ford Ecosport 1.6 SE 16V",
+  "name": "Ford Ecosport 2.0 SE 16V",
   "brand": "ford",
   "brandLabel": "Ford",
   "year": 2014,
@@ -216,7 +333,7 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/441186-ford-ecosport-20260814095807504223.webp",
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/441186-ford-ecosport-20260814095807746791.webp"
   ],
-  "descricao": "O Ford Ecosport 1.6 SE 16V 2014 é um SUV automático na cor preta, com motor flex e 111.457 km rodados. Vem com ar condicionado, direção hidráulica, rodas de liga leve, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+  "descricao": "O Ford Ecosport 2.0 SE 16V 2014 é um SUV automático na cor preta, com motor flex e 111.457 km rodados. Vem com ar condicionado, direção hidráulica, rodas de liga leve, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
   "id": 440765,
@@ -631,50 +748,6 @@ window.CARS_SYNC = [
   "descricao": "O Fiat Strada 1.3 Firefly Freedom CD 2025 é um Picape manual na cor prata, com motor flex e 49.544 km rodados. Vem com ar condicionado, direção hidráulica, kit multimídia, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
-  "id": 439474,
-  "name": "Chevrolet Equinox 2.0 16V Turbo Premier AWD",
-  "brand": "chevrolet",
-  "brandLabel": "Chevrolet",
-  "year": 2020,
-  "yearLabel": "2019/2020",
-  "km": "75.415",
-  "kmNum": 75415,
-  "showKm": true,
-  "price": 109900,
-  "priceLabel": "",
-  "showPrice": true,
-  "body": "SUV",
-  "transmission": "Automático",
-  "fuel": "Gasolina",
-  "color": "Vermelha",
-  "doors": 4,
-  "optionals": [
-   "Ar Condicionado",
-   "Direção Hidráulica",
-   "Kit Multimídia",
-   "Teto Solar",
-   "Travas Elétricas",
-   "Vidros Elétricos",
-   "Volante Com Multi Funções"
-  ],
-  "destaque": false,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/439474-chevrolet-equinox-20260803164242649758.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/439474-chevrolet-equinox-20260803164243497834.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/439474-chevrolet-equinox-20260803164243830124.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/439474-chevrolet-equinox-20260803164244060828.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/439474-chevrolet-equinox-20260803164244296325.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/439474-chevrolet-equinox-20260803164244553543.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/439474-chevrolet-equinox-20260803164244784708.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/439474-chevrolet-equinox-20260803164245016672.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/439474-chevrolet-equinox-20260803164245267755.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/439474-chevrolet-equinox-20260803164245533725.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/439474-chevrolet-equinox-20260803164245776984.webp"
-  ],
-  "descricao": "O Chevrolet Equinox 2.0 16V Turbo Premier AWD 2020 é um SUV automático na cor vermelha, com motor gasolina e 75.415 km rodados. Vem com ar condicionado, direção hidráulica, kit multimídia, teto solar, travas elétricas, vidros elétricos e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
   "id": 438863,
   "name": "Hyundai HB20 1.0 12V Sense",
   "brand": "hyundai",
@@ -973,7 +1046,7 @@ window.CARS_SYNC = [
  },
  {
   "id": 435250,
-  "name": "Hyundai HB20 1.0 12V Comfort",
+  "name": "Hyundai HB20 1.0 TGDI Comfort Plus",
   "brand": "hyundai",
   "brandLabel": "Hyundai",
   "year": 2025,
@@ -985,7 +1058,7 @@ window.CARS_SYNC = [
   "priceLabel": "",
   "showPrice": true,
   "body": "Hatch",
-  "transmission": "Manual",
+  "transmission": "Automático",
   "fuel": "Flex",
   "color": "Branca",
   "doors": 4,
@@ -1011,7 +1084,7 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/435250-hyundai-hb20-20260703173136764019.webp",
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/435250-hyundai-hb20-20260703173136856492.webp"
   ],
-  "descricao": "O Hyundai HB20 1.0 12V Comfort 2025 é um Hatch manual na cor branca, com motor flex e 39.334 km rodados. Vem com ar condicionado, direção hidráulica, kit multimídia, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+  "descricao": "O Hyundai HB20 1.0 TGDI Comfort Plus 2025 é um Hatch automático na cor branca, com motor flex e 39.334 km rodados. Vem com ar condicionado, direção hidráulica, kit multimídia, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
   "id": 427749,
@@ -1129,7 +1202,7 @@ window.CARS_SYNC = [
  },
  {
   "id": 417080,
-  "name": "Volkswagen GOL 1.6 8V",
+  "name": "Volkswagen GOL 1.6 MSI Totalflex",
   "brand": "volkswagen",
   "brandLabel": "Volkswagen",
   "year": 2021,
@@ -1162,7 +1235,7 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/417080-volkswagen-gol-20260306163704480758.webp",
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/417080-volkswagen-gol-20260306163704240941.webp"
   ],
-  "descricao": "O Volkswagen GOL 1.6 8V 2021 é um Hatch manual na cor prata, com motor flex e 59.105 km rodados. Vem com ar condicionado, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+  "descricao": "O Volkswagen GOL 1.6 MSI Totalflex 2021 é um Hatch manual na cor prata, com motor flex e 59.105 km rodados. Vem com ar condicionado, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
   "id": 416364,
@@ -1453,7 +1526,7 @@ window.CARS_SYNC = [
   "km": "48.759",
   "kmNum": 48759,
   "showKm": true,
-  "price": 132900,
+  "price": 118900,
   "priceLabel": "CONSULTE",
   "showPrice": true,
   "body": "SUV",
