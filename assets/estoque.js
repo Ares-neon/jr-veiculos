@@ -1,10 +1,48 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-09-01T14:51:44.730Z
-   Veículos: 34
+   Atualizado em: 2026-09-01T18:28:12.632Z
+   Veículos: 35
    ============================================================ */
 window.CARS_SYNC = [
+ {
+  "id": 443737,
+  "name": "Yamaha YS 250 Fazer",
+  "brand": "yamaha",
+  "brandLabel": "Yamaha",
+  "year": 2013,
+  "yearLabel": "2012/2013",
+  "km": "134.330",
+  "kmNum": 134330,
+  "showKm": true,
+  "price": 12500,
+  "priceLabel": "",
+  "showPrice": true,
+  "body": "Veículo",
+  "transmission": "",
+  "fuel": "Gasolina",
+  "color": "Preta",
+  "doors": null,
+  "optionals": [
+   "Bolsa/baú/bauleto"
+  ],
+  "destaque": false,
+  "aceitaTroca": true,
+  "fotos": [
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443737-yamaha-ys-250-fazer-20260901122849349212.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443737-yamaha-ys-250-fazer-20260901122850449404.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/443737-yamaha-ys-250-fazer-20260901122850942118.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443737-yamaha-ys-250-fazer-20260901122851430847.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443737-yamaha-ys-250-fazer-20260901122851873005.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443737-yamaha-ys-250-fazer-20260901122852239910.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443737-yamaha-ys-250-fazer-20260901122852653027.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443737-yamaha-ys-250-fazer-20260901122853013260.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443737-yamaha-ys-250-fazer-20260901122853411425.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443737-yamaha-ys-250-fazer-20260901122853748019.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443737-yamaha-ys-250-fazer-20260901122854134328.webp"
+  ],
+  "descricao": "O Yamaha YS 250 Fazer 2013 é um Veículo na cor preta, com motor gasolina e 134.330 km rodados. Vem com bolsa/baú/bauleto. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+ },
  {
   "id": 422821,
   "name": "Jeep Compass 1.3 T270 Turbo S",
