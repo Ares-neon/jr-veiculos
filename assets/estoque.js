@@ -1,7 +1,7 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-09-02T09:35:10.545Z
+   Atualizado em: 2026-09-02T14:27:40.877Z
    Veículos: 35
    ============================================================ */
 window.CARS_SYNC = [
@@ -178,7 +178,7 @@ window.CARS_SYNC = [
   "km": "30.690",
   "kmNum": 30690,
   "showKm": true,
-  "price": 151900,
+  "price": 144900,
   "priceLabel": "CONSULTE",
   "showPrice": true,
   "body": "SUV",
@@ -630,7 +630,7 @@ window.CARS_SYNC = [
   "km": "33.662",
   "kmNum": 33662,
   "showKm": true,
-  "price": 82900,
+  "price": 79900,
   "priceLabel": "",
   "showPrice": true,
   "body": "Sedan",
@@ -793,7 +793,7 @@ window.CARS_SYNC = [
   "km": "54.664",
   "kmNum": 54664,
   "showKm": true,
-  "price": 79900,
+  "price": 76900,
   "priceLabel": "",
   "showPrice": true,
   "body": "Sedan",
@@ -834,7 +834,7 @@ window.CARS_SYNC = [
   "km": "49.544",
   "kmNum": 49544,
   "showKm": true,
-  "price": 109900,
+  "price": 105900,
   "priceLabel": "",
   "showPrice": true,
   "body": "Picape",
@@ -959,7 +959,7 @@ window.CARS_SYNC = [
   "km": "43.130",
   "kmNum": 43130,
   "showKm": true,
-  "price": 95900,
+  "price": 91900,
   "priceLabel": "",
   "showPrice": true,
   "body": "Sedan",
@@ -1002,7 +1002,7 @@ window.CARS_SYNC = [
   "km": "16.052",
   "kmNum": 16052,
   "showKm": true,
-  "price": 159900,
+  "price": 149900,
   "priceLabel": "",
   "showPrice": true,
   "body": "SUV",
@@ -1089,7 +1089,7 @@ window.CARS_SYNC = [
   "km": "30.887",
   "kmNum": 30887,
   "showKm": true,
-  "price": 87900,
+  "price": 82900,
   "priceLabel": "",
   "showPrice": true,
   "body": "Sedan",
@@ -1130,7 +1130,7 @@ window.CARS_SYNC = [
   "km": "44.313",
   "kmNum": 44313,
   "showKm": true,
-  "price": 114900,
+  "price": 112900,
   "priceLabel": "",
   "showPrice": true,
   "body": "SUV",
@@ -1202,7 +1202,7 @@ window.CARS_SYNC = [
   "km": "43.307",
   "kmNum": 43307,
   "showKm": true,
-  "price": 95900,
+  "price": 89900,
   "priceLabel": "CONSULTE",
   "showPrice": true,
   "body": "Hatch",
@@ -1322,7 +1322,7 @@ window.CARS_SYNC = [
   "km": "114.467",
   "kmNum": 114467,
   "showKm": true,
-  "price": 109900,
+  "price": 102900,
   "priceLabel": "CONSULTE",
   "showPrice": true,
   "body": "SUV",
