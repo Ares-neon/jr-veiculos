@@ -1,8 +1,8 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-09-02T18:40:05.727Z
-   Veículos: 35
+   Atualizado em: 2026-09-02T21:47:52.251Z
+   Veículos: 34
    ============================================================ */
 window.CARS_SYNC = [
  {
@@ -1155,42 +1155,6 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/427749-volkswagen-t-cross-20260512112408744801.webp"
   ],
   "descricao": "O Volkswagen T-Cross 1.0 200 TSI Total 2025 é um SUV automático na cor cinza, com motor flex e 44.313 km rodados. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
-  "id": 426150,
-  "name": "Fiat Bravo 1.8 Essence 16V",
-  "brand": "fiat",
-  "brandLabel": "Fiat",
-  "year": 2013,
-  "yearLabel": "2012/2013",
-  "km": "92.427",
-  "kmNum": 92427,
-  "showKm": true,
-  "price": 38900,
-  "priceLabel": "CONSULTE",
-  "showPrice": true,
-  "body": "Hatch",
-  "transmission": "Automatizado",
-  "fuel": "Flex",
-  "color": "Prata",
-  "doors": 4,
-  "optionals": [
-   "Ar Condicionado",
-   "Travas Elétricas",
-   "Vidros Elétricos"
-  ],
-  "destaque": false,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/426150-fiat-bravo-20260430114729182890.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/426150-fiat-bravo-20260430114805415836.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/426150-fiat-bravo-20260430114728985638.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/426150-fiat-bravo-20260430114728774568.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/426150-fiat-bravo-20260430114728886249.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/426150-fiat-bravo-20260430114730203559.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/426150-fiat-bravo-20260430114730761273.webp"
-  ],
-  "descricao": "O Fiat Bravo 1.8 Essence 16V 2013 é um Hatch automatizado na cor prata, com motor flex e 92.427 km rodados. Vem com ar condicionado, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
   "id": 420762,
