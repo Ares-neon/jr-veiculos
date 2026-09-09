@@ -1,7 +1,7 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-09-09T18:33:46.891Z
+   Atualizado em: 2026-09-09T21:40:45.092Z
    Veículos: 34
    ============================================================ */
 window.CARS_SYNC = [
@@ -39,12 +39,12 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos/261/444798-peugeot-2008-20260909151357837426.jpeg",
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444798-peugeot-2008-20260909151358199602.webp",
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444798-peugeot-2008-20260909151358591717.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/444798-peugeot-2008-20260909151358944514.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444798-peugeot-2008-20260909151358944514.webp",
    "https://media.integradordeanuncios.com.br/media/fotos/261/444798-peugeot-2008-20260909151359303856.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/444798-peugeot-2008-20260909151359733622.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/444798-peugeot-2008-20260909151400161316.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/444798-peugeot-2008-20260909151400672140.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/444798-peugeot-2008-20260909151401065918.jpeg"
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444798-peugeot-2008-20260909151359733622.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444798-peugeot-2008-20260909151400161316.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444798-peugeot-2008-20260909151400672140.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444798-peugeot-2008-20260909151401065918.webp"
   ],
   "descricao": "O Peugeot 2008 1.6 16V THP Griffe 2023 é um SUV automático na cor prata, com motor flex e 78.953 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, kit multimídia, rodas de liga leve, teto solar. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
