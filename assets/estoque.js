@@ -1,10 +1,53 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-09-09T14:34:12.921Z
+   Atualizado em: 2026-09-09T18:33:46.891Z
    Veículos: 34
    ============================================================ */
 window.CARS_SYNC = [
+ {
+  "id": 444798,
+  "name": "Peugeot 2008 1.6 16V THP Griffe",
+  "brand": "peugeot",
+  "brandLabel": "Peugeot",
+  "year": 2023,
+  "yearLabel": "2022/2023",
+  "km": "78.953",
+  "kmNum": 78953,
+  "showKm": true,
+  "price": 85900,
+  "priceLabel": "",
+  "showPrice": true,
+  "body": "SUV",
+  "transmission": "Automático",
+  "fuel": "Flex",
+  "color": "Prata",
+  "doors": 4,
+  "optionals": [
+   "Ar Condicionado",
+   "Bancos De Couro",
+   "Direção Hidráulica",
+   "Kit Multimídia",
+   "Rodas De Liga Leve",
+   "Teto Solar"
+  ],
+  "destaque": false,
+  "aceitaTroca": true,
+  "fotos": [
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444798-peugeot-2008-20260909151356595882.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444798-peugeot-2008-20260909151357468116.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/444798-peugeot-2008-20260909151357837426.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444798-peugeot-2008-20260909151358199602.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444798-peugeot-2008-20260909151358591717.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/444798-peugeot-2008-20260909151358944514.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/444798-peugeot-2008-20260909151359303856.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/444798-peugeot-2008-20260909151359733622.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/444798-peugeot-2008-20260909151400161316.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/444798-peugeot-2008-20260909151400672140.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/444798-peugeot-2008-20260909151401065918.jpeg"
+  ],
+  "descricao": "O Peugeot 2008 1.6 16V THP Griffe 2023 é um SUV automático na cor prata, com motor flex e 78.953 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, kit multimídia, rodas de liga leve, teto solar. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+ },
  {
   "id": 443821,
   "name": "Chevrolet Equinox 1.5 16V Turbo Premier AWD",
@@ -1234,47 +1277,6 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/417080-volkswagen-gol-20260306163704240941.webp"
   ],
   "descricao": "O Volkswagen GOL 1.6 MSI Totalflex 2021 é um Hatch manual na cor prata, com motor flex e 59.105 km rodados. Vem com ar condicionado, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
-  "id": 416364,
-  "name": "Chevrolet Tracker 1.2 Turbo Premier",
-  "brand": "chevrolet",
-  "brandLabel": "Chevrolet",
-  "year": 2021,
-  "yearLabel": "2020/2021",
-  "km": "89.890",
-  "kmNum": 89890,
-  "showKm": true,
-  "price": 99990,
-  "priceLabel": "CONSULTE",
-  "showPrice": true,
-  "body": "SUV",
-  "transmission": "Automático",
-  "fuel": "Flex",
-  "color": "Prata",
-  "doors": 4,
-  "optionals": [
-   "Ar Condicionado",
-   "Travas Elétricas",
-   "Vidros Elétricos"
-  ],
-  "destaque": false,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/416364-chevrolet-tracker-20260303115936088437.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/416364-chevrolet-tracker-20260303115936132835.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/416364-chevrolet-tracker-20260303115936111652.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/416364-chevrolet-tracker-20260303115936167878.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/416364-chevrolet-tracker-20260303115937118048.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/416364-chevrolet-tracker-20260303115937202149.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/416364-chevrolet-tracker-20260303115937064999.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/416364-chevrolet-tracker-20260303115937423896.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/416364-chevrolet-tracker-20260303115937784962.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/416364-chevrolet-tracker-20260303115937846177.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/416364-chevrolet-tracker-20260303115937832430.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/416364-chevrolet-tracker-20260303115938053028.webp"
-  ],
-  "descricao": "O Chevrolet Tracker 1.2 Turbo Premier 2021 é um SUV automático na cor prata, com motor flex e 89.890 km rodados. Vem com ar condicionado, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
   "id": 414319,
