@@ -1,10 +1,46 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-09-10T14:24:37.080Z
+   Atualizado em: 2026-09-10T18:25:09.803Z
    Veículos: 34
    ============================================================ */
 window.CARS_SYNC = [
+ {
+  "id": 444936,
+  "name": "Renault Sandero 1.0 12V SCE Expression",
+  "brand": "renault",
+  "brandLabel": "Renault",
+  "year": 2020,
+  "yearLabel": "2019/2020",
+  "km": "82.308",
+  "kmNum": 82308,
+  "showKm": true,
+  "price": 47900,
+  "priceLabel": "",
+  "showPrice": true,
+  "body": "Hatch",
+  "transmission": "Manual",
+  "fuel": "Flex",
+  "color": "Branca",
+  "doors": 4,
+  "optionals": [],
+  "destaque": false,
+  "aceitaTroca": true,
+  "fotos": [
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444936-renault-sandero-20260910143846141205.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444936-renault-sandero-20260910143847142757.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/444936-renault-sandero-20260910143847551500.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444936-renault-sandero-20260910143847932002.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444936-renault-sandero-20260910143848309903.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444936-renault-sandero-20260910143848736951.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444936-renault-sandero-20260910143849057009.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444936-renault-sandero-20260910143849428944.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444936-renault-sandero-20260910143849878616.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444936-renault-sandero-20260910143850307623.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444936-renault-sandero-20260910143850736803.webp"
+  ],
+  "descricao": "O Renault Sandero 1.0 12V SCE Expression 2020 é um Hatch manual na cor branca, com motor flex e 82.308 km rodados. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+ },
  {
   "id": 444798,
   "name": "Peugeot 2008 1.6 16V THP Griffe",
@@ -582,46 +618,6 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440765-volkswagen-polo-20260812111933652422.webp"
   ],
   "descricao": "O Volkswagen Polo 1.0 MPI Track 2026 é um Hatch manual na cor preta, com motor flex e 41.418 km rodados. Vem com ar condicionado, direção hidráulica, travas elétricas, vidros elétricos, volante com multi funções. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
-  "id": 440761,
-  "name": "Renault Sandero 1.0 Expression 16V",
-  "brand": "renault",
-  "brandLabel": "Renault",
-  "year": 2014,
-  "yearLabel": "2013/2014",
-  "km": "107.000",
-  "kmNum": 107000,
-  "showKm": true,
-  "price": 38900,
-  "priceLabel": "",
-  "showPrice": true,
-  "body": "Hatch",
-  "transmission": "Manual",
-  "fuel": "Flex",
-  "color": "Prata",
-  "doors": 4,
-  "optionals": [
-   "Ar Condicionado",
-   "Direção Hidráulica",
-   "Kit Multimídia",
-   "Travas Elétricas",
-   "Vidros Elétricos"
-  ],
-  "destaque": true,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440761-renault-sandero-20260812111435409574.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440761-renault-sandero-20260812111436214657.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440761-renault-sandero-20260812111436575789.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440761-renault-sandero-20260812111437401377.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440761-renault-sandero-20260812111437637119.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440761-renault-sandero-20260812111437924829.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440761-renault-sandero-20260812111438169530.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440761-renault-sandero-20260812111438417135.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440761-renault-sandero-20260812111438661772.webp"
-  ],
-  "descricao": "O Renault Sandero 1.0 Expression 16V 2014 é um Hatch manual na cor prata, com motor flex e 107.000 km rodados. Vem com ar condicionado, direção hidráulica, kit multimídia, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
   "id": 425631,
