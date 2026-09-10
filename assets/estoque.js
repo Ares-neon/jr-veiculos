@@ -1,10 +1,52 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-09-10T18:25:09.803Z
-   Veículos: 34
+   Atualizado em: 2026-09-10T21:36:24.806Z
+   Veículos: 35
    ============================================================ */
 window.CARS_SYNC = [
+ {
+  "id": 444990,
+  "name": "Honda FIT 1.4 LXL 16V",
+  "brand": "honda",
+  "brandLabel": "Honda",
+  "year": 2010,
+  "yearLabel": "2010",
+  "km": "147.961",
+  "kmNum": 147961,
+  "showKm": true,
+  "price": 49900,
+  "priceLabel": "",
+  "showPrice": true,
+  "body": "Minivan",
+  "transmission": "Automático",
+  "fuel": "Flex",
+  "color": "Cinza",
+  "doors": 4,
+  "optionals": [
+   "Ar Condicionado",
+   "Direção Hidráulica",
+   "Kit Multimídia",
+   "Rodas De Liga Leve",
+   "Travas Elétricas",
+   "Vidros Elétricos"
+  ],
+  "destaque": false,
+  "aceitaTroca": true,
+  "fotos": [
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444990-honda-fit-20260910174620652123.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444990-honda-fit-20260910174621603198.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/444990-honda-fit-20260910174622122189.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444990-honda-fit-20260910174622612196.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444990-honda-fit-20260910174623053712.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/444990-honda-fit-20260910174623483021.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/444990-honda-fit-20260910174623877250.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/444990-honda-fit-20260910174624379211.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/444990-honda-fit-20260910174624712166.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/444990-honda-fit-20260910174624970239.jpeg"
+  ],
+  "descricao": "O Honda FIT 1.4 LXL 16V 2010 é um Minivan automático na cor cinza, com motor flex e 147.961 km rodados. Vem com ar condicionado, direção hidráulica, kit multimídia, rodas de liga leve, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+ },
  {
   "id": 444936,
   "name": "Renault Sandero 1.0 12V SCE Expression",
@@ -24,7 +66,7 @@ window.CARS_SYNC = [
   "color": "Branca",
   "doors": 4,
   "optionals": [],
-  "destaque": false,
+  "destaque": true,
   "aceitaTroca": true,
   "fotos": [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444936-renault-sandero-20260910143846141205.webp",
