@@ -1,7 +1,7 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-09-11T00:08:16.504Z
+   Atualizado em: 2026-09-11T04:35:49.790Z
    Veículos: 35
    ============================================================ */
 window.CARS_SYNC = [
@@ -39,11 +39,11 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos/261/444990-honda-fit-20260910174622122189.jpeg",
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444990-honda-fit-20260910174622612196.webp",
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444990-honda-fit-20260910174623053712.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/444990-honda-fit-20260910174623483021.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/444990-honda-fit-20260910174623877250.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/444990-honda-fit-20260910174624379211.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/444990-honda-fit-20260910174624712166.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/444990-honda-fit-20260910174624970239.jpeg"
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444990-honda-fit-20260910174623483021.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444990-honda-fit-20260910174623877250.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444990-honda-fit-20260910174624379211.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444990-honda-fit-20260910174624712166.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444990-honda-fit-20260910174624970239.webp"
   ],
   "descricao": "O Honda FIT 1.4 LXL 16V 2010 é um Minivan automático na cor cinza, com motor flex e 147.961 km rodados. Vem com ar condicionado, direção hidráulica, kit multimídia, rodas de liga leve, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
