@@ -1,7 +1,7 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-09-11T21:41:54.227Z
+   Atualizado em: 2026-09-12T00:16:06.045Z
    Veículos: 35
    ============================================================ */
 window.CARS_SYNC = [
