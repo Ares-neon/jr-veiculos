@@ -1,8 +1,8 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-09-14T18:36:23.486Z
-   Veículos: 35
+   Atualizado em: 2026-09-14T22:28:41.814Z
+   Veículos: 34
    ============================================================ */
 window.CARS_SYNC = [
  {
@@ -1315,92 +1315,6 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/417080-volkswagen-gol-20260306163704240941.webp"
   ],
   "descricao": "O Volkswagen GOL 1.6 MSI Totalflex 2021 é um Hatch manual na cor prata, com motor flex e 59.105 km rodados. Vem com ar condicionado, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
-  "id": 414319,
-  "name": "Mitsubishi Outlander 2.2 4X4 16V",
-  "brand": "mitsubishi",
-  "brandLabel": "Mitsubishi",
-  "year": 2016,
-  "yearLabel": "2015/2016",
-  "km": "114.467",
-  "kmNum": 114467,
-  "showKm": true,
-  "price": 102900,
-  "priceLabel": "CONSULTE",
-  "showPrice": true,
-  "body": "SUV",
-  "transmission": "Automático",
-  "fuel": "Diesel",
-  "color": "Preta",
-  "doors": 4,
-  "optionals": [
-   "7 Lugares",
-   "Abertura Porta Malas Por Controle Remoto",
-   "Air Bag",
-   "Air Bag De Cortina",
-   "Air Bag Passageiro",
-   "Alarme",
-   "Alerta De Colisão",
-   "Ar Condicionado",
-   "Ar Digital",
-   "Ar Quente",
-   "Assist. De Estacionamento (park Assist)",
-   "Assist. De Partida Em Rampa",
-   "Banco Com Regulagem De Altura",
-   "Bancos De Couro",
-   "Bancos Elétricos",
-   "Bluetooth",
-   "Câmera De Ré",
-   "Capota Marítima",
-   "Computador De Bordo",
-   "Console Central",
-   "Controle De Som No Volante",
-   "Controle De Tração",
-   "Desembaçador Traseiro",
-   "Direção Elétrica",
-   "Encosto De Cabeça Traseiro",
-   "Entrada USB",
-   "Fechamento Automático Dos Vidros",
-   "Freio ABS",
-   "GPS",
-   "Piloto Automático",
-   "Porta Copos",
-   "Porta Copos Traseiro No Console",
-   "Rádio",
-   "Rádio USB",
-   "Retrovisores Elétricos",
-   "Sensor De Chuva",
-   "Sensor De Estacionamento",
-   "Sensor De Farol",
-   "Sensor De Luz",
-   "Sensor Dianteiro De Estacionamento",
-   "Teto Solar",
-   "Tração 4X4",
-   "Travas Elétricas",
-   "Trio Elétrico",
-   "Vidros Elétricos",
-   "Vidros Elétricos Traseiros",
-   "Volante Com Multi Funções",
-   "Volante Com Regulagem De Altura"
-  ],
-  "destaque": false,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/414319-mitsubishi-outlander-20260213181945493433.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/414319-mitsubishi-outlander-20260213181945607014.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/414319-mitsubishi-outlander-20260213181945567817.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/414319-mitsubishi-outlander-20260213181945698959.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/414319-mitsubishi-outlander-20260213181946159219.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/414319-mitsubishi-outlander-20260213181946252076.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/414319-mitsubishi-outlander-20260213181946460793.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/414319-mitsubishi-outlander-20260213181946537554.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/414319-mitsubishi-outlander-20260213181946702519.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/414319-mitsubishi-outlander-20260213181946843465.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/414319-mitsubishi-outlander-20260213181947008685.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/414319-mitsubishi-outlander-20260213181947217550.webp"
-  ],
-  "descricao": "O Mitsubishi Outlander 2.2 4X4 16V 2016 é um SUV automático na cor preta, com motor diesel e 114.467 km rodados. Vem com 7 lugares, abertura porta malas por controle remoto, air bag, air bag de cortina, air bag passageiro, alarme e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
   "id": 408846,
