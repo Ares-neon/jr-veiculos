@@ -1,10 +1,52 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-09-18T14:29:50.297Z
-   Veículos: 34
+   Atualizado em: 2026-09-18T18:26:11.737Z
+   Veículos: 31
    ============================================================ */
 window.CARS_SYNC = [
+ {
+  "id": 446031,
+  "name": "Chevrolet Onix 1.0",
+  "brand": "chevrolet",
+  "brandLabel": "Chevrolet",
+  "year": 2024,
+  "yearLabel": "2023/2024",
+  "km": "75.283",
+  "kmNum": 75283,
+  "showKm": true,
+  "price": 66900,
+  "priceLabel": "",
+  "showPrice": true,
+  "body": "Hatch",
+  "transmission": "Manual",
+  "fuel": "Flex",
+  "color": "Preta",
+  "doors": 4,
+  "optionals": [
+   "Ar Condicionado",
+   "Computador De Bordo",
+   "Direção Hidráulica",
+   "Travas Elétricas",
+   "Vidros Elétricos",
+   "Volante Com Multi Funções"
+  ],
+  "destaque": true,
+  "aceitaTroca": true,
+  "fotos": [
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446031-chevrolet-onix-20260918114506279302.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446031-chevrolet-onix-20260918114507086488.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/446031-chevrolet-onix-20260918114507645278.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446031-chevrolet-onix-20260918114508163545.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446031-chevrolet-onix-20260918114508685250.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446031-chevrolet-onix-20260918114509031079.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446031-chevrolet-onix-20260918114509422666.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446031-chevrolet-onix-20260918114509921770.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446031-chevrolet-onix-20260918114510358261.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446031-chevrolet-onix-20260918114510912951.webp"
+  ],
+  "descricao": "O Chevrolet Onix 1.0 2024 é um Hatch manual na cor preta, com motor flex e 75.283 km rodados. Vem com ar condicionado, computador de bordo, direção hidráulica, travas elétricas, vidros elétricos, volante com multi funções. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+ },
  {
   "id": 444990,
   "name": "Honda FIT 1.4 LXL 16V",
@@ -46,42 +88,6 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444990-honda-fit-20260910174624970239.webp"
   ],
   "descricao": "O Honda FIT 1.4 LXL 16V 2010 é um Minivan automático na cor cinza, com motor flex e 147.961 km rodados. Vem com ar condicionado, direção hidráulica, kit multimídia, rodas de liga leve, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
-  "id": 444936,
-  "name": "Renault Sandero 1.0 12V SCE Expression",
-  "brand": "renault",
-  "brandLabel": "Renault",
-  "year": 2020,
-  "yearLabel": "2019/2020",
-  "km": "82.308",
-  "kmNum": 82308,
-  "showKm": true,
-  "price": 47900,
-  "priceLabel": "",
-  "showPrice": true,
-  "body": "Hatch",
-  "transmission": "Manual",
-  "fuel": "Flex",
-  "color": "Branca",
-  "doors": 4,
-  "optionals": [],
-  "destaque": true,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444936-renault-sandero-20260910143846141205.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444936-renault-sandero-20260910143847142757.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/444936-renault-sandero-20260910143847551500.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444936-renault-sandero-20260910143847932002.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444936-renault-sandero-20260910143848309903.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444936-renault-sandero-20260910143848736951.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444936-renault-sandero-20260910143849057009.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444936-renault-sandero-20260910143849428944.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444936-renault-sandero-20260910143849878616.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444936-renault-sandero-20260910143850307623.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444936-renault-sandero-20260910143850736803.webp"
-  ],
-  "descricao": "O Renault Sandero 1.0 12V SCE Expression 2020 é um Hatch manual na cor branca, com motor flex e 82.308 km rodados. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
   "id": 444798,
@@ -452,49 +458,6 @@ window.CARS_SYNC = [
   "descricao": "O Nissan Kicks 1.6 16V Advance 2024 é um SUV automático na cor prata, com motor flex e 7.234 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, kit multimídia, rodas de liga leve, start-stop e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
-  "id": 441873,
-  "name": "Renault Sandero 1.6 Expression 8V",
-  "brand": "renault",
-  "brandLabel": "Renault",
-  "year": 2016,
-  "yearLabel": "2015/2016",
-  "km": "131.477",
-  "kmNum": 131477,
-  "showKm": true,
-  "price": 45900,
-  "priceLabel": "",
-  "showPrice": true,
-  "body": "Hatch",
-  "transmission": "Manual",
-  "fuel": "Flex",
-  "color": "Branca",
-  "doors": 4,
-  "optionals": [
-   "Ar Condicionado",
-   "Direção Hidráulica",
-   "Kit Multimídia",
-   "Travas Elétricas",
-   "Vidros Elétricos"
-  ],
-  "destaque": false,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/441873-renault-sandero-20260818165829609049.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/441873-renault-sandero-20260818165830960941.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/441873-renault-sandero-20260818165831773656.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/441873-renault-sandero-20260818165832484626.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/441873-renault-sandero-20260818165833104568.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/441873-renault-sandero-20260818165833628233.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/441873-renault-sandero-20260818165834183708.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/441873-renault-sandero-20260818165834903629.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/441873-renault-sandero-20260818165835493254.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/441873-renault-sandero-20260818165836011116.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/441873-renault-sandero-20260818165836443720.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/441873-renault-sandero-20260818165836972854.webp"
-  ],
-  "descricao": "O Renault Sandero 1.6 Expression 8V 2016 é um Hatch manual na cor branca, com motor flex e 131.477 km rodados. Vem com ar condicionado, direção hidráulica, kit multimídia, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
   "id": 441690,
   "name": "Ford Fiesta 1.0 MPI Hatch 8V",
   "brand": "ford",
@@ -700,42 +663,6 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/425631-jac-j2-20260428095113847821.webp"
   ],
   "descricao": "O JAC J2 1.4 16V 2014 é um Hatch manual na cor branca, com motor gasolina e 76.401 km rodados. Vem com ar condicionado, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
-  "id": 440758,
-  "name": "Hyundai HB20S 1.0 12V Comfort Plus",
-  "brand": "hyundai",
-  "brandLabel": "Hyundai",
-  "year": 2025,
-  "yearLabel": "2024/2025",
-  "km": "33.662",
-  "kmNum": 33662,
-  "showKm": true,
-  "price": 79900,
-  "priceLabel": "",
-  "showPrice": true,
-  "body": "Sedan",
-  "transmission": "Manual",
-  "fuel": "Flex",
-  "color": "Branca",
-  "doors": 4,
-  "optionals": [],
-  "destaque": false,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440758-hyundai-hb20s-20260812110649537861.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440758-hyundai-hb20s-20260812110648840235.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440758-hyundai-hb20s-20260812110649923704.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440758-hyundai-hb20s-20260812110650453465.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440758-hyundai-hb20s-20260812110650686563.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440758-hyundai-hb20s-20260812110651045653.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440758-hyundai-hb20s-20260812110651274711.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440758-hyundai-hb20s-20260812110651499508.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440758-hyundai-hb20s-20260812110651745481.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440758-hyundai-hb20s-20260812110651992688.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440758-hyundai-hb20s-20260812110652235745.webp"
-  ],
-  "descricao": "O Hyundai HB20S 1.0 12V Comfort Plus 2025 é um Sedan manual na cor branca, com motor flex e 33.662 km rodados. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
   "id": 440746,
@@ -1159,47 +1086,6 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/436666-nissan-kicks-20260714153817538811.webp"
   ],
   "descricao": "O Nissan Kicks 1.6 16V SV 2021 é um SUV automático na cor preta, com motor flex e 79.654 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, kit multimídia, start-stop, travas elétricas e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
-  "id": 435389,
-  "name": "Hyundai HB20S 1.0 12V Comfort",
-  "brand": "hyundai",
-  "brandLabel": "Hyundai",
-  "year": 2026,
-  "yearLabel": "2025/2026",
-  "km": "30.887",
-  "kmNum": 30887,
-  "showKm": true,
-  "price": 82900,
-  "priceLabel": "",
-  "showPrice": true,
-  "body": "Sedan",
-  "transmission": "Manual",
-  "fuel": "Flex",
-  "color": "Prata",
-  "doors": 4,
-  "optionals": [
-   "Ar Condicionado",
-   "Bancos De Couro",
-   "Direção Hidráulica",
-   "Travas Elétricas",
-   "Vidros Elétricos"
-  ],
-  "destaque": false,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/435389-hyundai-hb20s-20260706102843998484.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/435389-hyundai-hb20s-20260706102844351625.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/435389-hyundai-hb20s-20260706102844454069.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/435389-hyundai-hb20s-20260706102844545019.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/435389-hyundai-hb20s-20260706102844632700.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/435389-hyundai-hb20s-20260706102844737402.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/435389-hyundai-hb20s-20260706102844839065.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/435389-hyundai-hb20s-20260706102844935672.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/435389-hyundai-hb20s-20260706102845018711.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/435389-hyundai-hb20s-20260706102845108032.webp"
-  ],
-  "descricao": "O Hyundai HB20S 1.0 12V Comfort 2026 é um Sedan manual na cor prata, com motor flex e 30.887 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
   "id": 427749,
