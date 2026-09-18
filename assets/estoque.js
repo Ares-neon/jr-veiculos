@@ -1,10 +1,50 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-09-18T18:26:11.737Z
-   Veículos: 31
+   Atualizado em: 2026-09-18T21:39:38.721Z
+   Veículos: 32
    ============================================================ */
 window.CARS_SYNC = [
+ {
+  "id": 446180,
+  "name": "Ford Fiesta 1.0 MPI Hatch 8V",
+  "brand": "ford",
+  "brandLabel": "Ford",
+  "year": 2012,
+  "yearLabel": "2011/2012",
+  "km": "70.013",
+  "kmNum": 70013,
+  "showKm": true,
+  "price": 33900,
+  "priceLabel": "",
+  "showPrice": true,
+  "body": "Hatch",
+  "transmission": "Manual",
+  "fuel": "Flex",
+  "color": "Preta",
+  "doors": 4,
+  "optionals": [
+   "Ar Condicionado",
+   "Direção Hidráulica",
+   "Travas Elétricas",
+   "Vidros Elétricos"
+  ],
+  "destaque": false,
+  "aceitaTroca": true,
+  "fotos": [
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446180-ford-fiesta-20260918180617486432.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446180-ford-fiesta-20260918180618422851.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/446180-ford-fiesta-20260918180619030937.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446180-ford-fiesta-20260918180619547448.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446180-ford-fiesta-20260918180620006430.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/446180-ford-fiesta-20260918180620394105.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/446180-ford-fiesta-20260918180620727105.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/446180-ford-fiesta-20260918180621098146.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/446180-ford-fiesta-20260918180621505979.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/446180-ford-fiesta-20260918180622125779.jpeg"
+  ],
+  "descricao": "O Ford Fiesta 1.0 MPI Hatch 8V 2012 é um Hatch manual na cor preta, com motor flex e 70.013 km rodados. Vem com ar condicionado, direção hidráulica, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+ },
  {
   "id": 446031,
   "name": "Chevrolet Onix 1.0",
