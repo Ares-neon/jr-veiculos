@@ -1,7 +1,7 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-09-18T21:39:38.721Z
+   Atualizado em: 2026-09-19T00:18:44.342Z
    Veículos: 32
    ============================================================ */
 window.CARS_SYNC = [
@@ -37,11 +37,11 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos/261/446180-ford-fiesta-20260918180619030937.jpeg",
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446180-ford-fiesta-20260918180619547448.webp",
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446180-ford-fiesta-20260918180620006430.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/446180-ford-fiesta-20260918180620394105.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/446180-ford-fiesta-20260918180620727105.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/446180-ford-fiesta-20260918180621098146.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/446180-ford-fiesta-20260918180621505979.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/446180-ford-fiesta-20260918180622125779.jpeg"
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446180-ford-fiesta-20260918180620394105.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446180-ford-fiesta-20260918180620727105.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446180-ford-fiesta-20260918180621098146.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446180-ford-fiesta-20260918180621505979.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446180-ford-fiesta-20260918180622125779.webp"
   ],
   "descricao": "O Ford Fiesta 1.0 MPI Hatch 8V 2012 é um Hatch manual na cor preta, com motor flex e 70.013 km rodados. Vem com ar condicionado, direção hidráulica, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
