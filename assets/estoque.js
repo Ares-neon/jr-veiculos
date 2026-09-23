@@ -1,8 +1,8 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-09-23T20:19:23.968Z
-   Veículos: 32
+   Atualizado em: 2026-09-23T23:39:46.223Z
+   Veículos: 27
    ============================================================ */
 window.CARS_SYNC = [
  {
@@ -453,51 +453,6 @@ window.CARS_SYNC = [
   "descricao": "O Jeep Compass 1.3 T270 Turbo S 2023 é um SUV automático na cor cinza, com motor flex e 30.690 km rodados. Vem com abertura interna do porta-malas, abertura porta malas por controle remoto, air bag, air bag de cortina, air bag do motorista, air bag duplo e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
-  "id": 442321,
-  "name": "Nissan Kicks 1.6 16V Advance",
-  "brand": "nissan",
-  "brandLabel": "Nissan",
-  "year": 2024,
-  "yearLabel": "2023/2024",
-  "km": "7.234",
-  "kmNum": 7234,
-  "showKm": true,
-  "price": 112900,
-  "priceLabel": "",
-  "showPrice": true,
-  "body": "SUV",
-  "transmission": "Automático",
-  "fuel": "Flex",
-  "color": "Prata",
-  "doors": 4,
-  "optionals": [
-   "Ar Condicionado",
-   "Bancos De Couro",
-   "Direção Hidráulica",
-   "Kit Multimídia",
-   "Rodas De Liga Leve",
-   "Start-Stop",
-   "Travas Elétricas",
-   "Vidros Elétricos",
-   "Volante Com Multi Funções"
-  ],
-  "destaque": false,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/442321-nissan-kicks-20260821103715941822.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/442321-nissan-kicks-20260821103716797653.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/442321-nissan-kicks-20260821103717181983.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/442321-nissan-kicks-20260821103717419261.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/442321-nissan-kicks-20260821103717647035.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/442321-nissan-kicks-20260821103717897063.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/442321-nissan-kicks-20260821103718142743.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/442321-nissan-kicks-20260821103718390905.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/442321-nissan-kicks-20260821103718632801.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/442321-nissan-kicks-20260821103718871312.webp"
-  ],
-  "descricao": "O Nissan Kicks 1.6 16V Advance 2024 é um SUV automático na cor prata, com motor flex e 7.234 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, kit multimídia, rodas de liga leve, start-stop e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
   "id": 441690,
   "name": "Ford Fiesta 1.0 MPI Hatch 8V",
   "brand": "ford",
@@ -705,47 +660,6 @@ window.CARS_SYNC = [
   "descricao": "O JAC J2 1.4 16V 2014 é um Hatch manual na cor branca, com motor gasolina e 76.401 km rodados. Vem com ar condicionado, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
-  "id": 440746,
-  "name": "Citroën C3 1.0 Firefly Live Pack",
-  "brand": "citroen",
-  "brandLabel": "Citroën",
-  "year": 2025,
-  "yearLabel": "2024/2025",
-  "km": "1.115",
-  "kmNum": 1115,
-  "showKm": true,
-  "price": 73900,
-  "priceLabel": "",
-  "showPrice": true,
-  "body": "Hatch",
-  "transmission": "Manual",
-  "fuel": "Flex",
-  "color": "Branca",
-  "doors": 4,
-  "optionals": [
-   "Ar Condicionado",
-   "Direção Hidráulica",
-   "Travas Elétricas",
-   "Vidros Elétricos"
-  ],
-  "destaque": false,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440746-citroen-c3-20260812103553072921.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440746-citroen-c3-20260812103553820863.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/440746-citroen-c3-20260812103554237172.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440746-citroen-c3-20260812103554475132.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440746-citroen-c3-20260812103554708855.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440746-citroen-c3-20260812103555011543.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440746-citroen-c3-20260812103555243694.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440746-citroen-c3-20260812103555775870.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440746-citroen-c3-20260812103556102136.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440746-citroen-c3-20260812103556355549.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440746-citroen-c3-20260812103556715228.webp"
-  ],
-  "descricao": "O Citroën C3 1.0 Firefly Live Pack 2025 é um Hatch manual na cor branca, com motor flex e 1.115 km rodados. Vem com ar condicionado, direção hidráulica, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
   "id": 440345,
   "name": "Renault Captur 1.3 TCE Intense",
   "brand": "renault",
@@ -787,49 +701,6 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440345-renault-captur-20260810093518212701.webp"
   ],
   "descricao": "O Renault Captur 1.3 TCE Intense 2023 é um SUV automático na cor bege, com motor flex e 59.894 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, kit multimídia, rodas de liga leve. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
-  "id": 440303,
-  "name": "Nissan Kicks 1.6 16V S Direct",
-  "brand": "nissan",
-  "brandLabel": "Nissan",
-  "year": 2019,
-  "yearLabel": "2018/2019",
-  "km": "73.420",
-  "kmNum": 73420,
-  "showKm": true,
-  "price": 84900,
-  "priceLabel": "",
-  "showPrice": true,
-  "body": "SUV",
-  "transmission": "Automático",
-  "fuel": "Flex",
-  "color": "Vermelha",
-  "doors": 4,
-  "optionals": [
-   "Ar Condicionado",
-   "Bancos De Couro",
-   "Direção Hidráulica",
-   "Rodas De Liga Leve",
-   "Travas Elétricas",
-   "Vidros Elétricos"
-  ],
-  "destaque": false,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440303-nissan-kicks-20260808120419850669.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440303-nissan-kicks-20260808120420607970.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440303-nissan-kicks-20260808120421096597.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440303-nissan-kicks-20260808120421357215.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440303-nissan-kicks-20260808120421614655.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440303-nissan-kicks-20260808120421922970.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440303-nissan-kicks-20260808120422337416.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440303-nissan-kicks-20260808120422590810.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440303-nissan-kicks-20260808120422886164.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440303-nissan-kicks-20260808120423150935.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/440303-nissan-kicks-20260808120423395513.webp"
-  ],
-  "descricao": "O Nissan Kicks 1.6 16V S Direct 2019 é um SUV automático na cor vermelha, com motor flex e 73.420 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, rodas de liga leve, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
   "id": 439513,
@@ -998,49 +869,6 @@ window.CARS_SYNC = [
   "descricao": "O Renault Kwid 1.0 12V SCE ZEN 2026 é um Hatch manual na cor branca, com motor flex e 26.315 km rodados. Vem com ar condicionado, direção elétrica, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
-  "id": 438351,
-  "name": "Hyundai HB20S 1.0 TGDI Comfort Plus",
-  "brand": "hyundai",
-  "brandLabel": "Hyundai",
-  "year": 2025,
-  "yearLabel": "2024/2025",
-  "km": "43.130",
-  "kmNum": 43130,
-  "showKm": true,
-  "price": 91900,
-  "priceLabel": "",
-  "showPrice": true,
-  "body": "Sedan",
-  "transmission": "Automático",
-  "fuel": "Flex",
-  "color": "Preta",
-  "doors": 4,
-  "optionals": [
-   "Ar Condicionado",
-   "Bancos De Couro",
-   "Direção Hidráulica",
-   "Kit Multimídia",
-   "Travas Elétricas",
-   "Vidros Elétricos"
-  ],
-  "destaque": false,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/438351-hyundai-hb20s-20260725120540797304.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/438351-hyundai-hb20s-20260725120541665679.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/438351-hyundai-hb20s-20260725120542018002.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/438351-hyundai-hb20s-20260725120542273000.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/438351-hyundai-hb20s-20260725120542544947.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/438351-hyundai-hb20s-20260725120542786137.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/438351-hyundai-hb20s-20260725120543029520.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/438351-hyundai-hb20s-20260725120543271303.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/438351-hyundai-hb20s-20260725120543519211.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/438351-hyundai-hb20s-20260725120543771899.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/438351-hyundai-hb20s-20260725120544011757.webp"
-  ],
-  "descricao": "O Hyundai HB20S 1.0 TGDI Comfort Plus 2025 é um Sedan automático na cor preta, com motor flex e 43.130 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, kit multimídia, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
   "id": 438348,
   "name": "Volkswagen Taos 250 TSI Highline",
   "brand": "volkswagen",
@@ -1204,43 +1032,6 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/420762-chevrolet-onix-20260401101559089517.webp"
   ],
   "descricao": "O Chevrolet Onix 1.0 Turbo LTZ 2025 é um Hatch automático na cor prata, com motor flex e 43.307 km rodados. Vem com ar condicionado, direção hidráulica, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
-  "id": 417080,
-  "name": "Volkswagen GOL 1.6 MSI Totalflex",
-  "brand": "volkswagen",
-  "brandLabel": "Volkswagen",
-  "year": 2021,
-  "yearLabel": "2020/2021",
-  "km": "59.105",
-  "kmNum": 59105,
-  "showKm": true,
-  "price": 59900,
-  "priceLabel": "CONSULTE",
-  "showPrice": true,
-  "body": "Hatch",
-  "transmission": "Manual",
-  "fuel": "Flex",
-  "color": "Prata",
-  "doors": 4,
-  "optionals": [
-   "Ar Condicionado",
-   "Travas Elétricas",
-   "Vidros Elétricos"
-  ],
-  "destaque": false,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/417080-volkswagen-gol-20260306163703203214.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/417080-volkswagen-gol-20260306163703128032.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/417080-volkswagen-gol-20260306163703486838.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/417080-volkswagen-gol-20260306163703220714.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/417080-volkswagen-gol-20260306163704131063.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/417080-volkswagen-gol-20260306163704145276.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/417080-volkswagen-gol-20260306163704480758.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/417080-volkswagen-gol-20260306163704240941.webp"
-  ],
-  "descricao": "O Volkswagen GOL 1.6 MSI Totalflex 2021 é um Hatch manual na cor prata, com motor flex e 59.105 km rodados. Vem com ar condicionado, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
   "id": 408846,
