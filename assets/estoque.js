@@ -1,10 +1,56 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-09-24T19:07:23.605Z
-   Veículos: 27
+   Atualizado em: 2026-09-24T22:21:53.343Z
+   Veículos: 25
    ============================================================ */
 window.CARS_SYNC = [
+ {
+  "id": 446972,
+  "name": "Honda Civic 2.0 LXR 16V",
+  "brand": "honda",
+  "brandLabel": "Honda",
+  "year": 2016,
+  "yearLabel": "2015/2016",
+  "km": "132.778",
+  "kmNum": 132778,
+  "showKm": true,
+  "price": 79900,
+  "priceLabel": "",
+  "showPrice": true,
+  "body": "Sedan",
+  "transmission": "Automático",
+  "fuel": "Flex",
+  "color": "Cinza",
+  "doors": 4,
+  "optionals": [
+   "Ar Condicionado",
+   "Bancos De Couro",
+   "Direção Hidráulica",
+   "Kit Multimídia",
+   "Rodas De Liga Leve",
+   "Travas Elétricas",
+   "Vidros Elétricos",
+   "Volante Com Multi Funções"
+  ],
+  "destaque": false,
+  "aceitaTroca": true,
+  "fotos": [
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446972-honda-civic-20260924170712980117.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446972-honda-civic-20260924170713857346.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446972-honda-civic-20260924170714375603.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446972-honda-civic-20260924170714914609.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446972-honda-civic-20260924170715265436.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446972-honda-civic-20260924170715548212.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446972-honda-civic-20260924170715900133.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446972-honda-civic-20260924170716137650.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446972-honda-civic-20260924170716375312.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446972-honda-civic-20260924170716632025.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446972-honda-civic-20260924170716939643.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446972-honda-civic-20260924170717178645.webp"
+  ],
+  "descricao": "O Honda Civic 2.0 LXR 16V 2016 é um Sedan automático na cor cinza, com motor flex e 132.778 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, kit multimídia, rodas de liga leve, travas elétricas e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+ },
  {
   "id": 446180,
   "name": "Ford Fiesta 1.0 MPI Hatch 8V",
@@ -296,44 +342,6 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443814-chevrolet-onix-20260901170005167185.webp"
   ],
   "descricao": "O Chevrolet Onix 1.0 Plus LT 2025 é um Sedan manual na cor prata, com motor flex e 30.519 km rodados. Vem com ar condicionado, direção hidráulica, kit multimídia, start-stop, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
-  "id": 443737,
-  "name": "Yamaha YS 250 Fazer",
-  "brand": "yamaha",
-  "brandLabel": "Yamaha",
-  "year": 2013,
-  "yearLabel": "2012/2013",
-  "km": "134.330",
-  "kmNum": 134330,
-  "showKm": true,
-  "price": 12500,
-  "priceLabel": "",
-  "showPrice": true,
-  "body": "Veículo",
-  "transmission": "",
-  "fuel": "Gasolina",
-  "color": "Preta",
-  "doors": null,
-  "optionals": [
-   "Bolsa/baú/bauleto"
-  ],
-  "destaque": false,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443737-yamaha-ys-250-fazer-20260901122849349212.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443737-yamaha-ys-250-fazer-20260901122850449404.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/443737-yamaha-ys-250-fazer-20260901122850942118.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443737-yamaha-ys-250-fazer-20260901122851430847.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443737-yamaha-ys-250-fazer-20260901122851873005.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443737-yamaha-ys-250-fazer-20260901122852239910.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443737-yamaha-ys-250-fazer-20260901122852653027.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443737-yamaha-ys-250-fazer-20260901122853013260.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443737-yamaha-ys-250-fazer-20260901122853411425.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443737-yamaha-ys-250-fazer-20260901122853748019.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443737-yamaha-ys-250-fazer-20260901122854134328.webp"
-  ],
-  "descricao": "O Yamaha YS 250 Fazer 2013 é um Veículo na cor preta, com motor gasolina e 134.330 km rodados. Vem com bolsa/baú/bauleto. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
   "id": 422821,
@@ -744,49 +752,6 @@ window.CARS_SYNC = [
   "descricao": "O Fiat Cronos 1.0 Firefly Drive 2025 é um Sedan manual na cor preta, com motor flex e 54.664 km rodados. Vem com ar condicionado, direção hidráulica, kit multimídia, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
-  "id": 439499,
-  "name": "Fiat Strada 1.3 Firefly Freedom CD",
-  "brand": "fiat",
-  "brandLabel": "Fiat",
-  "year": 2025,
-  "yearLabel": "2024/2025",
-  "km": "49.544",
-  "kmNum": 49544,
-  "showKm": true,
-  "price": 105900,
-  "priceLabel": "",
-  "showPrice": true,
-  "body": "Picape",
-  "transmission": "Manual",
-  "fuel": "Flex",
-  "color": "Prata",
-  "doors": 4,
-  "optionals": [
-   "Ar Condicionado",
-   "Direção Hidráulica",
-   "Kit Multimídia",
-   "Travas Elétricas",
-   "Vidros Elétricos"
-  ],
-  "destaque": false,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/439499-fiat-strada-20260803173526878487.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/439499-fiat-strada-20260803173527634252.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/439499-fiat-strada-20260803173527870027.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/439499-fiat-strada-20260803173528104304.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/439499-fiat-strada-20260803173528355770.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/439499-fiat-strada-20260803173528608128.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/439499-fiat-strada-20260803173528878297.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/439499-fiat-strada-20260803173529122138.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/439499-fiat-strada-20260803173529352541.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/439499-fiat-strada-20260803173529598030.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/439499-fiat-strada-20260803173529850923.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/439499-fiat-strada-20260803173530098820.webp"
-  ],
-  "descricao": "O Fiat Strada 1.3 Firefly Freedom CD 2025 é um Picape manual na cor prata, com motor flex e 49.544 km rodados. Vem com ar condicionado, direção hidráulica, kit multimídia, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
   "id": 438863,
   "name": "Hyundai HB20 1.0 12V Sense",
   "brand": "hyundai",
@@ -867,51 +832,6 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/438360-renault-kwid-20260725123058758402.webp"
   ],
   "descricao": "O Renault Kwid 1.0 12V SCE ZEN 2026 é um Hatch manual na cor branca, com motor flex e 26.315 km rodados. Vem com ar condicionado, direção elétrica, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
-  "id": 438348,
-  "name": "Volkswagen Taos 250 TSI Highline",
-  "brand": "volkswagen",
-  "brandLabel": "Volkswagen",
-  "year": 2024,
-  "yearLabel": "2024",
-  "km": "16.052",
-  "kmNum": 16052,
-  "showKm": true,
-  "price": 149900,
-  "priceLabel": "",
-  "showPrice": true,
-  "body": "SUV",
-  "transmission": "Automático",
-  "fuel": "Flex",
-  "color": "Preta",
-  "doors": 4,
-  "optionals": [
-   "Ar Condicionado",
-   "Bancos De Couro",
-   "Direção Hidráulica",
-   "Kit Multimídia",
-   "Teto Solar",
-   "Travas Elétricas",
-   "Vidros Elétricos"
-  ],
-  "destaque": false,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/438348-volkswagen-taos-20260725115521110516.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/438348-volkswagen-taos-20260725115521837986.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/438348-volkswagen-taos-20260725115522180237.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/438348-volkswagen-taos-20260725115522428463.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/438348-volkswagen-taos-20260725115522676234.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/438348-volkswagen-taos-20260725115522926843.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/438348-volkswagen-taos-20260725115523164981.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/438348-volkswagen-taos-20260725115523502667.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/438348-volkswagen-taos-20260725115523741259.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/438348-volkswagen-taos-20260725115524021613.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/438348-volkswagen-taos-20260725115524577725.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/438348-volkswagen-taos-20260725115524992855.webp"
-  ],
-  "descricao": "O Volkswagen Taos 250 TSI Highline 2024 é um SUV automático na cor preta, com motor flex e 16.052 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, kit multimídia, teto solar, travas elétricas e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
   "id": 436666,
