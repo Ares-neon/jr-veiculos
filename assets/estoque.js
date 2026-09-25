@@ -1,8 +1,8 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-09-25T18:34:04.925Z
-   Veículos: 25
+   Atualizado em: 2026-09-25T22:18:18.899Z
+   Veículos: 24
    ============================================================ */
 window.CARS_SYNC = [
  {
@@ -261,46 +261,6 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443821-chevrolet-equinox-20260901174024556694.webp"
   ],
   "descricao": "O Chevrolet Equinox 1.5 16V Turbo Premier AWD 2020 é um SUV automático na cor vermelha, com motor gasolina e 75.415 km rodados. Vem com ar condicionado, direção hidráulica, kit multimídia, teto solar, travas elétricas, vidros elétricos e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
-  "id": 443816,
-  "name": "Chevrolet Onix 1.0 LT",
-  "brand": "chevrolet",
-  "brandLabel": "Chevrolet",
-  "year": 2025,
-  "yearLabel": "2024/2025",
-  "km": "38.719",
-  "kmNum": 38719,
-  "showKm": true,
-  "price": 74900,
-  "priceLabel": "",
-  "showPrice": true,
-  "body": "Hatch",
-  "transmission": "Manual",
-  "fuel": "Flex",
-  "color": "Prata",
-  "doors": 4,
-  "optionals": [
-   "Ar Condicionado",
-   "Direção Hidráulica",
-   "Kit Multimídia",
-   "Travas Elétricas",
-   "Vidros Elétricos"
-  ],
-  "destaque": false,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443816-chevrolet-onix-20260901170527781143.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443816-chevrolet-onix-20260901170528479750.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/443816-chevrolet-onix-20260901170528912029.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443816-chevrolet-onix-20260901170529261402.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443816-chevrolet-onix-20260901170529628925.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443816-chevrolet-onix-20260901170529975622.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443816-chevrolet-onix-20260901170530366238.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443816-chevrolet-onix-20260901170530735078.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443816-chevrolet-onix-20260901170531142152.webp"
-  ],
-  "descricao": "O Chevrolet Onix 1.0 LT 2025 é um Hatch manual na cor prata, com motor flex e 38.719 km rodados. Vem com ar condicionado, direção hidráulica, kit multimídia, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
   "id": 443814,
