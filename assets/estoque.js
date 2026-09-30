@@ -1,7 +1,7 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-09-29T20:44:36.592Z
+   Atualizado em: 2026-09-30T00:24:52.875Z
    Veículos: 28
    ============================================================ */
 window.CARS_SYNC = [
@@ -37,13 +37,13 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447583-chevrolet-onix-20260929152143969511.webp",
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447583-chevrolet-onix-20260929152144309108.webp",
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447583-chevrolet-onix-20260929152144556349.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/447583-chevrolet-onix-20260929152144797123.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/447583-chevrolet-onix-20260929152145110773.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/447583-chevrolet-onix-20260929152145346833.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/447583-chevrolet-onix-20260929152145605888.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/447583-chevrolet-onix-20260929152145857128.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/447583-chevrolet-onix-20260929152146361571.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/447583-chevrolet-onix-20260929152146700241.jpeg"
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447583-chevrolet-onix-20260929152144797123.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447583-chevrolet-onix-20260929152145110773.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447583-chevrolet-onix-20260929152145346833.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447583-chevrolet-onix-20260929152145605888.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447583-chevrolet-onix-20260929152145857128.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447583-chevrolet-onix-20260929152146361571.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447583-chevrolet-onix-20260929152146700241.webp"
   ],
   "descricao": "O Chevrolet Onix 1.0 Mpfi JOY 8V 2020 é um Hatch manual na cor cinza, com motor flex e 96.866 km rodados. Vem com ar condicionado, direção hidráulica, kit multimídia, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
