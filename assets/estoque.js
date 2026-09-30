@@ -1,10 +1,55 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-09-30T13:39:32.772Z
-   Veículos: 28
+   Atualizado em: 2026-09-30T19:16:41.515Z
+   Veículos: 29
    ============================================================ */
 window.CARS_SYNC = [
+ {
+  "id": 447814,
+  "name": "Hyundai IX35 2.0 16V",
+  "brand": "hyundai",
+  "brandLabel": "Hyundai",
+  "year": 2013,
+  "yearLabel": "2012/2013",
+  "km": "132.229",
+  "kmNum": 132229,
+  "showKm": true,
+  "price": 69900,
+  "priceLabel": "",
+  "showPrice": true,
+  "body": "SUV",
+  "transmission": "Automático",
+  "fuel": "Flex",
+  "color": "Preta",
+  "doors": 4,
+  "optionals": [
+   "Ar Condicionado",
+   "Bancos De Couro",
+   "Direção Hidráulica",
+   "Kit Multimídia",
+   "Rodas De Liga Leve",
+   "Travas Elétricas",
+   "Vidros Elétricos",
+   "Volante Com Multi Funções"
+  ],
+  "destaque": false,
+  "aceitaTroca": true,
+  "fotos": [
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447814-hyundai-ix35-20260930161340807218.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447814-hyundai-ix35-20260930161341945642.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/447814-hyundai-ix35-20260930161342693425.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447814-hyundai-ix35-20260930161343041260.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/447814-hyundai-ix35-20260930161343285066.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/447814-hyundai-ix35-20260930161343527683.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/447814-hyundai-ix35-20260930161343773821.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/447814-hyundai-ix35-20260930161344012354.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/447814-hyundai-ix35-20260930161344266719.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/447814-hyundai-ix35-20260930161344517856.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/447814-hyundai-ix35-20260930161344762174.jpeg"
+  ],
+  "descricao": "O Hyundai IX35 2.0 16V 2013 é um SUV automático na cor preta, com motor flex e 132.229 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, kit multimídia, rodas de liga leve, travas elétricas e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+ },
  {
   "id": 447583,
   "name": "Chevrolet Onix 1.0 Mpfi JOY 8V",
