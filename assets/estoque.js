@@ -1,7 +1,7 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-09-30T19:16:41.515Z
+   Atualizado em: 2026-09-30T23:02:05.775Z
    Veículos: 29
    ============================================================ */
 window.CARS_SYNC = [
@@ -40,13 +40,13 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447814-hyundai-ix35-20260930161341945642.webp",
    "https://media.integradordeanuncios.com.br/media/fotos/261/447814-hyundai-ix35-20260930161342693425.jpeg",
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447814-hyundai-ix35-20260930161343041260.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/447814-hyundai-ix35-20260930161343285066.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/447814-hyundai-ix35-20260930161343527683.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/447814-hyundai-ix35-20260930161343773821.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/447814-hyundai-ix35-20260930161344012354.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/447814-hyundai-ix35-20260930161344266719.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/447814-hyundai-ix35-20260930161344517856.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/447814-hyundai-ix35-20260930161344762174.jpeg"
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447814-hyundai-ix35-20260930161343285066.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447814-hyundai-ix35-20260930161343527683.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447814-hyundai-ix35-20260930161343773821.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447814-hyundai-ix35-20260930161344012354.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447814-hyundai-ix35-20260930161344266719.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447814-hyundai-ix35-20260930161344517856.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447814-hyundai-ix35-20260930161344762174.webp"
   ],
   "descricao": "O Hyundai IX35 2.0 16V 2013 é um SUV automático na cor preta, com motor flex e 132.229 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, kit multimídia, rodas de liga leve, travas elétricas e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
