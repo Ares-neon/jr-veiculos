@@ -1,10 +1,139 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-10-03T12:30:30.721Z
-   Veículos: 29
+   Atualizado em: 2026-10-03T17:14:48.316Z
+   Veículos: 32
    ============================================================ */
 window.CARS_SYNC = [
+ {
+  "id": 448361,
+  "name": "Volkswagen Voyage 1.6 MI City 8V",
+  "brand": "volkswagen",
+  "brandLabel": "Volkswagen",
+  "year": 2015,
+  "yearLabel": "2014/2015",
+  "km": "154.287",
+  "kmNum": 154287,
+  "showKm": true,
+  "price": 47900,
+  "priceLabel": "",
+  "showPrice": true,
+  "body": "Sedan",
+  "transmission": "Manual",
+  "fuel": "Flex",
+  "color": "Prata",
+  "doors": 4,
+  "optionals": [
+   "Ar Condicionado",
+   "Computador De Bordo",
+   "Direção Hidráulica",
+   "Travas Elétricas",
+   "Vidros Elétricos",
+   "Volante Com Multi Funções"
+  ],
+  "destaque": false,
+  "aceitaTroca": true,
+  "fotos": [
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448361-volkswagen-voyage-20261003105517255794.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448361-volkswagen-voyage-20261003105517778579.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448361-volkswagen-voyage-20261003105518019946.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448361-volkswagen-voyage-20261003105518258184.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448361-volkswagen-voyage-20261003105518508513.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448361-volkswagen-voyage-20261003105518748966.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448361-volkswagen-voyage-20261003105518994634.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448361-volkswagen-voyage-20261003105519224885.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448361-volkswagen-voyage-20261003105519457004.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448361-volkswagen-voyage-20261003105519694902.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448361-volkswagen-voyage-20261003105519938879.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448361-volkswagen-voyage-20261003105520174478.webp"
+  ],
+  "descricao": "O Volkswagen Voyage 1.6 MI City 8V 2015 é um Sedan manual na cor prata, com motor flex e 154.287 km rodados. Vem com ar condicionado, computador de bordo, direção hidráulica, travas elétricas, vidros elétricos, volante com multi funções. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+ },
+ {
+  "id": 448359,
+  "name": "Fiat Toro 2.4 16V Multiair Volcano",
+  "brand": "fiat",
+  "brandLabel": "Fiat",
+  "year": 2019,
+  "yearLabel": "2019",
+  "km": "74.672",
+  "kmNum": 74672,
+  "showKm": true,
+  "price": 96900,
+  "priceLabel": "",
+  "showPrice": true,
+  "body": "Picape Cab.dupla",
+  "transmission": "Automático",
+  "fuel": "Flex",
+  "color": "Preta",
+  "doors": 4,
+  "optionals": [
+   "Ar Condicionado",
+   "Bancos De Couro",
+   "Computador De Bordo",
+   "Direção Hidráulica",
+   "Rodas De Liga Leve",
+   "Start-Stop",
+   "Travas Elétricas",
+   "Vidros Elétricos"
+  ],
+  "destaque": false,
+  "aceitaTroca": true,
+  "fotos": [
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448359-fiat-toro-20261003104807617959.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448359-fiat-toro-20261003104808352944.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/448359-fiat-toro-20261003104809053891.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448359-fiat-toro-20261003104809421922.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448359-fiat-toro-20261003104809674132.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448359-fiat-toro-20261003104809917738.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448359-fiat-toro-20261003104810140741.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448359-fiat-toro-20261003104810400203.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448359-fiat-toro-20261003104810634426.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448359-fiat-toro-20261003104810862902.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448359-fiat-toro-20261003104811092574.webp"
+  ],
+  "descricao": "O Fiat Toro 2.4 16V Multiair Volcano 2019 é um Picape Cab.dupla automático na cor preta, com motor flex e 74.672 km rodados. Vem com ar condicionado, bancos de couro, computador de bordo, direção hidráulica, rodas de liga leve, start-stop e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+ },
+ {
+  "id": 448354,
+  "name": "Chevrolet Silverado 4.2 Conquest 4X2 CS 18V Turbo Intercooler",
+  "brand": "chevrolet",
+  "brandLabel": "Chevrolet",
+  "year": 2000,
+  "yearLabel": "1999/2000",
+  "km": "330.000",
+  "kmNum": 330000,
+  "showKm": true,
+  "price": 149900,
+  "priceLabel": "",
+  "showPrice": true,
+  "body": "Picape",
+  "transmission": "Manual",
+  "fuel": "Diesel",
+  "color": "Vermelha",
+  "doors": 2,
+  "optionals": [
+   "Alarme",
+   "Ar Condicionado",
+   "Direção Hidráulica",
+   "Travas Elétricas",
+   "Vidros Elétricos"
+  ],
+  "destaque": false,
+  "aceitaTroca": true,
+  "fotos": [
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448354-chevrolet-silverado-20261003102525361858.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448354-chevrolet-silverado-20261003102526132829.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448354-chevrolet-silverado-20261003102526498883.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448354-chevrolet-silverado-20261003102526746775.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448354-chevrolet-silverado-20261003102527010430.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448354-chevrolet-silverado-20261003102527269162.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448354-chevrolet-silverado-20261003102527523086.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448354-chevrolet-silverado-20261003102527774420.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448354-chevrolet-silverado-20261003102528048729.webp"
+  ],
+  "descricao": "O Chevrolet Silverado 4.2 Conquest 4X2 CS 18V Turbo Intercooler 2000 é um Picape manual na cor vermelha, com motor diesel e 330.000 km rodados. Vem com alarme, ar condicionado, direção hidráulica, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+ },
  {
   "id": 447814,
   "name": "Hyundai IX35 2.0 16V",
