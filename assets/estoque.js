@@ -1,8 +1,8 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-10-05T08:59:09.021Z
-   Veículos: 32
+   Atualizado em: 2026-10-05T18:23:59.902Z
+   Veículos: 28
    ============================================================ */
 window.CARS_SYNC = [
  {
@@ -133,51 +133,6 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448354-chevrolet-silverado-20261003102528048729.webp"
   ],
   "descricao": "O Chevrolet Silverado 4.2 Conquest 4X2 CS 18V Turbo Intercooler 2000 é um Picape manual na cor vermelha, com motor diesel e 330.000 km rodados. Vem com alarme, ar condicionado, direção hidráulica, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
-  "id": 447814,
-  "name": "Hyundai IX35 2.0 16V",
-  "brand": "hyundai",
-  "brandLabel": "Hyundai",
-  "year": 2013,
-  "yearLabel": "2012/2013",
-  "km": "132.229",
-  "kmNum": 132229,
-  "showKm": true,
-  "price": 69900,
-  "priceLabel": "",
-  "showPrice": true,
-  "body": "SUV",
-  "transmission": "Automático",
-  "fuel": "Flex",
-  "color": "Preta",
-  "doors": 4,
-  "optionals": [
-   "Ar Condicionado",
-   "Bancos De Couro",
-   "Direção Hidráulica",
-   "Kit Multimídia",
-   "Rodas De Liga Leve",
-   "Travas Elétricas",
-   "Vidros Elétricos",
-   "Volante Com Multi Funções"
-  ],
-  "destaque": false,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447814-hyundai-ix35-20260930161340807218.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447814-hyundai-ix35-20260930161341945642.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/447814-hyundai-ix35-20260930161342693425.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447814-hyundai-ix35-20260930161343041260.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447814-hyundai-ix35-20260930161343285066.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447814-hyundai-ix35-20260930161343527683.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447814-hyundai-ix35-20260930161343773821.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447814-hyundai-ix35-20260930161344012354.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447814-hyundai-ix35-20260930161344266719.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447814-hyundai-ix35-20260930161344517856.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447814-hyundai-ix35-20260930161344762174.webp"
-  ],
-  "descricao": "O Hyundai IX35 2.0 16V 2013 é um SUV automático na cor preta, com motor flex e 132.229 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, kit multimídia, rodas de liga leve, travas elétricas e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
   "id": 447583,
@@ -428,46 +383,6 @@ window.CARS_SYNC = [
   "descricao": "O Chevrolet Onix 1.0 Turbo 2024 é um Hatch automático na cor cinza, com motor flex e 17.719 km rodados. Vem com 7 lugares, ar condicionado, bancos de couro, direção hidráulica, kit multimídia, rodas de liga leve. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
-  "id": 446180,
-  "name": "Ford Fiesta 1.0 MPI Hatch 8V",
-  "brand": "ford",
-  "brandLabel": "Ford",
-  "year": 2012,
-  "yearLabel": "2011/2012",
-  "km": "70.013",
-  "kmNum": 70013,
-  "showKm": true,
-  "price": 33900,
-  "priceLabel": "",
-  "showPrice": true,
-  "body": "Hatch",
-  "transmission": "Manual",
-  "fuel": "Flex",
-  "color": "Preta",
-  "doors": 4,
-  "optionals": [
-   "Ar Condicionado",
-   "Direção Hidráulica",
-   "Travas Elétricas",
-   "Vidros Elétricos"
-  ],
-  "destaque": false,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446180-ford-fiesta-20260918180617486432.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446180-ford-fiesta-20260918180618422851.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/446180-ford-fiesta-20260918180619030937.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446180-ford-fiesta-20260918180619547448.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446180-ford-fiesta-20260918180620006430.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446180-ford-fiesta-20260918180620394105.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446180-ford-fiesta-20260918180620727105.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446180-ford-fiesta-20260918180621098146.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446180-ford-fiesta-20260918180621505979.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446180-ford-fiesta-20260918180622125779.webp"
-  ],
-  "descricao": "O Ford Fiesta 1.0 MPI Hatch 8V 2012 é um Hatch manual na cor preta, com motor flex e 70.013 km rodados. Vem com ar condicionado, direção hidráulica, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
   "id": 446031,
   "name": "Chevrolet Onix 1.0",
   "brand": "chevrolet",
@@ -637,87 +552,6 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443821-chevrolet-equinox-20260901174024556694.webp"
   ],
   "descricao": "O Chevrolet Equinox 1.5 16V Turbo Premier AWD 2020 é um SUV automático na cor vermelha, com motor gasolina e 75.415 km rodados. Vem com ar condicionado, direção hidráulica, kit multimídia, teto solar, travas elétricas, vidros elétricos e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
-  "id": 443814,
-  "name": "Chevrolet Onix 1.0 Plus LT",
-  "brand": "chevrolet",
-  "brandLabel": "Chevrolet",
-  "year": 2025,
-  "yearLabel": "2025",
-  "km": "30.519",
-  "kmNum": 30519,
-  "showKm": true,
-  "price": 74900,
-  "priceLabel": "",
-  "showPrice": true,
-  "body": "Sedan",
-  "transmission": "Manual",
-  "fuel": "Flex",
-  "color": "Prata",
-  "doors": 4,
-  "optionals": [
-   "Ar Condicionado",
-   "Direção Hidráulica",
-   "Kit Multimídia",
-   "Start-Stop",
-   "Travas Elétricas",
-   "Vidros Elétricos"
-  ],
-  "destaque": false,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443814-chevrolet-onix-20260901170001254867.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443814-chevrolet-onix-20260901170002104967.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443814-chevrolet-onix-20260901170002432661.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443814-chevrolet-onix-20260901170002795659.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443814-chevrolet-onix-20260901170003162890.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443814-chevrolet-onix-20260901170003562762.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443814-chevrolet-onix-20260901170004066973.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443814-chevrolet-onix-20260901170004792959.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443814-chevrolet-onix-20260901170005167185.webp"
-  ],
-  "descricao": "O Chevrolet Onix 1.0 Plus LT 2025 é um Sedan manual na cor prata, com motor flex e 30.519 km rodados. Vem com ar condicionado, direção hidráulica, kit multimídia, start-stop, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
-  "id": 441690,
-  "name": "Ford Fiesta 1.0 MPI Hatch 8V",
-  "brand": "ford",
-  "brandLabel": "Ford",
-  "year": 2012,
-  "yearLabel": "2012",
-  "km": "153.272",
-  "kmNum": 153272,
-  "showKm": true,
-  "price": 33900,
-  "priceLabel": "",
-  "showPrice": true,
-  "body": "Hatch",
-  "transmission": "Manual",
-  "fuel": "Flex",
-  "color": "Preta",
-  "doors": 4,
-  "optionals": [
-   "Ar Condicionado",
-   "Direção Hidráulica",
-   "Travas Elétricas",
-   "Vidros Elétricos"
-  ],
-  "destaque": false,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/441690-ford-fiesta-20260817173118482373.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/441690-ford-fiesta-20260817173119222013.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/441690-ford-fiesta-20260817173119642484.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/441690-ford-fiesta-20260817173119909704.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/441690-ford-fiesta-20260817173120150624.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/441690-ford-fiesta-20260817173120389335.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/441690-ford-fiesta-20260817173120646082.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/441690-ford-fiesta-20260817173120875940.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/441690-ford-fiesta-20260817173121137053.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/441690-ford-fiesta-20260817173121365720.webp"
-  ],
-  "descricao": "O Ford Fiesta 1.0 MPI Hatch 8V 2012 é um Hatch manual na cor preta, com motor flex e 153.272 km rodados. Vem com ar condicionado, direção hidráulica, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
   "id": 441337,
