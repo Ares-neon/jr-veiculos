@@ -1,10 +1,99 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-10-08T13:24:04.410Z
-   Veículos: 30
+   Atualizado em: 2026-10-08T19:55:23.184Z
+   Veículos: 32
    ============================================================ */
 window.CARS_SYNC = [
+ {
+  "id": 449010,
+  "name": "Hyundai HB20S 1.0 12V Comfort",
+  "brand": "hyundai",
+  "brandLabel": "Hyundai",
+  "year": 2026,
+  "yearLabel": "2025/2026",
+  "km": "40.901",
+  "kmNum": 40901,
+  "showKm": true,
+  "price": 84900,
+  "priceLabel": "",
+  "showPrice": true,
+  "body": "Sedan",
+  "transmission": "Manual",
+  "fuel": "Flex",
+  "color": "Cinza",
+  "doors": 4,
+  "optionals": [
+   "Ar Condicionado",
+   "Bancos De Couro",
+   "Direção Hidráulica",
+   "Kit Multimídia",
+   "Travas Elétricas",
+   "Vidros Elétricos",
+   "Volante Com Multi Funções"
+  ],
+  "destaque": false,
+  "aceitaTroca": true,
+  "fotos": [
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449010-hyundai-hb20s-20261008112215918196.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449010-hyundai-hb20s-20261008112216778017.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449010-hyundai-hb20s-20261008112217574396.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/449010-hyundai-hb20s-20261008112217923128.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449010-hyundai-hb20s-20261008112218168729.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449010-hyundai-hb20s-20261008112218410814.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449010-hyundai-hb20s-20261008112218652680.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449010-hyundai-hb20s-20261008112218897830.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449010-hyundai-hb20s-20261008112219149280.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449010-hyundai-hb20s-20261008112219520734.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449010-hyundai-hb20s-20261008112219822226.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449010-hyundai-hb20s-20261008112220060081.webp"
+  ],
+  "descricao": "O Hyundai HB20S 1.0 12V Comfort 2026 é um Sedan manual na cor cinza, com motor flex e 40.901 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, kit multimídia, travas elétricas, vidros elétricos e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+ },
+ {
+  "id": 449008,
+  "name": "Hyundai HB20S 1.0 12V Comfort",
+  "brand": "hyundai",
+  "brandLabel": "Hyundai",
+  "year": 2026,
+  "yearLabel": "2025/2026",
+  "km": "40.265",
+  "kmNum": 40265,
+  "showKm": true,
+  "price": 84900,
+  "priceLabel": "",
+  "showPrice": true,
+  "body": "Sedan",
+  "transmission": "Manual",
+  "fuel": "Flex",
+  "color": "Prata",
+  "doors": 4,
+  "optionals": [
+   "Ar Condicionado",
+   "Bancos De Couro",
+   "Direção Hidráulica",
+   "Kit Multimídia",
+   "Travas Elétricas",
+   "Vidros Elétricos",
+   "Volante Com Multi Funções"
+  ],
+  "destaque": false,
+  "aceitaTroca": true,
+  "fotos": [
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449008-hyundai-hb20s-20261008111702749709.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449008-hyundai-hb20s-20261008111703492704.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/449008-hyundai-hb20s-20261008111703849321.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449008-hyundai-hb20s-20261008111704111017.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449008-hyundai-hb20s-20261008111704366483.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449008-hyundai-hb20s-20261008111704656741.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449008-hyundai-hb20s-20261008111704909833.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449008-hyundai-hb20s-20261008111705160648.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449008-hyundai-hb20s-20261008111705411663.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449008-hyundai-hb20s-20261008111705659093.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449008-hyundai-hb20s-20261008111705952650.webp"
+  ],
+  "descricao": "O Hyundai HB20S 1.0 12V Comfort 2026 é um Sedan manual na cor prata, com motor flex e 40.265 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, kit multimídia, travas elétricas, vidros elétricos e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+ },
  {
   "id": 448922,
   "name": "Hyundai Creta 1.6 16V Action",
