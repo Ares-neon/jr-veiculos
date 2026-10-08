@@ -1,10 +1,94 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-10-07T19:57:47.771Z
-   Veículos: 28
+   Atualizado em: 2026-10-08T00:10:53.567Z
+   Veículos: 30
    ============================================================ */
 window.CARS_SYNC = [
+ {
+  "id": 448922,
+  "name": "Hyundai Creta 1.6 16V Action",
+  "brand": "hyundai",
+  "brandLabel": "Hyundai",
+  "year": 2022,
+  "yearLabel": "2021/2022",
+  "km": "54.870",
+  "kmNum": 54870,
+  "showKm": true,
+  "price": 96900,
+  "priceLabel": "",
+  "showPrice": true,
+  "body": "SUV",
+  "transmission": "Automático",
+  "fuel": "Flex",
+  "color": "Cinza",
+  "doors": 4,
+  "optionals": [
+   "Ar Condicionado",
+   "Bancos De Couro",
+   "Direção Hidráulica",
+   "Kit Multimídia",
+   "Rodas De Liga Leve",
+   "Travas Elétricas",
+   "Vidros Elétricos"
+  ],
+  "destaque": false,
+  "aceitaTroca": true,
+  "fotos": [
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448922-hyundai-creta-20261007172542931833.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448922-hyundai-creta-20261007172543670895.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448922-hyundai-creta-20261007172544019502.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448922-hyundai-creta-20261007172544271288.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448922-hyundai-creta-20261007172544517264.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448922-hyundai-creta-20261007172544769013.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448922-hyundai-creta-20261007172545041323.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448922-hyundai-creta-20261007172545298975.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448922-hyundai-creta-20261007172545549682.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448922-hyundai-creta-20261007172545785120.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448922-hyundai-creta-20261007172546022067.webp"
+  ],
+  "descricao": "O Hyundai Creta 1.6 16V Action 2022 é um SUV automático na cor cinza, com motor flex e 54.870 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, kit multimídia, rodas de liga leve, travas elétricas e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+ },
+ {
+  "id": 448920,
+  "name": "Fiat Mobi 1.0 EVO Like.",
+  "brand": "fiat",
+  "brandLabel": "Fiat",
+  "year": 2025,
+  "yearLabel": "2025",
+  "km": "41.556",
+  "kmNum": 41556,
+  "showKm": true,
+  "price": 59900,
+  "priceLabel": "",
+  "showPrice": true,
+  "body": "Hatch",
+  "transmission": "Manual",
+  "fuel": "Flex",
+  "color": "Branca",
+  "doors": 4,
+  "optionals": [
+   "Ar Condicionado",
+   "Direção Hidráulica",
+   "Travas Elétricas",
+   "Vidros Elétricos"
+  ],
+  "destaque": false,
+  "aceitaTroca": true,
+  "fotos": [
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448920-fiat-mobi-20261007172327654163.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448920-fiat-mobi-20261007172328409470.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448920-fiat-mobi-20261007172328754332.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448920-fiat-mobi-20261007172329012963.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448920-fiat-mobi-20261007172329267632.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448920-fiat-mobi-20261007172329554744.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448920-fiat-mobi-20261007172329812046.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448920-fiat-mobi-20261007172330122250.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448920-fiat-mobi-20261007172330362748.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448920-fiat-mobi-20261007172330608280.webp"
+  ],
+  "descricao": "O Fiat Mobi 1.0 EVO Like. 2025 é um Hatch manual na cor branca, com motor flex e 41.556 km rodados. Vem com ar condicionado, direção hidráulica, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+ },
  {
   "id": 448361,
   "name": "Volkswagen Voyage 1.6 MI City 8V",
