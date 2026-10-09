@@ -1,7 +1,7 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-10-09T00:20:54.224Z
+   Atualizado em: 2026-10-09T07:21:37.813Z
    Veículos: 32
    ============================================================ */
 window.CARS_SYNC = [
@@ -36,13 +36,13 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449119-honda-hr-v-20261008181113007816.webp",
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449119-honda-hr-v-20261008181113871959.webp",
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449119-honda-hr-v-20261008181114224551.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/449119-honda-hr-v-20261008181114495241.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/449119-honda-hr-v-20261008181114743802.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/449119-honda-hr-v-20261008181115009816.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449119-honda-hr-v-20261008181114495241.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449119-honda-hr-v-20261008181114743802.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449119-honda-hr-v-20261008181115009816.webp",
    "https://media.integradordeanuncios.com.br/media/fotos/261/449119-honda-hr-v-20261008181115264628.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/449119-honda-hr-v-20261008181115512205.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/449119-honda-hr-v-20261008181115754523.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/449119-honda-hr-v-20261008181116010029.jpeg"
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449119-honda-hr-v-20261008181115512205.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449119-honda-hr-v-20261008181115754523.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449119-honda-hr-v-20261008181116010029.webp"
   ],
   "descricao": "O Honda HR-V 1.8 16V EX 2016 é um SUV automático na cor cinza, com motor flex e 146.208 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
@@ -472,7 +472,7 @@ window.CARS_SYNC = [
  },
  {
   "id": 447560,
-  "name": "Fiat Doblo 1.4 MPI Attractive 8V",
+  "name": "Fiat Doblò 1.4 MPI Attractive 8V",
   "brand": "fiat",
   "brandLabel": "Fiat",
   "year": 2015,
@@ -510,7 +510,7 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447560-fiat-doblo-20260929141449521279.webp",
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447560-fiat-doblo-20260929141449770780.webp"
   ],
-  "descricao": "O Fiat Doblo 1.4 MPI Attractive 8V 2015 é um Utilitário manual na cor prata, com motor flex e 158.717 km rodados. Vem com ar condicionado, direção hidráulica, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+  "descricao": "O Fiat Doblò 1.4 MPI Attractive 8V 2015 é um Utilitário manual na cor prata, com motor flex e 158.717 km rodados. Vem com ar condicionado, direção hidráulica, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
   "id": 447558,
