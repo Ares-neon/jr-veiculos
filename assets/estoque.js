@@ -1,8 +1,8 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-10-10T12:27:01.879Z
-   Veículos: 32
+   Atualizado em: 2026-10-10T17:50:29.486Z
+   Veículos: 30
    ============================================================ */
 window.CARS_SYNC = [
  {
@@ -513,48 +513,6 @@ window.CARS_SYNC = [
   "descricao": "O Fiat Doblò 1.4 MPI Attractive 8V 2015 é um Utilitário manual na cor prata, com motor flex e 158.717 km rodados. Vem com ar condicionado, direção hidráulica, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
-  "id": 447558,
-  "name": "Chevrolet Onix 1.0 Turbo",
-  "brand": "chevrolet",
-  "brandLabel": "Chevrolet",
-  "year": 2024,
-  "yearLabel": "2023/2024",
-  "km": "17.719",
-  "kmNum": 17719,
-  "showKm": true,
-  "price": 88900,
-  "priceLabel": "",
-  "showPrice": true,
-  "body": "Hatch",
-  "transmission": "Automático",
-  "fuel": "Flex",
-  "color": "Cinza",
-  "doors": 4,
-  "optionals": [
-   "7 Lugares",
-   "Ar Condicionado",
-   "Bancos De Couro",
-   "Direção Hidráulica",
-   "Kit Multimídia",
-   "Rodas De Liga Leve"
-  ],
-  "destaque": false,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447558-chevrolet-onix-20260929141226000295.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447558-chevrolet-onix-20260929141226749611.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447558-chevrolet-onix-20260929141227175015.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447558-chevrolet-onix-20260929141227462428.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447558-chevrolet-onix-20260929141228203174.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447558-chevrolet-onix-20260929141228456221.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447558-chevrolet-onix-20260929141228882262.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447558-chevrolet-onix-20260929141229578954.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447558-chevrolet-onix-20260929141229827002.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447558-chevrolet-onix-20260929141230069450.webp"
-  ],
-  "descricao": "O Chevrolet Onix 1.0 Turbo 2024 é um Hatch automático na cor cinza, com motor flex e 17.719 km rodados. Vem com 7 lugares, ar condicionado, bancos de couro, direção hidráulica, kit multimídia, rodas de liga leve. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
   "id": 446031,
   "name": "Chevrolet Onix 1.0",
   "brand": "chevrolet",
@@ -637,49 +595,6 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444990-honda-fit-20260910174624970239.webp"
   ],
   "descricao": "O Honda FIT 1.4 LXL 16V 2010 é um Minivan automático na cor cinza, com motor flex e 147.961 km rodados. Vem com ar condicionado, direção hidráulica, kit multimídia, rodas de liga leve, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
-  "id": 444798,
-  "name": "Peugeot 2008 1.6 16V THP Griffe",
-  "brand": "peugeot",
-  "brandLabel": "Peugeot",
-  "year": 2023,
-  "yearLabel": "2022/2023",
-  "km": "78.953",
-  "kmNum": 78953,
-  "showKm": true,
-  "price": 85900,
-  "priceLabel": "",
-  "showPrice": true,
-  "body": "SUV",
-  "transmission": "Automático",
-  "fuel": "Flex",
-  "color": "Prata",
-  "doors": 4,
-  "optionals": [
-   "Ar Condicionado",
-   "Bancos De Couro",
-   "Direção Hidráulica",
-   "Kit Multimídia",
-   "Rodas De Liga Leve",
-   "Teto Solar"
-  ],
-  "destaque": false,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444798-peugeot-2008-20260909151356595882.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444798-peugeot-2008-20260909151357468116.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/444798-peugeot-2008-20260909151357837426.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444798-peugeot-2008-20260909151358199602.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444798-peugeot-2008-20260909151358591717.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444798-peugeot-2008-20260909151358944514.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/444798-peugeot-2008-20260909151359303856.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444798-peugeot-2008-20260909151359733622.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444798-peugeot-2008-20260909151400161316.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444798-peugeot-2008-20260909151400672140.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/444798-peugeot-2008-20260909151401065918.webp"
-  ],
-  "descricao": "O Peugeot 2008 1.6 16V THP Griffe 2023 é um SUV automático na cor prata, com motor flex e 78.953 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, kit multimídia, rodas de liga leve, teto solar. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
   "id": 443821,
