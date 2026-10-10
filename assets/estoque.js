@@ -1,8 +1,8 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-10-10T17:50:29.486Z
-   Veículos: 30
+   Atualizado em: 2026-10-10T21:40:02.099Z
+   Veículos: 29
    ============================================================ */
 window.CARS_SYNC = [
  {
@@ -511,48 +511,6 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447560-fiat-doblo-20260929141449770780.webp"
   ],
   "descricao": "O Fiat Doblò 1.4 MPI Attractive 8V 2015 é um Utilitário manual na cor prata, com motor flex e 158.717 km rodados. Vem com ar condicionado, direção hidráulica, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
-  "id": 446031,
-  "name": "Chevrolet Onix 1.0",
-  "brand": "chevrolet",
-  "brandLabel": "Chevrolet",
-  "year": 2024,
-  "yearLabel": "2023/2024",
-  "km": "75.283",
-  "kmNum": 75283,
-  "showKm": true,
-  "price": 66900,
-  "priceLabel": "",
-  "showPrice": true,
-  "body": "Hatch",
-  "transmission": "Manual",
-  "fuel": "Flex",
-  "color": "Preta",
-  "doors": 4,
-  "optionals": [
-   "Ar Condicionado",
-   "Computador De Bordo",
-   "Direção Hidráulica",
-   "Travas Elétricas",
-   "Vidros Elétricos",
-   "Volante Com Multi Funções"
-  ],
-  "destaque": true,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446031-chevrolet-onix-20260918114506279302.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446031-chevrolet-onix-20260918114507086488.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/446031-chevrolet-onix-20260918114507645278.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446031-chevrolet-onix-20260918114508163545.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446031-chevrolet-onix-20260918114508685250.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446031-chevrolet-onix-20260918114509031079.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446031-chevrolet-onix-20260918114509422666.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446031-chevrolet-onix-20260918114509921770.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446031-chevrolet-onix-20260918114510358261.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/446031-chevrolet-onix-20260918114510912951.webp"
-  ],
-  "descricao": "O Chevrolet Onix 1.0 2024 é um Hatch manual na cor preta, com motor flex e 75.283 km rodados. Vem com ar condicionado, computador de bordo, direção hidráulica, travas elétricas, vidros elétricos, volante com multi funções. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
   "id": 444990,
