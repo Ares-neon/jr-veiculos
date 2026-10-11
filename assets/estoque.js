@@ -1,7 +1,7 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-10-10T21:40:02.099Z
+   Atualizado em: 2026-10-11T00:59:21.929Z
    Veículos: 29
    ============================================================ */
 window.CARS_SYNC = [
@@ -30,7 +30,7 @@ window.CARS_SYNC = [
    "Travas Elétricas",
    "Vidros Elétricos"
   ],
-  "destaque": false,
+  "destaque": true,
   "aceitaTroca": true,
   "fotos": [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449119-honda-hr-v-20261008181113007816.webp",
