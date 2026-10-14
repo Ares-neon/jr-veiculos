@@ -1,8 +1,8 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-10-14T13:40:41.481Z
-   Veículos: 29
+   Atualizado em: 2026-10-14T18:35:18.928Z
+   Veículos: 28
    ============================================================ */
 window.CARS_SYNC = [
  {
@@ -1152,56 +1152,6 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/408057-ford-f-250-20260106102804904512.webp"
   ],
   "descricao": "O Ford F-250 3.9 XLT 4X2 CS 2000 é um Picape manual na cor preta, com motor diesel e 120.334 km rodados. Vem com air bag, air bag passageiro, alarme, ar condicionado, ar quente, bancos de couro e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
-  "id": 347817,
-  "name": "Chevrolet Camaro 6.2 V8 Fifty",
-  "brand": "chevrolet",
-  "brandLabel": "Chevrolet",
-  "year": 2017,
-  "yearLabel": "2016/2017",
-  "km": "56.620",
-  "kmNum": 56620,
-  "showKm": true,
-  "price": 379900,
-  "priceLabel": "",
-  "showPrice": true,
-  "body": "Coupe",
-  "transmission": "Automático",
-  "fuel": "Gasolina",
-  "color": "Cinza",
-  "doors": 2,
-  "optionals": [
-   "Alarme",
-   "Ar Condicionado",
-   "Bancos De Couro",
-   "Bluetooth",
-   "Câmera De Ré",
-   "Direção Hidráulica",
-   "Farol Xenônio",
-   "GPS",
-   "Teto Solar",
-   "Travas Elétricas",
-   "Trio Elétrico",
-   "Vidros Elétricos"
-  ],
-  "destaque": false,
-  "aceitaTroca": false,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/347817-chevrolet-camaro-20241227182216667460.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/347817-chevrolet-camaro-20241227182216911673.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/347817-chevrolet-camaro-20241227182216846630.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/347817-chevrolet-camaro-20241227182217232464.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/347817-chevrolet-camaro-20241227182217552887.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/347817-chevrolet-camaro-20241227182217893154.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/347817-chevrolet-camaro-20241227182217933288.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/347817-chevrolet-camaro-20241227182218633386.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/347817-chevrolet-camaro-20241227182218462963.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/347817-chevrolet-camaro-20241227182218964381.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/347817-chevrolet-camaro-20241227182219357813.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/347817-chevrolet-camaro-20241227182219717495.webp"
-  ],
-  "descricao": "O Chevrolet Camaro 6.2 V8 Fifty 2017 é um Coupe automático na cor cinza, com motor gasolina e 56.620 km rodados. Vem com alarme, ar condicionado, bancos de couro, bluetooth, câmera de ré, direção hidráulica e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
   "id": 312131,
