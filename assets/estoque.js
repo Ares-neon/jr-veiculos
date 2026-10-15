@@ -1,7 +1,7 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-10-14T22:16:33.069Z
+   Atualizado em: 2026-10-15T00:32:50.691Z
    Veículos: 26
    ============================================================ */
 window.CARS_SYNC = [
@@ -37,12 +37,12 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos/261/449745-renault-duster-20261014184518830392.jpeg",
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449745-renault-duster-20261014184519173082.webp",
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449745-renault-duster-20261014184519425929.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/449745-renault-duster-20261014184519667513.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/449745-renault-duster-20261014184519916341.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/449745-renault-duster-20261014184520170373.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/449745-renault-duster-20261014184520433386.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/449745-renault-duster-20261014184520774637.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/449745-renault-duster-20261014184521040431.jpeg"
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449745-renault-duster-20261014184519667513.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449745-renault-duster-20261014184519916341.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449745-renault-duster-20261014184520170373.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449745-renault-duster-20261014184520433386.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449745-renault-duster-20261014184520774637.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449745-renault-duster-20261014184521040431.webp"
   ],
   "descricao": "O Renault Duster 1.6 16V SCE Authentique 2019 é um SUV automático na cor preta, com motor flex e 84.450 km rodados. Vem com ar condicionado, direção hidráulica, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
@@ -121,14 +121,14 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449743-hyundai-creta-20261014182405617135.webp",
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449743-hyundai-creta-20261014182405986576.webp",
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449743-hyundai-creta-20261014182406240184.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/449743-hyundai-creta-20261014182406484205.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/449743-hyundai-creta-20261014182406730892.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/449743-hyundai-creta-20261014182406984715.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/449743-hyundai-creta-20261014182407240879.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/449743-hyundai-creta-20261014182407514969.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/449743-hyundai-creta-20261014182407862186.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/449743-hyundai-creta-20261014182408097219.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/449743-hyundai-creta-20261014182408377421.jpeg"
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449743-hyundai-creta-20261014182406484205.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449743-hyundai-creta-20261014182406730892.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449743-hyundai-creta-20261014182406984715.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449743-hyundai-creta-20261014182407240879.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449743-hyundai-creta-20261014182407514969.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449743-hyundai-creta-20261014182407862186.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449743-hyundai-creta-20261014182408097219.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449743-hyundai-creta-20261014182408377421.webp"
   ],
   "descricao": "O Hyundai Creta 2.0 16V Pulse 2017 é um SUV automático na cor branca, com motor flex e 124.401 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, kit multimídia, rodas de liga leve. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
