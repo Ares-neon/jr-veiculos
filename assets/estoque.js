@@ -1,8 +1,8 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-10-16T09:45:41.764Z
-   Veículos: 26
+   Atualizado em: 2026-10-16T14:49:03.511Z
+   Veículos: 25
    ============================================================ */
 window.CARS_SYNC = [
  {
@@ -555,48 +555,6 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447569-hyundai-hb20-20260929143754302100.webp"
   ],
   "descricao": "O Hyundai HB20 1.0 12V Sense 2024 é um Hatch manual na cor prata, com motor flex e 67.260 km rodados. Vem com ar condicionado, direção hidráulica, kit multimídia, travas elétricas, vidros elétricos, volante com multi funções. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
-  "id": 447560,
-  "name": "Fiat Doblò 1.4 MPI Attractive 8V",
-  "brand": "fiat",
-  "brandLabel": "Fiat",
-  "year": 2015,
-  "yearLabel": "2014/2015",
-  "km": "158.717",
-  "kmNum": 158717,
-  "showKm": true,
-  "price": 54900,
-  "priceLabel": "",
-  "showPrice": true,
-  "body": "Utilitário",
-  "transmission": "Manual",
-  "fuel": "Flex",
-  "color": "Prata",
-  "doors": 4,
-  "optionals": [
-   "Ar Condicionado",
-   "Direção Hidráulica",
-   "Travas Elétricas",
-   "Vidros Elétricos"
-  ],
-  "destaque": false,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos/261/447560-fiat-doblo-20260929141446166326.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447560-fiat-doblo-20260929141446914493.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447560-fiat-doblo-20260929141447253203.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447560-fiat-doblo-20260929141447637633.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447560-fiat-doblo-20260929141447893933.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447560-fiat-doblo-20260929141448151257.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447560-fiat-doblo-20260929141448452152.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447560-fiat-doblo-20260929141448723750.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447560-fiat-doblo-20260929141448973891.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447560-fiat-doblo-20260929141449209585.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447560-fiat-doblo-20260929141449521279.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447560-fiat-doblo-20260929141449770780.webp"
-  ],
-  "descricao": "O Fiat Doblò 1.4 MPI Attractive 8V 2015 é um Utilitário manual na cor prata, com motor flex e 158.717 km rodados. Vem com ar condicionado, direção hidráulica, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
   "id": 443821,
