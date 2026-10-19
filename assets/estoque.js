@@ -1,8 +1,8 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-10-19T13:06:34.392Z
-   Veículos: 25
+   Atualizado em: 2026-10-19T19:18:41.138Z
+   Veículos: 23
    ============================================================ */
 window.CARS_SYNC = [
  {
@@ -29,7 +29,7 @@ window.CARS_SYNC = [
    "Travas Elétricas",
    "Vidros Elétricos"
   ],
-  "destaque": false,
+  "destaque": true,
   "aceitaTroca": true,
   "fotos": [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449745-renault-duster-20261014184517252802.webp",
@@ -131,47 +131,6 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449743-hyundai-creta-20261014182408377421.webp"
   ],
   "descricao": "O Hyundai Creta 2.0 16V Pulse 2017 é um SUV automático na cor branca, com motor flex e 124.401 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, kit multimídia, rodas de liga leve. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
-  "id": 449119,
-  "name": "Honda HR-V 1.8 16V EX",
-  "brand": "honda",
-  "brandLabel": "Honda",
-  "year": 2016,
-  "yearLabel": "2016",
-  "km": "146.208",
-  "kmNum": 146208,
-  "showKm": true,
-  "price": 87900,
-  "priceLabel": "",
-  "showPrice": true,
-  "body": "SUV",
-  "transmission": "Automático",
-  "fuel": "Flex",
-  "color": "Cinza",
-  "doors": 4,
-  "optionals": [
-   "Ar Condicionado",
-   "Bancos De Couro",
-   "Direção Hidráulica",
-   "Travas Elétricas",
-   "Vidros Elétricos"
-  ],
-  "destaque": true,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449119-honda-hr-v-20261008181113007816.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449119-honda-hr-v-20261008181113871959.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449119-honda-hr-v-20261008181114224551.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449119-honda-hr-v-20261008181114495241.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449119-honda-hr-v-20261008181114743802.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449119-honda-hr-v-20261008181115009816.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/449119-honda-hr-v-20261008181115264628.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449119-honda-hr-v-20261008181115512205.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449119-honda-hr-v-20261008181115754523.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449119-honda-hr-v-20261008181116010029.webp"
-  ],
-  "descricao": "O Honda HR-V 1.8 16V EX 2016 é um SUV automático na cor cinza, com motor flex e 146.208 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
   "id": 449010,
@@ -555,50 +514,6 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/447569-hyundai-hb20-20260929143754302100.webp"
   ],
   "descricao": "O Hyundai HB20 1.0 12V Sense 2024 é um Hatch manual na cor prata, com motor flex e 67.260 km rodados. Vem com ar condicionado, direção hidráulica, kit multimídia, travas elétricas, vidros elétricos, volante com multi funções. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
-  "id": 443821,
-  "name": "Chevrolet Equinox 1.5 16V Turbo Premier AWD",
-  "brand": "chevrolet",
-  "brandLabel": "Chevrolet",
-  "year": 2020,
-  "yearLabel": "2019/2020",
-  "km": "75.415",
-  "kmNum": 75415,
-  "showKm": true,
-  "price": 109900,
-  "priceLabel": "",
-  "showPrice": true,
-  "body": "SUV",
-  "transmission": "Automático",
-  "fuel": "Gasolina",
-  "color": "Vermelha",
-  "doors": 4,
-  "optionals": [
-   "Ar Condicionado",
-   "Direção Hidráulica",
-   "Kit Multimídia",
-   "Teto Solar",
-   "Travas Elétricas",
-   "Vidros Elétricos",
-   "Volante Com Multi Funções"
-  ],
-  "destaque": false,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443821-chevrolet-equinox-20260901174020041869.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443821-chevrolet-equinox-20260901174021005539.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443821-chevrolet-equinox-20260901174021429906.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443821-chevrolet-equinox-20260901174021793941.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443821-chevrolet-equinox-20260901174022192056.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443821-chevrolet-equinox-20260901174022615716.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443821-chevrolet-equinox-20260901174022949069.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443821-chevrolet-equinox-20260901174023365114.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443821-chevrolet-equinox-20260901174023807182.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443821-chevrolet-equinox-20260901174024192811.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/443821-chevrolet-equinox-20260901174024556694.webp"
-  ],
-  "descricao": "O Chevrolet Equinox 1.5 16V Turbo Premier AWD 2020 é um SUV automático na cor vermelha, com motor gasolina e 75.415 km rodados. Vem com ar condicionado, direção hidráulica, kit multimídia, teto solar, travas elétricas, vidros elétricos e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
   "id": 441337,
