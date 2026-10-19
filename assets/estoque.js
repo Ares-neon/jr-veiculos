@@ -1,10 +1,55 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-10-19T19:18:41.138Z
-   Veículos: 23
+   Atualizado em: 2026-10-19T21:42:55.372Z
+   Veículos: 24
    ============================================================ */
 window.CARS_SYNC = [
+ {
+  "id": 450329,
+  "name": "Hyundai Creta 1.0 TGDI Comfort",
+  "brand": "hyundai",
+  "brandLabel": "Hyundai",
+  "year": 2022,
+  "yearLabel": "2022",
+  "km": "68.903",
+  "kmNum": 68903,
+  "showKm": true,
+  "price": 102900,
+  "priceLabel": "",
+  "showPrice": true,
+  "body": "SUV",
+  "transmission": "Automático",
+  "fuel": "Flex",
+  "color": "Cinza",
+  "doors": 4,
+  "optionals": [
+   "Ar Condicionado",
+   "Bancos De Couro",
+   "Direção Hidráulica",
+   "Kit Multimídia",
+   "Rodas De Liga Leve",
+   "Travas Elétricas",
+   "Vidros Elétricos",
+   "Volante Com Multi Funções"
+  ],
+  "destaque": false,
+  "aceitaTroca": true,
+  "fotos": [
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450329-hyundai-creta-20261019170157192922.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450329-hyundai-creta-20261019170158070766.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450329-hyundai-creta-20261019170158428456.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450329-hyundai-creta-20261019170158706540.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450329-hyundai-creta-20261019170158967185.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450329-hyundai-creta-20261019170159201271.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450329-hyundai-creta-20261019170159449974.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450329-hyundai-creta-20261019170159684309.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450329-hyundai-creta-20261019170159922971.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450329-hyundai-creta-20261019170200217276.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450329-hyundai-creta-20261019170200465288.webp"
+  ],
+  "descricao": "O Hyundai Creta 1.0 TGDI Comfort 2022 é um SUV automático na cor cinza, com motor flex e 68.903 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, kit multimídia, rodas de liga leve, travas elétricas e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+ },
  {
   "id": 449745,
   "name": "Renault Duster 1.6 16V SCE Authentique",
@@ -15,7 +60,7 @@ window.CARS_SYNC = [
   "km": "84.450",
   "kmNum": 84450,
   "showKm": true,
-  "price": 69900,
+  "price": 73900,
   "priceLabel": "",
   "showPrice": true,
   "body": "SUV",
