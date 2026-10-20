@@ -1,7 +1,7 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-10-20T19:12:58.835Z
+   Atualizado em: 2026-10-20T22:16:47.441Z
    Veículos: 24
    ============================================================ */
 window.CARS_SYNC = [
@@ -144,7 +144,7 @@ window.CARS_SYNC = [
   "km": "124.401",
   "kmNum": 124401,
   "showKm": true,
-  "price": 81900,
+  "price": 84900,
   "priceLabel": "",
   "showPrice": true,
   "body": "SUV",
@@ -820,7 +820,7 @@ window.CARS_SYNC = [
   "km": "79.654",
   "kmNum": 79654,
   "showKm": true,
-  "price": 91900,
+  "price": 92900,
   "priceLabel": "",
   "showPrice": true,
   "body": "SUV",
