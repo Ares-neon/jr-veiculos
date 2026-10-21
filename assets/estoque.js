@@ -1,10 +1,56 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-10-21T17:08:13.704Z
-   Veículos: 24
+   Atualizado em: 2026-10-21T20:36:46.864Z
+   Veículos: 25
    ============================================================ */
 window.CARS_SYNC = [
+ {
+  "id": 450673,
+  "name": "Jeep Renegade 1.8 16V Sport",
+  "brand": "jeep",
+  "brandLabel": "Jeep",
+  "year": 2016,
+  "yearLabel": "2016",
+  "km": "124.621",
+  "kmNum": 124621,
+  "showKm": true,
+  "price": 67900,
+  "priceLabel": "",
+  "showPrice": true,
+  "body": "Jipe",
+  "transmission": "Automático",
+  "fuel": "Flex",
+  "color": "Branca",
+  "doors": 4,
+  "optionals": [
+   "Ar Condicionado",
+   "Bancos De Couro",
+   "Direção Hidráulica",
+   "Kit Multimídia",
+   "Rodas De Liga Leve",
+   "Travas Elétricas",
+   "Vidros Elétricos",
+   "Volante Com Multi Funções"
+  ],
+  "destaque": false,
+  "aceitaTroca": true,
+  "fotos": [
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450673-jeep-renegade-20261021165752166913.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450673-jeep-renegade-20261021165752927882.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450673-jeep-renegade-20261021165753248385.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450673-jeep-renegade-20261021165753479262.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450673-jeep-renegade-20261021165753760655.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450673-jeep-renegade-20261021165754028049.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/450673-jeep-renegade-20261021165754263326.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/450673-jeep-renegade-20261021165754511779.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/450673-jeep-renegade-20261021165754758522.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/450673-jeep-renegade-20261021165754997983.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/450673-jeep-renegade-20261021165755734714.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/450673-jeep-renegade-20261021165756061324.jpeg"
+  ],
+  "descricao": "O Jeep Renegade 1.8 16V Sport 2016 é um Jipe automático na cor branca, com motor flex e 124.621 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, kit multimídia, rodas de liga leve, travas elétricas e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+ },
  {
   "id": 450329,
   "name": "Hyundai Creta 1.0 TGDI Comfort",
