@@ -1,8 +1,8 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-10-21T20:36:46.864Z
-   Veículos: 25
+   Atualizado em: 2026-10-21T23:59:33.305Z
+   Veículos: 24
    ============================================================ */
 window.CARS_SYNC = [
  {
@@ -33,7 +33,7 @@ window.CARS_SYNC = [
    "Vidros Elétricos",
    "Volante Com Multi Funções"
   ],
-  "destaque": false,
+  "destaque": true,
   "aceitaTroca": true,
   "fotos": [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450673-jeep-renegade-20261021165752166913.webp",
@@ -42,12 +42,12 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450673-jeep-renegade-20261021165753479262.webp",
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450673-jeep-renegade-20261021165753760655.webp",
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450673-jeep-renegade-20261021165754028049.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/450673-jeep-renegade-20261021165754263326.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/450673-jeep-renegade-20261021165754511779.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/450673-jeep-renegade-20261021165754758522.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/450673-jeep-renegade-20261021165754997983.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/450673-jeep-renegade-20261021165755734714.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/450673-jeep-renegade-20261021165756061324.jpeg"
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450673-jeep-renegade-20261021165754263326.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450673-jeep-renegade-20261021165754511779.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450673-jeep-renegade-20261021165754758522.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450673-jeep-renegade-20261021165754997983.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450673-jeep-renegade-20261021165755734714.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450673-jeep-renegade-20261021165756061324.webp"
   ],
   "descricao": "O Jeep Renegade 1.8 16V Sport 2016 é um Jipe automático na cor branca, com motor flex e 124.621 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, kit multimídia, rodas de liga leve, travas elétricas e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
@@ -855,48 +855,6 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/438360-renault-kwid-20260725123058758402.webp"
   ],
   "descricao": "O Renault Kwid 1.0 12V SCE ZEN 2026 é um Hatch manual na cor branca, com motor flex e 26.315 km rodados. Vem com ar condicionado, direção elétrica, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
-  "id": 436666,
-  "name": "Nissan Kicks 1.6 16V SV",
-  "brand": "nissan",
-  "brandLabel": "Nissan",
-  "year": 2021,
-  "yearLabel": "2020/2021",
-  "km": "79.654",
-  "kmNum": 79654,
-  "showKm": true,
-  "price": 92900,
-  "priceLabel": "",
-  "showPrice": true,
-  "body": "SUV",
-  "transmission": "Automático",
-  "fuel": "Flex",
-  "color": "Preta",
-  "doors": 4,
-  "optionals": [
-   "Ar Condicionado",
-   "Bancos De Couro",
-   "Direção Hidráulica",
-   "Kit Multimídia",
-   "Start-Stop",
-   "Travas Elétricas",
-   "Vidros Elétricos"
-  ],
-  "destaque": true,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/436666-nissan-kicks-20260714153816570326.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/436666-nissan-kicks-20260714153816830518.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/436666-nissan-kicks-20260714153816947457.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/436666-nissan-kicks-20260714153817043429.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/436666-nissan-kicks-20260714153817134650.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/436666-nissan-kicks-20260714153817236550.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/436666-nissan-kicks-20260714153817327501.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/436666-nissan-kicks-20260714153817440181.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/436666-nissan-kicks-20260714153817538811.webp"
-  ],
-  "descricao": "O Nissan Kicks 1.6 16V SV 2021 é um SUV automático na cor preta, com motor flex e 79.654 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, kit multimídia, start-stop, travas elétricas e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
   "id": 420762,
