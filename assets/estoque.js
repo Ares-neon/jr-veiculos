@@ -1,10 +1,94 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-10-26T12:54:52.456Z
-   Veículos: 24
+   Atualizado em: 2026-10-26T19:15:33.979Z
+   Veículos: 26
    ============================================================ */
 window.CARS_SYNC = [
+ {
+  "id": 451162,
+  "name": "Fiat Fiorino 1.4 MPI Furgão Endurance 8V",
+  "brand": "fiat",
+  "brandLabel": "Fiat",
+  "year": 2021,
+  "yearLabel": "2021",
+  "km": "49.076",
+  "kmNum": 49076,
+  "showKm": true,
+  "price": 79900,
+  "priceLabel": "",
+  "showPrice": true,
+  "body": "Utilitário",
+  "transmission": "Manual",
+  "fuel": "Flex",
+  "color": "Branca",
+  "doors": 2,
+  "optionals": [
+   "Ar Condicionado",
+   "Direção Hidráulica",
+   "Travas Elétricas",
+   "Vidros Elétricos"
+  ],
+  "destaque": false,
+  "aceitaTroca": true,
+  "fotos": [
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451162-fiat-fiorino-20261026120216834982.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451162-fiat-fiorino-20261026120217611939.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/451162-fiat-fiorino-20261026120217974918.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451162-fiat-fiorino-20261026120218239351.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451162-fiat-fiorino-20261026120218814864.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451162-fiat-fiorino-20261026120219059285.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451162-fiat-fiorino-20261026120219320186.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451162-fiat-fiorino-20261026120219574208.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451162-fiat-fiorino-20261026120219837795.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451162-fiat-fiorino-20261026120220100425.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451162-fiat-fiorino-20261026120220349103.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451162-fiat-fiorino-20261026120220621008.webp"
+  ],
+  "descricao": "O Fiat Fiorino 1.4 MPI Furgão Endurance 8V 2021 é um Utilitário manual na cor branca, com motor flex e 49.076 km rodados. Vem com ar condicionado, direção hidráulica, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+ },
+ {
+  "id": 451155,
+  "name": "Mitsubishi Pajero TR4 2.0 4X2 16V",
+  "brand": "mitsubishi",
+  "brandLabel": "Mitsubishi",
+  "year": 2008,
+  "yearLabel": "2008",
+  "km": "155.969",
+  "kmNum": 155969,
+  "showKm": true,
+  "price": 49900,
+  "priceLabel": "",
+  "showPrice": true,
+  "body": "SUV",
+  "transmission": "Automático",
+  "fuel": "Gasolina",
+  "color": "Preta",
+  "doors": 4,
+  "optionals": [
+   "Ar Condicionado",
+   "Direção Hidráulica",
+   "Kit Multimídia",
+   "Travas Elétricas",
+   "Vidros Elétricos"
+  ],
+  "destaque": false,
+  "aceitaTroca": true,
+  "fotos": [
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451155-mitsubishi-pajero-tr4-20261026113318709175.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451155-mitsubishi-pajero-tr4-20261026113319818531.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/451155-mitsubishi-pajero-tr4-20261026113320189678.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451155-mitsubishi-pajero-tr4-20261026113320430152.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451155-mitsubishi-pajero-tr4-20261026113320688963.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451155-mitsubishi-pajero-tr4-20261026113320944398.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451155-mitsubishi-pajero-tr4-20261026113321189374.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451155-mitsubishi-pajero-tr4-20261026113321437887.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451155-mitsubishi-pajero-tr4-20261026113321682173.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451155-mitsubishi-pajero-tr4-20261026113321919563.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451155-mitsubishi-pajero-tr4-20261026113322162839.webp"
+  ],
+  "descricao": "O Mitsubishi Pajero TR4 2.0 4X2 16V 2008 é um SUV automático na cor preta, com motor gasolina e 155.969 km rodados. Vem com ar condicionado, direção hidráulica, kit multimídia, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+ },
  {
   "id": 450673,
   "name": "Jeep Renegade 1.8 16V Sport",
