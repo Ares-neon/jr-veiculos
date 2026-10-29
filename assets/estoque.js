@@ -1,10 +1,53 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-10-29T09:53:13.577Z
-   Veículos: 26
+   Atualizado em: 2026-10-29T16:54:09.613Z
+   Veículos: 27
    ============================================================ */
 window.CARS_SYNC = [
+ {
+  "id": 451665,
+  "name": "Chevrolet Onix 1.0 LT",
+  "brand": "chevrolet",
+  "brandLabel": "Chevrolet",
+  "year": 2025,
+  "yearLabel": "2025",
+  "km": "57.888",
+  "kmNum": 57888,
+  "showKm": true,
+  "price": 73900,
+  "priceLabel": "",
+  "showPrice": true,
+  "body": "Hatch",
+  "transmission": "Manual",
+  "fuel": "Flex",
+  "color": "Cinza",
+  "doors": 4,
+  "optionals": [
+   "Ar Condicionado",
+   "Direção Hidráulica",
+   "Kit Multimídia",
+   "Start-Stop",
+   "Travas Elétricas",
+   "Vidros Elétricos"
+  ],
+  "destaque": false,
+  "aceitaTroca": true,
+  "fotos": [
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451665-chevrolet-onix-20261029114854988433.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451665-chevrolet-onix-20261029114855824276.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/451665-chevrolet-onix-20261029114856161113.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451665-chevrolet-onix-20261029114856487975.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451665-chevrolet-onix-20261029114856737297.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451665-chevrolet-onix-20261029114856980343.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451665-chevrolet-onix-20261029114857291400.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451665-chevrolet-onix-20261029114857528875.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451665-chevrolet-onix-20261029114857768233.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451665-chevrolet-onix-20261029114858017650.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451665-chevrolet-onix-20261029114858312357.webp"
+  ],
+  "descricao": "O Chevrolet Onix 1.0 LT 2025 é um Hatch manual na cor cinza, com motor flex e 57.888 km rodados. Vem com ar condicionado, direção hidráulica, kit multimídia, start-stop, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+ },
  {
   "id": 451162,
   "name": "Fiat Fiorino 1.4 MPI Furgão Endurance 8V",
