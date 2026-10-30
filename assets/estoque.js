@@ -1,10 +1,53 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-10-30T08:35:14.589Z
-   Veículos: 27
+   Atualizado em: 2026-10-30T15:53:51.364Z
+   Veículos: 28
    ============================================================ */
 window.CARS_SYNC = [
+ {
+  "id": 451808,
+  "name": "Chevrolet Cobalt 1.4 SFI LTZ 8V",
+  "brand": "chevrolet",
+  "brandLabel": "Chevrolet",
+  "year": 2012,
+  "yearLabel": "2012",
+  "km": "161.745",
+  "kmNum": 161745,
+  "showKm": true,
+  "price": 46900,
+  "priceLabel": "",
+  "showPrice": true,
+  "body": "Sedan",
+  "transmission": "Manual",
+  "fuel": "Flex",
+  "color": "Azul",
+  "doors": 4,
+  "optionals": [
+   "Ar Condicionado",
+   "Direção Hidráulica",
+   "Kit Multimídia",
+   "Rodas De Liga Leve",
+   "Travas Elétricas",
+   "Vidros Elétricos"
+  ],
+  "destaque": false,
+  "aceitaTroca": true,
+  "fotos": [
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451808-chevrolet-cobalt-20261030112023683288.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451808-chevrolet-cobalt-20261030112024219037.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451808-chevrolet-cobalt-20261030112025481627.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451808-chevrolet-cobalt-20261030112025918511.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451808-chevrolet-cobalt-20261030112026161594.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451808-chevrolet-cobalt-20261030112026399677.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451808-chevrolet-cobalt-20261030112027057968.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451808-chevrolet-cobalt-20261030112027406766.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451808-chevrolet-cobalt-20261030112027655981.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451808-chevrolet-cobalt-20261030112027903969.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451808-chevrolet-cobalt-20261030112028145690.webp"
+  ],
+  "descricao": "O Chevrolet Cobalt 1.4 SFI LTZ 8V 2012 é um Sedan manual na cor azul, com motor flex e 161.745 km rodados. Vem com ar condicionado, direção hidráulica, kit multimídia, rodas de liga leve, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+ },
  {
   "id": 451665,
   "name": "Chevrolet Onix 1.0 LT",
@@ -1134,10 +1177,10 @@ window.CARS_SYNC = [
   "brandLabel": "Hyundai",
   "year": 2022,
   "yearLabel": "2021/2022",
-  "km": "48.759",
-  "kmNum": 48759,
+  "km": "60.584",
+  "kmNum": 60584,
   "showKm": true,
-  "price": 118900,
+  "price": 112900,
   "priceLabel": "CONSULTE",
   "showPrice": true,
   "body": "SUV",
@@ -1153,16 +1196,19 @@ window.CARS_SYNC = [
   "destaque": false,
   "aceitaTroca": true,
   "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/312131-hyundai-tucson-20240604133831771986.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/312131-hyundai-tucson-20240604133831697352.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/312131-hyundai-tucson-20240604133832338838.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/312131-hyundai-tucson-20240604133833155164.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/312131-hyundai-tucson-20240604133834496036.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/312131-hyundai-tucson-20240604133834701295.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/312131-hyundai-tucson-20240604133836288024.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/312131-hyundai-tucson-20240604133836983899.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/312131-hyundai-tucson-20240604133837759858.webp"
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/312131-hyundai-tucson-20261030120717405323.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/312131-hyundai-tucson-20261030120718136972.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/312131-hyundai-tucson-20261030120718454278.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/312131-hyundai-tucson-20261030120718689748.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/312131-hyundai-tucson-20261030120718917379.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/312131-hyundai-tucson-20261030120719178086.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/312131-hyundai-tucson-20261030120719421928.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/312131-hyundai-tucson-20261030120719700185.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/312131-hyundai-tucson-20261030120719948454.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/312131-hyundai-tucson-20261030120720214033.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/312131-hyundai-tucson-20261030120720446536.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/312131-hyundai-tucson-20261030120720916537.webp"
   ],
-  "descricao": "O Hyundai Tucson 1.6 16V T-GDI GLS 2022 é um SUV automático na cor preta, com motor gasolina e 48.759 km rodados. Vem com ar condicionado, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+  "descricao": "O Hyundai Tucson 1.6 16V T-GDI GLS 2022 é um SUV automático na cor preta, com motor gasolina e 60.584 km rodados. Vem com ar condicionado, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  }
 ];
