@@ -1,7 +1,7 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-11-02T18:17:04.390Z
+   Atualizado em: 2026-11-02T20:20:04.859Z
    Veículos: 29
    ============================================================ */
 window.CARS_SYNC = [
@@ -271,7 +271,7 @@ window.CARS_SYNC = [
   "km": "124.621",
   "kmNum": 124621,
   "showKm": true,
-  "price": 67900,
+  "price": 69900,
   "priceLabel": "",
   "showPrice": true,
   "body": "Jipe",
