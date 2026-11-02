@@ -210,6 +210,34 @@ function gerarSitemap(carros) {
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${linhas.join('\n')}\n</urlset>\n`;
 }
 
+/* ---------------- comparação com o que já está no site ---------------- */
+
+/** Lê o window.CARS_SYNC atualmente gravado (ou [] se não existir/estiver ilegível). */
+function lerEstoqueAtual() {
+  try {
+    const txt = readFileSync(resolve(RAIZ, 'assets/estoque.js'), 'utf8');
+    const ini = txt.indexOf('window.CARS_SYNC = ');
+    if (ini < 0) return [];
+    const json = txt.slice(ini + 'window.CARS_SYNC = '.length).trim().replace(/;\s*$/, '');
+    return JSON.parse(json);
+  } catch {
+    return [];
+  }
+}
+
+/** Mostra no log do Actions quais preços mudaram, entraram ou saíram. */
+function relatarPrecos(antes, depois) {
+  const fmt = n => 'R$ ' + Number(n || 0).toLocaleString('pt-BR');
+  const mapaAntes = new Map(antes.map(c => [c.id, c]));
+  const idsDepois = new Set(depois.map(c => c.id));
+  for (const c of depois) {
+    const a = mapaAntes.get(c.id);
+    if (!a) console.log(`  + entrou: ${c.name} — ${fmt(c.price)}`);
+    else if (a.price !== c.price) console.log(`  $ preço: ${c.name} — ${fmt(a.price)} → ${fmt(c.price)}`);
+  }
+  for (const a of antes) if (!idsDepois.has(a.id)) console.log(`  - saiu: ${a.name}`);
+}
+
 /* ---------------- execução ---------------- */
 
 async function main() {
@@ -238,17 +266,28 @@ async function main() {
   const vazados = brutos.filter(v => NUNCA_PUBLICAR.some(k => v[k]))
                         .filter(v => JSON.stringify(carros).includes(String(v.license_plate || ' ')));
 
-  mkdirSync(resolve(RAIZ, 'assets'), { recursive: true });
-  writeFileSync(resolve(RAIZ, 'assets/estoque.js'), gerarEstoqueJs(carros));
-  writeFileSync(resolve(RAIZ, 'sitemap.xml'), gerarSitemap(carros));
+  if (vazados.length)  throw new Error('ABORTADO: dado sensível (placa/chassi) chegou ao arquivo público.');
 
-  console.log(`\n✓ ${carros.length} veículos gravados em assets/estoque.js`);
-  console.log(`✓ sitemap.xml regenerado (${carros.length + 4} URLs)`);
+  /* Só regrava se algum dado mudou (preço, km, fotos, carro entrou/saiu).
+     Antes o arquivo era regravado toda vez só por causa da data no cabeçalho,
+     gerando um commit + deploy a cada execução sem nada novo. */
+  const anteriores = lerEstoqueAtual();
+  const mudou = JSON.stringify(anteriores) !== JSON.stringify(carros);
+
+  if (mudou) {
+    mkdirSync(resolve(RAIZ, 'assets'), { recursive: true });
+    writeFileSync(resolve(RAIZ, 'assets/estoque.js'), gerarEstoqueJs(carros));
+    writeFileSync(resolve(RAIZ, 'sitemap.xml'), gerarSitemap(carros));
+    console.log(`\n✓ ${carros.length} veículos gravados em assets/estoque.js`);
+    console.log(`✓ sitemap.xml regenerado (${carros.length + 4} URLs)`);
+    relatarPrecos(anteriores, carros);
+  } else {
+    console.log(`\n= Nenhuma mudança nos ${carros.length} veículos — arquivos mantidos.`);
+  }
   console.log(`  destaques: ${carros.filter(c => c.destaque).length}`);
   console.log(`  marcas: ${[...new Set(carros.map(c => c.brandLabel))].sort().join(', ')}`);
   if (semFoto.length)  console.log(`  ⚠ ${semFoto.length} sem foto: ${semFoto.map(c => c.name).join(' | ')}`);
   if (semPreco.length) console.log(`  ⚠ ${semPreco.length} sem preço: ${semPreco.map(c => c.name).join(' | ')}`);
-  if (vazados.length)  throw new Error('ABORTADO: dado sensível (placa/chassi) chegou ao arquivo público.');
 }
 
 main().catch(e => { console.error('\n✗ ' + e.message); process.exit(1); });

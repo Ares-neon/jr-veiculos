@@ -1,9 +1,13 @@
 name: Sincronizar estoque
 
-# Roda de hora em hora e também pode ser disparado à mão pela aba Actions.
+# Roda a cada 15 minutos e também pode ser disparado à mão pela aba Actions.
+# O GitHub atrasa ou pula execuções agendadas quando está sobrecarregado
+# (com "de hora em hora" o site chegava a ficar 10 h sem atualizar preço).
+# Mais tentativas = atualização mais rápida. Como o robô só faz commit
+# quando algum dado realmente muda, isso não gera commits vazios.
 on:
   schedule:
-    - cron: '17 * * * *'
+    - cron: '7,22,37,52 * * * *'
   workflow_dispatch:
 
 # Permite que o robô grave o arquivo atualizado no repositório.
