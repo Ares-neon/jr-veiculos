@@ -1,8 +1,8 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-11-02T20:21:10.153Z
-   Veículos: 29
+   Atualizado em: 2026-11-03T17:45:00.438Z
+   Veículos: 26
    ============================================================ */
 window.CARS_SYNC = [
  {
@@ -34,7 +34,7 @@ window.CARS_SYNC = [
    "Vidros Elétricos",
    "Volante Com Multi Funções"
   ],
-  "destaque": false,
+  "destaque": true,
   "aceitaTroca": true,
   "fotos": [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452043-nissan-kicks-20261031132542200683.webp",
@@ -48,48 +48,6 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452043-nissan-kicks-20261031132544689304.webp"
   ],
   "descricao": "O Nissan Kicks 1.6 16V Advance 2024 é um SUV automático na cor azul, com motor flex e 20.055 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, kit multimídia, rodas de liga leve, start-stop e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
-  "id": 452020,
-  "name": "Hyundai HB20 1.0 Unique 12V",
-  "brand": "hyundai",
-  "brandLabel": "Hyundai",
-  "year": 2019,
-  "yearLabel": "2018/2019",
-  "km": "50.184",
-  "kmNum": 50184,
-  "showKm": true,
-  "price": 58900,
-  "priceLabel": "",
-  "showPrice": true,
-  "body": "Hatch",
-  "transmission": "Manual",
-  "fuel": "Flex",
-  "color": "Prata",
-  "doors": 4,
-  "optionals": [
-   "Ar Condicionado",
-   "Direção Hidráulica",
-   "Travas Elétricas",
-   "Vidros Elétricos",
-   "Volante Com Multi Funções"
-  ],
-  "destaque": false,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452020-hyundai-hb20-20261031115728270679.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452020-hyundai-hb20-20261031115729014069.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452020-hyundai-hb20-20261031115729377949.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452020-hyundai-hb20-20261031115729663663.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452020-hyundai-hb20-20261031115729920256.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452020-hyundai-hb20-20261031115730201528.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452020-hyundai-hb20-20261031115730454725.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452020-hyundai-hb20-20261031115730713501.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452020-hyundai-hb20-20261031115730987507.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452020-hyundai-hb20-20261031115731233109.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452020-hyundai-hb20-20261031115731469800.webp"
-  ],
-  "descricao": "O Hyundai HB20 1.0 Unique 12V 2019 é um Hatch manual na cor prata, com motor flex e 50.184 km rodados. Vem com ar condicionado, direção hidráulica, travas elétricas, vidros elétricos, volante com multi funções. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
   "id": 451808,
@@ -133,49 +91,6 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451808-chevrolet-cobalt-20261030112028145690.webp"
   ],
   "descricao": "O Chevrolet Cobalt 1.4 SFI LTZ 8V 2012 é um Sedan manual na cor azul, com motor flex e 161.745 km rodados. Vem com ar condicionado, direção hidráulica, kit multimídia, rodas de liga leve, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
-  "id": 451665,
-  "name": "Chevrolet Onix 1.0 LT",
-  "brand": "chevrolet",
-  "brandLabel": "Chevrolet",
-  "year": 2025,
-  "yearLabel": "2025",
-  "km": "57.888",
-  "kmNum": 57888,
-  "showKm": true,
-  "price": 73900,
-  "priceLabel": "",
-  "showPrice": true,
-  "body": "Hatch",
-  "transmission": "Manual",
-  "fuel": "Flex",
-  "color": "Cinza",
-  "doors": 4,
-  "optionals": [
-   "Ar Condicionado",
-   "Direção Hidráulica",
-   "Kit Multimídia",
-   "Start-Stop",
-   "Travas Elétricas",
-   "Vidros Elétricos"
-  ],
-  "destaque": false,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451665-chevrolet-onix-20261029114854988433.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451665-chevrolet-onix-20261029114855824276.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/451665-chevrolet-onix-20261029114856161113.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451665-chevrolet-onix-20261029114856487975.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451665-chevrolet-onix-20261029114856737297.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451665-chevrolet-onix-20261029114856980343.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451665-chevrolet-onix-20261029114857291400.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451665-chevrolet-onix-20261029114857528875.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451665-chevrolet-onix-20261029114857768233.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451665-chevrolet-onix-20261029114858017650.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451665-chevrolet-onix-20261029114858312357.webp"
-  ],
-  "descricao": "O Chevrolet Onix 1.0 LT 2025 é um Hatch manual na cor cinza, com motor flex e 57.888 km rodados. Vem com ar condicionado, direção hidráulica, kit multimídia, start-stop, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
   "id": 451162,
@@ -260,52 +175,6 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/451155-mitsubishi-pajero-tr4-20261026113322162839.webp"
   ],
   "descricao": "O Mitsubishi Pajero TR4 2.0 4X2 16V 2008 é um SUV automático na cor preta, com motor gasolina e 155.969 km rodados. Vem com ar condicionado, direção hidráulica, kit multimídia, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
-  "id": 450673,
-  "name": "Jeep Renegade 1.8 16V Sport",
-  "brand": "jeep",
-  "brandLabel": "Jeep",
-  "year": 2016,
-  "yearLabel": "2016",
-  "km": "124.621",
-  "kmNum": 124621,
-  "showKm": true,
-  "price": 69900,
-  "priceLabel": "",
-  "showPrice": true,
-  "body": "Jipe",
-  "transmission": "Automático",
-  "fuel": "Flex",
-  "color": "Branca",
-  "doors": 4,
-  "optionals": [
-   "Ar Condicionado",
-   "Bancos De Couro",
-   "Direção Hidráulica",
-   "Kit Multimídia",
-   "Rodas De Liga Leve",
-   "Travas Elétricas",
-   "Vidros Elétricos",
-   "Volante Com Multi Funções"
-  ],
-  "destaque": true,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450673-jeep-renegade-20261021165752166913.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450673-jeep-renegade-20261021165752927882.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450673-jeep-renegade-20261021165753248385.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450673-jeep-renegade-20261021165753479262.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450673-jeep-renegade-20261021165753760655.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450673-jeep-renegade-20261021165754028049.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450673-jeep-renegade-20261021165754263326.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450673-jeep-renegade-20261021165754511779.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450673-jeep-renegade-20261021165754758522.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450673-jeep-renegade-20261021165754997983.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450673-jeep-renegade-20261021165755734714.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/450673-jeep-renegade-20261021165756061324.webp"
-  ],
-  "descricao": "O Jeep Renegade 1.8 16V Sport 2016 é um Jipe automático na cor branca, com motor flex e 124.621 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, kit multimídia, rodas de liga leve, travas elétricas e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
   "id": 450329,
