@@ -1,10 +1,54 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-11-03T17:45:00.438Z
-   Veículos: 26
+   Atualizado em: 2026-11-04T17:57:08.896Z
+   Veículos: 27
    ============================================================ */
 window.CARS_SYNC = [
+ {
+  "id": 452270,
+  "name": "Honda City 1.5 I-Vtec EXL",
+  "brand": "honda",
+  "brandLabel": "Honda",
+  "year": 2026,
+  "yearLabel": "2025/2026",
+  "km": "23.493",
+  "kmNum": 23493,
+  "showKm": true,
+  "price": 129900,
+  "priceLabel": "",
+  "showPrice": true,
+  "body": "Sedan",
+  "transmission": "Automático",
+  "fuel": "Flex",
+  "color": "Preta",
+  "doors": 4,
+  "optionals": [
+   "Ar Condicionado",
+   "Bancos De Couro",
+   "Direção Hidráulica",
+   "Kit Multimídia",
+   "Rodas De Liga Leve",
+   "Start-Stop",
+   "Volante Com Multi Funções"
+  ],
+  "destaque": false,
+  "aceitaTroca": true,
+  "fotos": [
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452270-honda-city-20261104111114961752.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452270-honda-city-20261104111115690706.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/452270-honda-city-20261104111116024884.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452270-honda-city-20261104111116258525.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452270-honda-city-20261104111116502987.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452270-honda-city-20261104111116742864.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452270-honda-city-20261104111116980135.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452270-honda-city-20261104111117223915.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452270-honda-city-20261104111117473300.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452270-honda-city-20261104111117719422.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452270-honda-city-20261104111117968360.webp"
+  ],
+  "descricao": "O Honda City 1.5 I-Vtec EXL 2026 é um Sedan automático na cor preta, com motor flex e 23.493 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, kit multimídia, rodas de liga leve, start-stop e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+ },
  {
   "id": 452043,
   "name": "Nissan Kicks 1.6 16V Advance",
