@@ -1,10 +1,50 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-11-04T17:57:08.896Z
-   Veículos: 27
+   Atualizado em: 2026-11-05T19:04:20.547Z
+   Veículos: 28
    ============================================================ */
 window.CARS_SYNC = [
+ {
+  "id": 452428,
+  "name": "Chevrolet Onix 1.0 Turbo LT",
+  "brand": "chevrolet",
+  "brandLabel": "Chevrolet",
+  "year": 2026,
+  "yearLabel": "2025/2026",
+  "km": "38.243",
+  "kmNum": 38243,
+  "showKm": true,
+  "price": 79900,
+  "priceLabel": "",
+  "showPrice": true,
+  "body": "Hatch",
+  "transmission": "Manual",
+  "fuel": "Flex",
+  "color": "Prata",
+  "doors": 4,
+  "optionals": [
+   "Ar Condicionado",
+   "Bancos De Couro",
+   "Direção Hidráulica",
+   "Kit Multimídia",
+   "Start-Stop"
+  ],
+  "destaque": false,
+  "aceitaTroca": true,
+  "fotos": [
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452428-chevrolet-onix-20261105104140308819.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452428-chevrolet-onix-20261105104141066921.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452428-chevrolet-onix-20261105104141301155.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452428-chevrolet-onix-20261105104141556059.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452428-chevrolet-onix-20261105104141819158.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452428-chevrolet-onix-20261105104142074849.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452428-chevrolet-onix-20261105104142346656.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452428-chevrolet-onix-20261105104142604352.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452428-chevrolet-onix-20261105104142849246.webp"
+  ],
+  "descricao": "O Chevrolet Onix 1.0 Turbo LT 2026 é um Hatch manual na cor prata, com motor flex e 38.243 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, kit multimídia, start-stop. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+ },
  {
   "id": 452270,
   "name": "Honda City 1.5 I-Vtec EXL",
