@@ -1,8 +1,8 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-11-05T19:04:20.547Z
-   Veículos: 28
+   Atualizado em: 2026-11-07T13:29:09.490Z
+   Veículos: 27
    ============================================================ */
 window.CARS_SYNC = [
  {
@@ -1064,48 +1064,6 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/438360-renault-kwid-20260725123058758402.webp"
   ],
   "descricao": "O Renault Kwid 1.0 12V SCE ZEN 2026 é um Hatch manual na cor branca, com motor flex e 26.315 km rodados. Vem com ar condicionado, direção elétrica, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
-  "id": 420762,
-  "name": "Chevrolet Onix 1.0 Turbo LTZ",
-  "brand": "chevrolet",
-  "brandLabel": "Chevrolet",
-  "year": 2025,
-  "yearLabel": "2024/2025",
-  "km": "43.307",
-  "kmNum": 43307,
-  "showKm": true,
-  "price": 89900,
-  "priceLabel": "CONSULTE",
-  "showPrice": true,
-  "body": "Hatch",
-  "transmission": "Automático",
-  "fuel": "Flex",
-  "color": "Prata",
-  "doors": 4,
-  "optionals": [
-   "Ar Condicionado",
-   "Direção Hidráulica",
-   "Travas Elétricas",
-   "Vidros Elétricos"
-  ],
-  "destaque": false,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/420762-chevrolet-onix-20260401101556781150.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/420762-chevrolet-onix-20260401101556719297.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/420762-chevrolet-onix-20260401101556851006.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/420762-chevrolet-onix-20260401101556655489.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/420762-chevrolet-onix-20260401101557619517.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/420762-chevrolet-onix-20260401101557709121.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/420762-chevrolet-onix-20260401101557716239.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/420762-chevrolet-onix-20260401101557849727.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/420762-chevrolet-onix-20260401101558235910.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/420762-chevrolet-onix-20260401101558432060.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/420762-chevrolet-onix-20260401101558339688.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/420762-chevrolet-onix-20260401101559089517.webp"
-  ],
-  "descricao": "O Chevrolet Onix 1.0 Turbo LTZ 2025 é um Hatch automático na cor prata, com motor flex e 43.307 km rodados. Vem com ar condicionado, direção hidráulica, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
   "id": 408846,
