@@ -1,10 +1,51 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-11-07T13:29:09.490Z
-   Veículos: 27
+   Atualizado em: 2026-11-13T22:55:43.020Z
+   Veículos: 28
    ============================================================ */
 window.CARS_SYNC = [
+ {
+  "id": 453767,
+  "name": "Hyundai HB20 1.0 Comfort 12V",
+  "brand": "hyundai",
+  "brandLabel": "Hyundai",
+  "year": 2013,
+  "yearLabel": "2013",
+  "km": "157.377",
+  "kmNum": 157377,
+  "showKm": true,
+  "price": 45900,
+  "priceLabel": "",
+  "showPrice": true,
+  "body": "Hatch",
+  "transmission": "Manual",
+  "fuel": "Flex",
+  "color": "Preta",
+  "doors": 4,
+  "optionals": [
+   "Ar Condicionado",
+   "Direção Hidráulica",
+   "Travas Elétricas",
+   "Vidros Elétricos"
+  ],
+  "destaque": false,
+  "aceitaTroca": true,
+  "fotos": [
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/453767-hyundai-hb20-20261113165238183967.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/453767-hyundai-hb20-20261113165238745718.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/453767-hyundai-hb20-20261113165239008688.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/453767-hyundai-hb20-20261113165239282670.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/453767-hyundai-hb20-20261113165239542656.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/453767-hyundai-hb20-20261113165239812595.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/453767-hyundai-hb20-20261113165240064796.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/453767-hyundai-hb20-20261113165240323876.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/453767-hyundai-hb20-20261113165240557856.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/453767-hyundai-hb20-20261113165240809682.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/453767-hyundai-hb20-20261113165241092883.webp"
+  ],
+  "descricao": "O Hyundai HB20 1.0 Comfort 12V 2013 é um Hatch manual na cor preta, com motor flex e 157.377 km rodados. Vem com ar condicionado, direção hidráulica, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+ },
  {
   "id": 452428,
   "name": "Chevrolet Onix 1.0 Turbo LT",
@@ -704,7 +745,7 @@ window.CARS_SYNC = [
   "km": "330.000",
   "kmNum": 330000,
   "showKm": true,
-  "price": 149900,
+  "price": 199900,
   "priceLabel": "",
   "showPrice": true,
   "body": "Picape",
