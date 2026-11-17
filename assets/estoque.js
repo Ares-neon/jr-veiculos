@@ -1,10 +1,50 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-11-14T20:58:38.729Z
+   Atualizado em: 2026-11-17T00:11:18.351Z
    Veículos: 28
    ============================================================ */
 window.CARS_SYNC = [
+ {
+  "id": 453963,
+  "name": "Chevrolet Onix 1.0 LT",
+  "brand": "chevrolet",
+  "brandLabel": "Chevrolet",
+  "year": 2025,
+  "yearLabel": "2025",
+  "km": "51.472",
+  "kmNum": 51472,
+  "showKm": true,
+  "price": 73900,
+  "priceLabel": "",
+  "showPrice": true,
+  "body": "Hatch",
+  "transmission": "Manual",
+  "fuel": "Flex",
+  "color": "Branca",
+  "doors": 4,
+  "optionals": [
+   "Ar Condicionado",
+   "Direção Hidráulica",
+   "Travas Elétricas",
+   "Vidros Elétricos"
+  ],
+  "destaque": false,
+  "aceitaTroca": true,
+  "fotos": [
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/453963-chevrolet-onix-20261116134045497986.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/453963-chevrolet-onix-20261116134046234431.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/453963-chevrolet-onix-20261116134046604789.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/453963-chevrolet-onix-20261116134046868748.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/453963-chevrolet-onix-20261116134047238948.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/453963-chevrolet-onix-20261116134047484283.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/453963-chevrolet-onix-20261116134047730756.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/453963-chevrolet-onix-20261116134047963369.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/453963-chevrolet-onix-20261116134048194287.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/453963-chevrolet-onix-20261116134048474842.webp"
+  ],
+  "descricao": "O Chevrolet Onix 1.0 LT 2025 é um Hatch manual na cor branca, com motor flex e 51.472 km rodados. Vem com ar condicionado, direção hidráulica, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+ },
  {
   "id": 453767,
   "name": "Hyundai HB20 1.0 Comfort 12V",
@@ -561,50 +601,6 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449008-hyundai-hb20s-20261008111705952650.webp"
   ],
   "descricao": "O Hyundai HB20S 1.0 12V Comfort 2026 é um Sedan manual na cor prata, com motor flex e 40.265 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, kit multimídia, travas elétricas, vidros elétricos e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
-  "id": 448922,
-  "name": "Hyundai Creta 1.6 16V Action",
-  "brand": "hyundai",
-  "brandLabel": "Hyundai",
-  "year": 2022,
-  "yearLabel": "2021/2022",
-  "km": "54.870",
-  "kmNum": 54870,
-  "showKm": true,
-  "price": 96900,
-  "priceLabel": "",
-  "showPrice": true,
-  "body": "SUV",
-  "transmission": "Automático",
-  "fuel": "Flex",
-  "color": "Cinza",
-  "doors": 4,
-  "optionals": [
-   "Ar Condicionado",
-   "Bancos De Couro",
-   "Direção Hidráulica",
-   "Kit Multimídia",
-   "Rodas De Liga Leve",
-   "Travas Elétricas",
-   "Vidros Elétricos"
-  ],
-  "destaque": false,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448922-hyundai-creta-20261007172542931833.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448922-hyundai-creta-20261007172543670895.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448922-hyundai-creta-20261007172544019502.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448922-hyundai-creta-20261007172544271288.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448922-hyundai-creta-20261007172544517264.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448922-hyundai-creta-20261007172544769013.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448922-hyundai-creta-20261007172545041323.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448922-hyundai-creta-20261007172545298975.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448922-hyundai-creta-20261007172545549682.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448922-hyundai-creta-20261007172545785120.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/448922-hyundai-creta-20261007172546022067.webp"
-  ],
-  "descricao": "O Hyundai Creta 1.6 16V Action 2022 é um SUV automático na cor cinza, com motor flex e 54.870 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, kit multimídia, rodas de liga leve, travas elétricas e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
   "id": 448920,
