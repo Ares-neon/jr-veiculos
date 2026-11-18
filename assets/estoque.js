@@ -1,10 +1,51 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-11-17T00:11:18.351Z
-   Veículos: 28
+   Atualizado em: 2026-11-18T23:05:32.354Z
+   Veículos: 29
    ============================================================ */
 window.CARS_SYNC = [
+ {
+  "id": 454365,
+  "name": "Chevrolet Onix 1.0 Turbo RS",
+  "brand": "chevrolet",
+  "brandLabel": "Chevrolet",
+  "year": 2025,
+  "yearLabel": "2025",
+  "km": "34.591",
+  "kmNum": 34591,
+  "showKm": true,
+  "price": 91900,
+  "priceLabel": "",
+  "showPrice": true,
+  "body": "Hatch",
+  "transmission": "Automático",
+  "fuel": "Flex",
+  "color": "Branca",
+  "doors": 4,
+  "optionals": [
+   "Ar Condicionado",
+   "Direção Hidráulica",
+   "Kit Multimídia",
+   "Rodas De Liga Leve",
+   "Travas Elétricas",
+   "Vidros Elétricos"
+  ],
+  "destaque": false,
+  "aceitaTroca": true,
+  "fotos": [
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454365-chevrolet-onix-20261118151650931959.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454365-chevrolet-onix-20261118151651657795.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454365-chevrolet-onix-20261118151651938047.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454365-chevrolet-onix-20261118151652183172.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454365-chevrolet-onix-20261118151652529213.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454365-chevrolet-onix-20261118151652764026.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454365-chevrolet-onix-20261118151653029385.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454365-chevrolet-onix-20261118151653267902.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454365-chevrolet-onix-20261118151653523222.webp"
+  ],
+  "descricao": "O Chevrolet Onix 1.0 Turbo RS 2025 é um Hatch automático na cor branca, com motor flex e 34.591 km rodados. Vem com ar condicionado, direção hidráulica, kit multimídia, rodas de liga leve, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+ },
  {
   "id": 453963,
   "name": "Chevrolet Onix 1.0 LT",
