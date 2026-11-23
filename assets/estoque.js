@@ -1,8 +1,8 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-11-18T23:05:32.354Z
-   Veículos: 29
+   Atualizado em: 2026-11-23T22:44:13.805Z
+   Veículos: 28
    ============================================================ */
 window.CARS_SYNC = [
  {
@@ -553,51 +553,6 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449743-hyundai-creta-20261014182408377421.webp"
   ],
   "descricao": "O Hyundai Creta 2.0 16V Pulse 2017 é um SUV automático na cor branca, com motor flex e 124.401 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, kit multimídia, rodas de liga leve. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
-  "id": 449010,
-  "name": "Hyundai HB20S 1.0 12V Comfort",
-  "brand": "hyundai",
-  "brandLabel": "Hyundai",
-  "year": 2026,
-  "yearLabel": "2025/2026",
-  "km": "40.901",
-  "kmNum": 40901,
-  "showKm": true,
-  "price": 84900,
-  "priceLabel": "",
-  "showPrice": true,
-  "body": "Sedan",
-  "transmission": "Manual",
-  "fuel": "Flex",
-  "color": "Cinza",
-  "doors": 4,
-  "optionals": [
-   "Ar Condicionado",
-   "Bancos De Couro",
-   "Direção Hidráulica",
-   "Kit Multimídia",
-   "Travas Elétricas",
-   "Vidros Elétricos",
-   "Volante Com Multi Funções"
-  ],
-  "destaque": false,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449010-hyundai-hb20s-20261008112215918196.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449010-hyundai-hb20s-20261008112216778017.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449010-hyundai-hb20s-20261008112217574396.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/449010-hyundai-hb20s-20261008112217923128.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449010-hyundai-hb20s-20261008112218168729.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449010-hyundai-hb20s-20261008112218410814.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449010-hyundai-hb20s-20261008112218652680.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449010-hyundai-hb20s-20261008112218897830.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449010-hyundai-hb20s-20261008112219149280.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449010-hyundai-hb20s-20261008112219520734.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449010-hyundai-hb20s-20261008112219822226.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449010-hyundai-hb20s-20261008112220060081.webp"
-  ],
-  "descricao": "O Hyundai HB20S 1.0 12V Comfort 2026 é um Sedan manual na cor cinza, com motor flex e 40.901 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, kit multimídia, travas elétricas, vidros elétricos e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
   "id": 449008,
