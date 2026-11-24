@@ -1,10 +1,139 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-11-23T22:44:13.805Z
-   Veículos: 28
+   Atualizado em: 2026-11-24T18:13:26.285Z
+   Veículos: 30
    ============================================================ */
 window.CARS_SYNC = [
+ {
+  "id": 454975,
+  "name": "Renault Captur 1.6 16V SCE Life",
+  "brand": "renault",
+  "brandLabel": "Renault",
+  "year": 2021,
+  "yearLabel": "2020/2021",
+  "km": "54.349",
+  "kmNum": 54349,
+  "showKm": true,
+  "price": 79900,
+  "priceLabel": "",
+  "showPrice": true,
+  "body": "SUV",
+  "transmission": "Automático",
+  "fuel": "Flex",
+  "color": "Prata",
+  "doors": 4,
+  "optionals": [
+   "Ar Condicionado",
+   "Direção Hidráulica",
+   "Kit Multimídia",
+   "Rodas De Liga Leve",
+   "Start-Stop",
+   "Travas Elétricas",
+   "Vidros Elétricos",
+   "Volante Com Multi Funções"
+  ],
+  "destaque": true,
+  "aceitaTroca": true,
+  "fotos": [
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454975-renault-captur-20261124110158783259.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/454975-renault-captur-20261124110159538874.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454975-renault-captur-20261124110159784016.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454975-renault-captur-20261124110200045769.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454975-renault-captur-20261124110200304693.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454975-renault-captur-20261124110200568916.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454975-renault-captur-20261124110200832210.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454975-renault-captur-20261124110201191119.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454975-renault-captur-20261124110201458824.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454975-renault-captur-20261124110201713804.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454975-renault-captur-20261124110201959955.webp"
+  ],
+  "descricao": "O Renault Captur 1.6 16V SCE Life 2021 é um SUV automático na cor prata, com motor flex e 54.349 km rodados. Vem com ar condicionado, direção hidráulica, kit multimídia, rodas de liga leve, start-stop, travas elétricas e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+ },
+ {
+  "id": 454942,
+  "name": "Nissan March 1.6 S 16V",
+  "brand": "nissan",
+  "brandLabel": "Nissan",
+  "year": 2015,
+  "yearLabel": "2014/2015",
+  "km": "104.825",
+  "kmNum": 104825,
+  "showKm": true,
+  "price": 46900,
+  "priceLabel": "",
+  "showPrice": true,
+  "body": "Hatch",
+  "transmission": "Manual",
+  "fuel": "Flex",
+  "color": "Preta",
+  "doors": 4,
+  "optionals": [
+   "Ar Condicionado",
+   "Direção Hidráulica",
+   "Travas Elétricas",
+   "Vidros Elétricos"
+  ],
+  "destaque": false,
+  "aceitaTroca": true,
+  "fotos": [
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454942-nissan-march-20261124101911798671.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454942-nissan-march-20261124101912340193.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454942-nissan-march-20261124101912577974.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454942-nissan-march-20261124101912820743.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454942-nissan-march-20261124101913072570.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454942-nissan-march-20261124101913335335.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454942-nissan-march-20261124101913564456.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454942-nissan-march-20261124101913810681.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454942-nissan-march-20261124101914048399.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454942-nissan-march-20261124101914290473.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454942-nissan-march-20261124101914525261.webp"
+  ],
+  "descricao": "O Nissan March 1.6 S 16V 2015 é um Hatch manual na cor preta, com motor flex e 104.825 km rodados. Vem com ar condicionado, direção hidráulica, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+ },
+ {
+  "id": 454932,
+  "name": "Renault Captur 1.6 16V SCE Life",
+  "brand": "renault",
+  "brandLabel": "Renault",
+  "year": 2019,
+  "yearLabel": "2018/2019",
+  "km": "113.789",
+  "kmNum": 113789,
+  "showKm": true,
+  "price": 69900,
+  "priceLabel": "",
+  "showPrice": true,
+  "body": "SUV",
+  "transmission": "Automático",
+  "fuel": "Flex",
+  "color": "Cinza",
+  "doors": 4,
+  "optionals": [
+   "Ar Condicionado",
+   "Direção Hidráulica",
+   "Rodas De Liga Leve",
+   "Start-Stop",
+   "Travas Elétricas",
+   "Vidros Elétricos"
+  ],
+  "destaque": false,
+  "aceitaTroca": true,
+  "fotos": [
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454932-renault-captur-20261124100709941690.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454932-renault-captur-20261124100710681234.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454932-renault-captur-20261124100711019176.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454932-renault-captur-20261124100711300902.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454932-renault-captur-20261124100711554090.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454932-renault-captur-20261124100711791989.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454932-renault-captur-20261124100712081632.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454932-renault-captur-20261124100712383387.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454932-renault-captur-20261124100712642809.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454932-renault-captur-20261124100712893438.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/454932-renault-captur-20261124100713146162.webp"
+  ],
+  "descricao": "O Renault Captur 1.6 16V SCE Life 2019 é um SUV automático na cor cinza, com motor flex e 113.789 km rodados. Vem com ar condicionado, direção hidráulica, rodas de liga leve, start-stop, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+ },
  {
   "id": 454365,
   "name": "Chevrolet Onix 1.0 Turbo RS",
@@ -210,50 +339,6 @@ window.CARS_SYNC = [
    "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452270-honda-city-20261104111117968360.webp"
   ],
   "descricao": "O Honda City 1.5 I-Vtec EXL 2026 é um Sedan automático na cor preta, com motor flex e 23.493 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, kit multimídia, rodas de liga leve, start-stop e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
-  "id": 452043,
-  "name": "Nissan Kicks 1.6 16V Advance",
-  "brand": "nissan",
-  "brandLabel": "Nissan",
-  "year": 2024,
-  "yearLabel": "2023/2024",
-  "km": "20.055",
-  "kmNum": 20055,
-  "showKm": true,
-  "price": 108900,
-  "priceLabel": "",
-  "showPrice": true,
-  "body": "SUV",
-  "transmission": "Automático",
-  "fuel": "Flex",
-  "color": "Azul",
-  "doors": 4,
-  "optionals": [
-   "Ar Condicionado",
-   "Bancos De Couro",
-   "Direção Hidráulica",
-   "Kit Multimídia",
-   "Rodas De Liga Leve",
-   "Start-Stop",
-   "Travas Elétricas",
-   "Vidros Elétricos",
-   "Volante Com Multi Funções"
-  ],
-  "destaque": true,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452043-nissan-kicks-20261031132542200683.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452043-nissan-kicks-20261031132542934123.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/452043-nissan-kicks-20261031132543189857.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/452043-nissan-kicks-20261031132543425011.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452043-nissan-kicks-20261031132543670553.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452043-nissan-kicks-20261031132543943382.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452043-nissan-kicks-20261031132544200509.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452043-nissan-kicks-20261031132544466881.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452043-nissan-kicks-20261031132544689304.webp"
-  ],
-  "descricao": "O Nissan Kicks 1.6 16V Advance 2024 é um SUV automático na cor azul, com motor flex e 20.055 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, kit multimídia, rodas de liga leve, start-stop e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
   "id": 451808,
