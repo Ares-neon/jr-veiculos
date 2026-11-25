@@ -1,10 +1,95 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-11-24T18:13:26.285Z
-   Veículos: 30
+   Atualizado em: 2026-11-25T02:36:07.430Z
+   Veículos: 32
    ============================================================ */
 window.CARS_SYNC = [
+ {
+  "id": 452043,
+  "name": "Nissan Kicks 1.6 16V Advance",
+  "brand": "nissan",
+  "brandLabel": "Nissan",
+  "year": 2024,
+  "yearLabel": "2023/2024",
+  "km": "20.055",
+  "kmNum": 20055,
+  "showKm": true,
+  "price": 108900,
+  "priceLabel": "",
+  "showPrice": true,
+  "body": "SUV",
+  "transmission": "Automático",
+  "fuel": "Flex",
+  "color": "Azul",
+  "doors": 4,
+  "optionals": [
+   "Ar Condicionado",
+   "Bancos De Couro",
+   "Direção Hidráulica",
+   "Kit Multimídia",
+   "Rodas De Liga Leve",
+   "Start-Stop",
+   "Travas Elétricas",
+   "Vidros Elétricos",
+   "Volante Com Multi Funções"
+  ],
+  "destaque": true,
+  "aceitaTroca": true,
+  "fotos": [
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452043-nissan-kicks-20261031132542200683.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452043-nissan-kicks-20261031132542934123.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/452043-nissan-kicks-20261031132543189857.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/452043-nissan-kicks-20261031132543425011.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452043-nissan-kicks-20261031132543670553.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452043-nissan-kicks-20261031132543943382.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452043-nissan-kicks-20261031132544200509.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452043-nissan-kicks-20261031132544466881.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/452043-nissan-kicks-20261031132544689304.webp"
+  ],
+  "descricao": "O Nissan Kicks 1.6 16V Advance 2024 é um SUV automático na cor azul, com motor flex e 20.055 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, kit multimídia, rodas de liga leve, start-stop e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+ },
+ {
+  "id": 455124,
+  "name": "Toyota Etios 1.3 X 16V",
+  "brand": "toyota",
+  "brandLabel": "Toyota",
+  "year": 2021,
+  "yearLabel": "2020/2021",
+  "km": "66.653",
+  "kmNum": 66653,
+  "showKm": true,
+  "price": 69900,
+  "priceLabel": "",
+  "showPrice": true,
+  "body": "Hatch",
+  "transmission": "Automático",
+  "fuel": "Flex",
+  "color": "Vermelha",
+  "doors": 4,
+  "optionals": [
+   "Ar Condicionado",
+   "Direção Hidráulica",
+   "Travas Elétricas",
+   "Vidros Elétricos"
+  ],
+  "destaque": false,
+  "aceitaTroca": true,
+  "fotos": [
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/455124-toyota-etios-20261124174239441756.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/455124-toyota-etios-20261124174240160425.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/455124-toyota-etios-20261124174240486272.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/455124-toyota-etios-20261124174240722031.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/455124-toyota-etios-20261124174240968492.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/455124-toyota-etios-20261124174241226315.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos/261/455124-toyota-etios-20261124174241479108.jpeg",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/455124-toyota-etios-20261124174241720581.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/455124-toyota-etios-20261124174241953832.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/455124-toyota-etios-20261124174242183526.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/455124-toyota-etios-20261124174242426500.webp"
+  ],
+  "descricao": "O Toyota Etios 1.3 X 16V 2021 é um Hatch automático na cor vermelha, com motor flex e 66.653 km rodados. Vem com ar condicionado, direção hidráulica, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+ },
  {
   "id": 454975,
   "name": "Renault Captur 1.6 16V SCE Life",
