@@ -1,10 +1,52 @@
 /* ============================================================
    ARQUIVO GERADO AUTOMATICAMENTE — NÃO EDITE À MÃO
    Fonte: painel Loja Conectada (loja 261)
-   Atualizado em: 2026-11-25T02:36:07.430Z
+   Atualizado em: 2026-11-25T20:42:42.935Z
    Veículos: 32
    ============================================================ */
 window.CARS_SYNC = [
+ {
+  "id": 420762,
+  "name": "Chevrolet Onix 1.0 Turbo LTZ",
+  "brand": "chevrolet",
+  "brandLabel": "Chevrolet",
+  "year": 2025,
+  "yearLabel": "2024/2025",
+  "km": "43.307",
+  "kmNum": 43307,
+  "showKm": true,
+  "price": 89900,
+  "priceLabel": "CONSULTE",
+  "showPrice": true,
+  "body": "Hatch",
+  "transmission": "Automático",
+  "fuel": "Flex",
+  "color": "Prata",
+  "doors": 4,
+  "optionals": [
+   "Ar Condicionado",
+   "Direção Hidráulica",
+   "Travas Elétricas",
+   "Vidros Elétricos"
+  ],
+  "destaque": false,
+  "aceitaTroca": true,
+  "fotos": [
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/420762-chevrolet-onix-20260401101556781150.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/420762-chevrolet-onix-20260401101556719297.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/420762-chevrolet-onix-20260401101556851006.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/420762-chevrolet-onix-20260401101556655489.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/420762-chevrolet-onix-20260401101557619517.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/420762-chevrolet-onix-20260401101557709121.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/420762-chevrolet-onix-20260401101557716239.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/420762-chevrolet-onix-20260401101557849727.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/420762-chevrolet-onix-20260401101558235910.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/420762-chevrolet-onix-20260401101558432060.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/420762-chevrolet-onix-20260401101558339688.webp",
+   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/420762-chevrolet-onix-20260401101559089517.webp"
+  ],
+  "descricao": "O Chevrolet Onix 1.0 Turbo LTZ 2025 é um Hatch automático na cor prata, com motor flex e 43.307 km rodados. Vem com ar condicionado, direção hidráulica, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
+ },
  {
   "id": 452043,
   "name": "Nissan Kicks 1.6 16V Advance",
@@ -598,47 +640,6 @@ window.CARS_SYNC = [
   "descricao": "O Hyundai Creta 1.0 TGDI Comfort 2022 é um SUV automático na cor cinza, com motor flex e 68.903 km rodados. Vem com ar condicionado, bancos de couro, direção hidráulica, kit multimídia, rodas de liga leve, travas elétricas e mais. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
  },
  {
-  "id": 449745,
-  "name": "Renault Duster 1.6 16V SCE Authentique",
-  "brand": "renault",
-  "brandLabel": "Renault",
-  "year": 2019,
-  "yearLabel": "2018/2019",
-  "km": "84.450",
-  "kmNum": 84450,
-  "showKm": true,
-  "price": 73900,
-  "priceLabel": "",
-  "showPrice": true,
-  "body": "SUV",
-  "transmission": "Automático",
-  "fuel": "Flex",
-  "color": "Preta",
-  "doors": 4,
-  "optionals": [
-   "Ar Condicionado",
-   "Direção Hidráulica",
-   "Travas Elétricas",
-   "Vidros Elétricos"
-  ],
-  "destaque": true,
-  "aceitaTroca": true,
-  "fotos": [
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449745-renault-duster-20261014184517252802.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449745-renault-duster-20261014184518108587.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos/261/449745-renault-duster-20261014184518830392.jpeg",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449745-renault-duster-20261014184519173082.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449745-renault-duster-20261014184519425929.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449745-renault-duster-20261014184519667513.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449745-renault-duster-20261014184519916341.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449745-renault-duster-20261014184520170373.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449745-renault-duster-20261014184520433386.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449745-renault-duster-20261014184520774637.webp",
-   "https://media.integradordeanuncios.com.br/media/fotos-webp/261/449745-renault-duster-20261014184521040431.webp"
-  ],
-  "descricao": "O Renault Duster 1.6 16V SCE Authentique 2019 é um SUV automático na cor preta, com motor flex e 84.450 km rodados. Vem com ar condicionado, direção hidráulica, travas elétricas, vidros elétricos. Veículo periciado, com procedência garantida e pronto para transferência. Aceitamos seu usado na troca e temos ótimas condições de financiamento. Agende seu test drive com a equipe da JR Veículos, em Santos — SP."
- },
- {
   "id": 449744,
   "name": "Renault Duster 1.6 16V SCE Iconic",
   "brand": "renault",
@@ -648,7 +649,7 @@ window.CARS_SYNC = [
   "km": "52.975",
   "kmNum": 52975,
   "showKm": true,
-  "price": 97900,
+  "price": 91900,
   "priceLabel": "",
   "showPrice": true,
   "body": "SUV",
@@ -818,7 +819,7 @@ window.CARS_SYNC = [
   "km": "154.287",
   "kmNum": 154287,
   "showKm": true,
-  "price": 47900,
+  "price": 43900,
   "priceLabel": "",
   "showPrice": true,
   "body": "Sedan",
@@ -1072,7 +1073,7 @@ window.CARS_SYNC = [
   "km": "111.457",
   "kmNum": 111457,
   "showKm": true,
-  "price": 58900,
+  "price": 55900,
   "priceLabel": "",
   "showPrice": true,
   "body": "SUV",
