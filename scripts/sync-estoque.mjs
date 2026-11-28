@@ -26,6 +26,14 @@ const SITE     = 'https://jrveiculossantos.com.br/';
    Só copiamos o que está na lista de permitidos abaixo. */
 const NUNCA_PUBLICAR = ['license_plate', 'chassi'];
 
+/* Anúncios que NÃO devem aparecer no site, mesmo que continuem no painel.
+   Use o número do anúncio (ad_id). Para voltar a mostrar, é só tirar da lista.
+   O ideal é ocultar/baixar no próprio painel; esta lista é para quando
+   isso não for possível na hora. */
+const OCULTAR_DO_SITE = new Set([
+  448359, // Fiat Toro 2.4 16V Multiair Volcano 2019 — retirado a pedido em 28/11/2026
+]);
+
 /* ---------------- utilidades ---------------- */
 
 const semAcento = s => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '');
@@ -258,7 +266,9 @@ async function main() {
     throw new Error('A API não devolveu nenhum veículo — abortando para não apagar o estoque do site.');
   }
 
-  const carros = brutos.map(traduzir);
+  const ocultos = brutos.filter(v => OCULTAR_DO_SITE.has(Number(v.ad_id)));
+  if (ocultos.length) console.log(`  oculto(s) do site: ${ocultos.map(v => v.ad_id).join(', ')}`);
+  const carros = brutos.filter(v => !OCULTAR_DO_SITE.has(Number(v.ad_id))).map(traduzir);
 
   /* conferências */
   const semFoto = carros.filter(c => !c.fotos.length);
